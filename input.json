@@ -1,0 +1,17 @@
+{
+  "targetFileName": "04_1ubq_charge_4e_min.pqr",
+  "numberProbe" : 10000,
+  "nIter" : 10,
+  "seed" : 2104,
+  "dt" : 10.0,
+  "Temp" : 298.0,
+  "skin" : 0.01,
+  "GasBuffer" : "He",
+  "Equipotential" : "no",
+  "Short-range cutoff" : "yes",
+  "LJ-cutoff" : 12.0,
+  "Long-range forces" : "yes",
+  "Long-range cutoff" : "yes",
+  "Coul-cutoff" : 25.0,
+  "polarizability" : "yes"
+}
