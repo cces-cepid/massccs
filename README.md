@@ -1,4 +1,4 @@
-# massCSS: A high performance collision cross-section software
+# MassCSS: A high performance collision cross-section software
 
 Massive Collision Cross Section calculations for large macromolecular assemblies (MassCCS). MassCCS is an efficient parallel software for calculating Collision Cross Section (CCS) under the trajectory method (TM) for any macromolecular structure regardless of its size, shape and surface rugosity, without significant loss of accuracy or performance.
 
