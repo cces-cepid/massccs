@@ -12,14 +12,6 @@ If you use MassCCS in your research please, cite the following papers:
 
 ["S. Cajahuaringa, L. N. Zanotto, D. L. Z. Caetano, S. Rigo, H. Yviquel, M. S. Skaf and G. Araujo, Ion-Molecule Collision Cross-Section Simulation using Linked-cell and Trajectory Parallelization, 2022 IEEE 34th International Symposium on Computer Architecture and High Performance Computing (SBAC-PAD), Bordeaux, France, 2022, pp. 150-159."](https://ieeexplore.ieee.org/abstract/document/9980906)
 
-## Dependencies
-
-massCCS requires some of the packages from the Boost library. On Ubuntu/Debian, you can simply run the following command to install them with the package manager:
-
-```bash
-sudo apt-get install -y libboost-filesystem-dev libboost-thread-dev
-```
-
 ## Install
 
 This software uses CMake 3.13+ as its build system generator. On your terminal,
