@@ -104,13 +104,6 @@ file(GLOB
 )
 include("cmake/ClangFormat.cmake")
 
-set(Boost_USE_STATIC_LIBS ON)
-set(Boost_USE_MULTITHREADED ON)
-set(Boost_USE_STATIC_RUNTIME OFF)
-set(BOOST_ALL_DYN_LINK OFF)
-find_package(Boost REQUIRED COMPONENTS filesystem REQUIRED thread REQUIRED)
-
-include_directories(${Boost_INCLUDE_DIRS})
 include_directories(src/headers)
 
 add_executable(massccs
@@ -127,4 +120,3 @@ add_executable(massccs
   src/Force.cpp
 )
 
-target_link_libraries(massccs ${Boost_LIBRARIES})
