@@ -54,7 +54,7 @@ cd .. # need to execute massccs from root dir
 ./build/massccs ./input.json
 ```
 
-For more information about the software installation and used review the ["MassCCS doc"](https://massccs-doc.readthedocs.io/en/latest/)
+For more information about the software installation and used review the ["MassCCS doc"](https://massccs.readthedocs.io/en/latest/)
 
 Author & Contact:
 --------------
