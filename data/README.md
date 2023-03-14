@@ -2,7 +2,7 @@
 
 This directory contains:
 
-* The files for all proteins considered in this work are founded in the following ["link"](https://drive.google.com/file/d/1NYWqjpee3eDW_63tvzY9bVBhLHLGi3jX/view?usp=share_link) in extended XYZ-format, for more information see the table S2 of supplementary material
+* The files for all proteins considered in this work are founded in the following ["link"](https://drive.google.com/file/d/1NYWqjpee3eDW_63tvzY9bVBhLHLGi3jX/view?usp=share_link) (in extended XYZ-format), for more information see the table S2 of supplementary material
 
 * A template of input.json file using in this work, it is only necessary to change the buffer gas type (He or N2) and the target filename (protein file), for more information review the ["MassCCS doc"](https://massccs.readthedocs.io/en/latest/).
 
