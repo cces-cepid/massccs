@@ -1,0 +1,6200 @@
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 6co8_charge_171.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  3.16993e+11  -3488.86  182563  }
+{  -3488.86  3.16993e+11  11107.4  }
+{  182563  11107.4  3.16993e+11  }
+Rotation matrix applied to molecule: 
+{  0.991446  -0.00165235  0.130504  }
+{  0.0138193  0.99972  -0.0191852  }
+{  -0.130436  0.0208245  0.991192  }
+Molecule radius: 235.768 Ang 
+orientation time of molecule target: 2.62513 s
+target mass: 1.12678e+07 amu
+gas mass: 4.0026 amu
+reduce mass: 4.0026 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 235.74  235.713  235.768  Ang
+Initial axis length: 285.75  285.723  285.778  Ang
+Ellipsoid axis length: 285.8  285.773  285.828  Ang
+ellipsoid calculation time: 0.0429643s
+maximal impact parameter: 285.828 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 110592
+Nx: 48 Ny: 48 Nz: 48
+Filled cells: 17880
+Empty cells: 92712
+Average atoms per cell: 88.1783
+Maximum atoms per cell: 206
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 576.48 Ang
+ly: 576.48 Ang
+lz: 576.48 Ang
+linked-cell calculation time: 0.380168 s
+outside cell simulation: 135088950
+position: 744662 -1.83294e+06 -5.9662e+06
+outside cell simulation: 363490
+position: 1494.19 5285.44 2427.75
+outside cell simulation: -87723849
+position: -476704 910471 402567
+outside cell simulation: 458566
+position: 2089.53 781.382 4588.79
+outside cell simulation: 138595
+position: 439.121 -223.668 1096.81
+outside cell simulation: 319577066
+position: 1.67481e+06 -478317 1.64761e+06
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9991
+Nlost: 7
+omega: 238091
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9984
+Nlost: 12
+omega: 238064
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9983
+Nlost: 13
+omega: 234671
+Ntraj: 10000
+Nfree: 3
+Nscatter: 9979
+Nlost: 18
+omega: 236945
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9982
+Nlost: 17
+omega: 239756
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9989
+Nlost: 9
+omega: 236218
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9987
+Nlost: 9
+omega: 237453
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9987
+Nlost: 12
+omega: 234942
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9993
+Nlost: 6
+omega: 236499
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9985
+Nlost: 14
+omega: 237898
+CCS time: 273.319 s
+--------------------------------------------------------
+average value of CCS = 237054 Ang^2
+error value of CCS = 462.902 Ang^2
+Total time: 276.369 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 6co8_charge_171.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  3.16993e+11  -3488.86  182563  }
+{  -3488.86  3.16993e+11  11107.4  }
+{  182563  11107.4  3.16993e+11  }
+Rotation matrix applied to molecule: 
+{  0.991446  -0.00165235  0.130504  }
+{  0.0138193  0.99972  -0.0191852  }
+{  -0.130436  0.0208245  0.991192  }
+Molecule radius: 235.768 Ang 
+orientation time of molecule target: 2.68149 s
+target mass: 1.12678e+07 amu
+gas mass: 4.0026 amu
+reduce mass: 4.0026 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 235.74  235.713  235.768  Ang
+Initial axis length: 285.75  285.723  285.778  Ang
+Ellipsoid axis length: 285.8  285.773  285.828  Ang
+ellipsoid calculation time: 0.0429385s
+maximal impact parameter: 285.828 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 110592
+Nx: 48 Ny: 48 Nz: 48
+Filled cells: 17880
+Empty cells: 92712
+Average atoms per cell: 88.1783
+Maximum atoms per cell: 206
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 576.48 Ang
+ly: 576.48 Ang
+lz: 576.48 Ang
+linked-cell calculation time: 0.378472 s
+outside cell simulation: 135088950
+position: 744662 -1.83294e+06 -5.9662e+06
+outside cell simulation: 363490
+position: 1494.19 5285.44 2427.75
+outside cell simulation: -87723849
+position: -476704 910471 402567
+outside cell simulation: 458566
+position: 2089.53 781.382 4588.79
+outside cell simulation: 138595
+position: 439.121 -223.668 1096.81
+outside cell simulation: 319577066
+position: 1.67481e+06 -478317 1.64761e+06
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9991
+Nlost: 7
+omega: 238091
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9984
+Nlost: 12
+omega: 238064
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9983
+Nlost: 13
+omega: 234671
+Ntraj: 10000
+Nfree: 3
+Nscatter: 9979
+Nlost: 18
+omega: 236945
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9982
+Nlost: 17
+omega: 239756
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9989
+Nlost: 9
+omega: 236218
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9987
+Nlost: 9
+omega: 237453
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9987
+Nlost: 12
+omega: 234942
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9993
+Nlost: 6
+omega: 236499
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9985
+Nlost: 14
+omega: 237898
+CCS time: 273.562 s
+--------------------------------------------------------
+average value of CCS = 237054 Ang^2
+error value of CCS = 462.902 Ang^2
+Total time: 276.666 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 6co8_charge_171.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  3.16993e+11  -3488.86  182563  }
+{  -3488.86  3.16993e+11  11107.4  }
+{  182563  11107.4  3.16993e+11  }
+Rotation matrix applied to molecule: 
+{  0.991446  -0.00165235  0.130504  }
+{  0.0138193  0.99972  -0.0191852  }
+{  -0.130436  0.0208245  0.991192  }
+Molecule radius: 235.768 Ang 
+orientation time of molecule target: 2.68218 s
+target mass: 1.12678e+07 amu
+gas mass: 4.0026 amu
+reduce mass: 4.0026 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 235.74  235.713  235.768  Ang
+Initial axis length: 285.75  285.723  285.778  Ang
+Ellipsoid axis length: 285.8  285.773  285.828  Ang
+ellipsoid calculation time: 0.0429615s
+maximal impact parameter: 285.828 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 110592
+Nx: 48 Ny: 48 Nz: 48
+Filled cells: 17880
+Empty cells: 92712
+Average atoms per cell: 88.1783
+Maximum atoms per cell: 206
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 576.48 Ang
+ly: 576.48 Ang
+lz: 576.48 Ang
+linked-cell calculation time: 0.380505 s
+outside cell simulation: 135088950
+position: 744662 -1.83294e+06 -5.9662e+06
+outside cell simulation: 363490
+position: 1494.19 5285.44 2427.75
+outside cell simulation: -87723849
+position: -476704 910471 402567
+outside cell simulation: 458566
+position: 2089.53 781.382 4588.79
+outside cell simulation: 138595
+position: 439.121 -223.668 1096.81
+outside cell simulation: 319577066
+position: 1.67481e+06 -478317 1.64761e+06
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9991
+Nlost: 7
+omega: 238091
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9984
+Nlost: 12
+omega: 238064
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9983
+Nlost: 13
+omega: 234671
+Ntraj: 10000
+Nfree: 3
+Nscatter: 9979
+Nlost: 18
+omega: 236945
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9982
+Nlost: 17
+omega: 239756
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9989
+Nlost: 9
+omega: 236218
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9987
+Nlost: 9
+omega: 237453
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9987
+Nlost: 12
+omega: 234942
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9993
+Nlost: 6
+omega: 236499
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9985
+Nlost: 14
+omega: 237898
+CCS time: 273.087 s
+--------------------------------------------------------
+average value of CCS = 237054 Ang^2
+error value of CCS = 462.902 Ang^2
+Total time: 276.194 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 6co8_charge_171.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  3.16993e+11  -3488.86  182563  }
+{  -3488.86  3.16993e+11  11107.4  }
+{  182563  11107.4  3.16993e+11  }
+Rotation matrix applied to molecule: 
+{  0.991446  -0.00165235  0.130504  }
+{  0.0138193  0.99972  -0.0191852  }
+{  -0.130436  0.0208245  0.991192  }
+Molecule radius: 235.768 Ang 
+orientation time of molecule target: 2.68474 s
+target mass: 1.12678e+07 amu
+gas mass: 4.0026 amu
+reduce mass: 4.0026 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 235.74  235.713  235.768  Ang
+Initial axis length: 285.75  285.723  285.778  Ang
+Ellipsoid axis length: 285.8  285.773  285.828  Ang
+ellipsoid calculation time: 0.0429458s
+maximal impact parameter: 285.828 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 110592
+Nx: 48 Ny: 48 Nz: 48
+Filled cells: 17880
+Empty cells: 92712
+Average atoms per cell: 88.1783
+Maximum atoms per cell: 206
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 576.48 Ang
+ly: 576.48 Ang
+lz: 576.48 Ang
+linked-cell calculation time: 0.379545 s
+outside cell simulation: 135088950
+position: 744662 -1.83294e+06 -5.9662e+06
+outside cell simulation: 363490
+position: 1494.19 5285.44 2427.75
+outside cell simulation: -87723849
+position: -476704 910471 402567
+outside cell simulation: 458566
+position: 2089.53 781.382 4588.79
+outside cell simulation: 138595
+position: 439.121 -223.668 1096.81
+outside cell simulation: 319577066
+position: 1.67481e+06 -478317 1.64761e+06
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9991
+Nlost: 7
+omega: 238091
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9984
+Nlost: 12
+omega: 238064
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9983
+Nlost: 13
+omega: 234671
+Ntraj: 10000
+Nfree: 3
+Nscatter: 9979
+Nlost: 18
+omega: 236945
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9982
+Nlost: 17
+omega: 239756
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9989
+Nlost: 9
+omega: 236218
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9987
+Nlost: 9
+omega: 237453
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9987
+Nlost: 12
+omega: 234942
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9993
+Nlost: 6
+omega: 236499
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9985
+Nlost: 14
+omega: 237898
+CCS time: 273.231 s
+--------------------------------------------------------
+average value of CCS = 237054 Ang^2
+error value of CCS = 462.902 Ang^2
+Total time: 276.34 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 6co8_charge_171.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  3.16993e+11  -3488.86  182563  }
+{  -3488.86  3.16993e+11  11107.4  }
+{  182563  11107.4  3.16993e+11  }
+Rotation matrix applied to molecule: 
+{  0.991446  -0.00165235  0.130504  }
+{  0.0138193  0.99972  -0.0191852  }
+{  -0.130436  0.0208245  0.991192  }
+Molecule radius: 235.768 Ang 
+orientation time of molecule target: 2.68369 s
+target mass: 1.12678e+07 amu
+gas mass: 4.0026 amu
+reduce mass: 4.0026 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 235.74  235.713  235.768  Ang
+Initial axis length: 285.75  285.723  285.778  Ang
+Ellipsoid axis length: 285.8  285.773  285.828  Ang
+ellipsoid calculation time: 0.0429379s
+maximal impact parameter: 285.828 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 110592
+Nx: 48 Ny: 48 Nz: 48
+Filled cells: 17880
+Empty cells: 92712
+Average atoms per cell: 88.1783
+Maximum atoms per cell: 206
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 576.48 Ang
+ly: 576.48 Ang
+lz: 576.48 Ang
+linked-cell calculation time: 0.376788 s
+outside cell simulation: 135088950
+position: 744662 -1.83294e+06 -5.9662e+06
+outside cell simulation: 363490
+position: 1494.19 5285.44 2427.75
+outside cell simulation: -87723849
+position: -476704 910471 402567
+outside cell simulation: 458566
+position: 2089.53 781.382 4588.79
+outside cell simulation: 138595
+position: 439.121 -223.668 1096.81
+outside cell simulation: 319577066
+position: 1.67481e+06 -478317 1.64761e+06
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9991
+Nlost: 7
+omega: 238091
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9984
+Nlost: 12
+omega: 238064
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9983
+Nlost: 13
+omega: 234671
+Ntraj: 10000
+Nfree: 3
+Nscatter: 9979
+Nlost: 18
+omega: 236945
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9982
+Nlost: 17
+omega: 239756
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9989
+Nlost: 9
+omega: 236218
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9987
+Nlost: 9
+omega: 237453
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9987
+Nlost: 12
+omega: 234942
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9993
+Nlost: 6
+omega: 236499
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9985
+Nlost: 14
+omega: 237898
+CCS time: 273.505 s
+--------------------------------------------------------
+average value of CCS = 237054 Ang^2
+error value of CCS = 462.902 Ang^2
+Total time: 276.61 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 6co8_charge_171.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  3.16993e+11  -3488.86  182563  }
+{  -3488.86  3.16993e+11  11107.4  }
+{  182563  11107.4  3.16993e+11  }
+Rotation matrix applied to molecule: 
+{  0.991446  -0.00165235  0.130504  }
+{  0.0138193  0.99972  -0.0191852  }
+{  -0.130436  0.0208245  0.991192  }
+Molecule radius: 235.768 Ang 
+orientation time of molecule target: 2.67714 s
+target mass: 1.12678e+07 amu
+gas mass: 4.0026 amu
+reduce mass: 4.0026 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 235.74  235.713  235.768  Ang
+Initial axis length: 285.75  285.723  285.778  Ang
+Ellipsoid axis length: 285.8  285.773  285.828  Ang
+ellipsoid calculation time: 0.0429333s
+maximal impact parameter: 285.828 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 110592
+Nx: 48 Ny: 48 Nz: 48
+Filled cells: 17880
+Empty cells: 92712
+Average atoms per cell: 88.1783
+Maximum atoms per cell: 206
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 576.48 Ang
+ly: 576.48 Ang
+lz: 576.48 Ang
+linked-cell calculation time: 0.397847 s
+outside cell simulation: 135088950
+position: 744662 -1.83294e+06 -5.9662e+06
+outside cell simulation: 363490
+position: 1494.19 5285.44 2427.75
+outside cell simulation: -87723849
+position: -476704 910471 402567
+outside cell simulation: 458566
+position: 2089.53 781.382 4588.79
+outside cell simulation: 138595
+position: 439.121 -223.668 1096.81
+outside cell simulation: 319577066
+position: 1.67481e+06 -478317 1.64761e+06
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9991
+Nlost: 7
+omega: 238091
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9984
+Nlost: 12
+omega: 238064
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9983
+Nlost: 13
+omega: 234671
+Ntraj: 10000
+Nfree: 3
+Nscatter: 9979
+Nlost: 18
+omega: 236945
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9982
+Nlost: 17
+omega: 239756
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9989
+Nlost: 9
+omega: 236218
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9987
+Nlost: 9
+omega: 237453
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9987
+Nlost: 12
+omega: 234942
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9993
+Nlost: 6
+omega: 236499
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9985
+Nlost: 14
+omega: 237898
+CCS time: 273.1 s
+--------------------------------------------------------
+average value of CCS = 237054 Ang^2
+error value of CCS = 462.902 Ang^2
+Total time: 276.219 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 6co8_charge_171.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  3.16993e+11  -3488.86  182563  }
+{  -3488.86  3.16993e+11  11107.4  }
+{  182563  11107.4  3.16993e+11  }
+Rotation matrix applied to molecule: 
+{  0.991446  -0.00165235  0.130504  }
+{  0.0138193  0.99972  -0.0191852  }
+{  -0.130436  0.0208245  0.991192  }
+Molecule radius: 235.768 Ang 
+orientation time of molecule target: 2.68036 s
+target mass: 1.12678e+07 amu
+gas mass: 4.0026 amu
+reduce mass: 4.0026 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 235.74  235.713  235.768  Ang
+Initial axis length: 285.75  285.723  285.778  Ang
+Ellipsoid axis length: 285.8  285.773  285.828  Ang
+ellipsoid calculation time: 0.0429615s
+maximal impact parameter: 285.828 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 110592
+Nx: 48 Ny: 48 Nz: 48
+Filled cells: 17880
+Empty cells: 92712
+Average atoms per cell: 88.1783
+Maximum atoms per cell: 206
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 576.48 Ang
+ly: 576.48 Ang
+lz: 576.48 Ang
+linked-cell calculation time: 0.379362 s
+outside cell simulation: 135088950
+position: 744662 -1.83294e+06 -5.9662e+06
+outside cell simulation: 363490
+position: 1494.19 5285.44 2427.75
+outside cell simulation: -87723849
+position: -476704 910471 402567
+outside cell simulation: 458566
+position: 2089.53 781.382 4588.79
+outside cell simulation: 138595
+position: 439.121 -223.668 1096.81
+outside cell simulation: 319577066
+position: 1.67481e+06 -478317 1.64761e+06
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9991
+Nlost: 7
+omega: 238091
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9984
+Nlost: 12
+omega: 238064
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9983
+Nlost: 13
+omega: 234671
+Ntraj: 10000
+Nfree: 3
+Nscatter: 9979
+Nlost: 18
+omega: 236945
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9982
+Nlost: 17
+omega: 239756
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9989
+Nlost: 9
+omega: 236218
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9987
+Nlost: 9
+omega: 237453
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9987
+Nlost: 12
+omega: 234942
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9993
+Nlost: 6
+omega: 236499
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9985
+Nlost: 14
+omega: 237898
+CCS time: 273.155 s
+--------------------------------------------------------
+average value of CCS = 237054 Ang^2
+error value of CCS = 462.902 Ang^2
+Total time: 276.259 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 6co8_charge_171.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  3.16993e+11  -3488.86  182563  }
+{  -3488.86  3.16993e+11  11107.4  }
+{  182563  11107.4  3.16993e+11  }
+Rotation matrix applied to molecule: 
+{  0.991446  -0.00165235  0.130504  }
+{  0.0138193  0.99972  -0.0191852  }
+{  -0.130436  0.0208245  0.991192  }
+Molecule radius: 235.768 Ang 
+orientation time of molecule target: 2.61179 s
+target mass: 1.12678e+07 amu
+gas mass: 4.0026 amu
+reduce mass: 4.0026 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 235.74  235.713  235.768  Ang
+Initial axis length: 285.75  285.723  285.778  Ang
+Ellipsoid axis length: 285.8  285.773  285.828  Ang
+ellipsoid calculation time: 0.0429485s
+maximal impact parameter: 285.828 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 110592
+Nx: 48 Ny: 48 Nz: 48
+Filled cells: 17880
+Empty cells: 92712
+Average atoms per cell: 88.1783
+Maximum atoms per cell: 206
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 576.48 Ang
+ly: 576.48 Ang
+lz: 576.48 Ang
+linked-cell calculation time: 0.378021 s
+outside cell simulation: 135088950
+position: 744662 -1.83294e+06 -5.9662e+06
+outside cell simulation: 363490
+position: 1494.19 5285.44 2427.75
+outside cell simulation: -87723849
+position: -476704 910471 402567
+outside cell simulation: 458566
+position: 2089.53 781.382 4588.79
+outside cell simulation: 138595
+position: 439.121 -223.668 1096.81
+outside cell simulation: 319577066
+position: 1.67481e+06 -478317 1.64761e+06
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9991
+Nlost: 7
+omega: 238091
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9984
+Nlost: 12
+omega: 238064
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9983
+Nlost: 13
+omega: 234671
+Ntraj: 10000
+Nfree: 3
+Nscatter: 9979
+Nlost: 18
+omega: 236945
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9982
+Nlost: 17
+omega: 239756
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9989
+Nlost: 9
+omega: 236218
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9987
+Nlost: 9
+omega: 237453
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9987
+Nlost: 12
+omega: 234942
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9993
+Nlost: 6
+omega: 236499
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9985
+Nlost: 14
+omega: 237898
+CCS time: 273.108 s
+--------------------------------------------------------
+average value of CCS = 237054 Ang^2
+error value of CCS = 462.902 Ang^2
+Total time: 276.142 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 6co8_charge_171.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  3.16993e+11  -3488.86  182563  }
+{  -3488.86  3.16993e+11  11107.4  }
+{  182563  11107.4  3.16993e+11  }
+Rotation matrix applied to molecule: 
+{  0.991446  -0.00165235  0.130504  }
+{  0.0138193  0.99972  -0.0191852  }
+{  -0.130436  0.0208245  0.991192  }
+Molecule radius: 235.768 Ang 
+orientation time of molecule target: 2.68246 s
+target mass: 1.12678e+07 amu
+gas mass: 4.0026 amu
+reduce mass: 4.0026 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 235.74  235.713  235.768  Ang
+Initial axis length: 285.75  285.723  285.778  Ang
+Ellipsoid axis length: 285.8  285.773  285.828  Ang
+ellipsoid calculation time: 0.042961s
+maximal impact parameter: 285.828 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 110592
+Nx: 48 Ny: 48 Nz: 48
+Filled cells: 17880
+Empty cells: 92712
+Average atoms per cell: 88.1783
+Maximum atoms per cell: 206
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 576.48 Ang
+ly: 576.48 Ang
+lz: 576.48 Ang
+linked-cell calculation time: 0.38063 s
+outside cell simulation: 135088950
+position: 744662 -1.83294e+06 -5.9662e+06
+outside cell simulation: 363490
+position: 1494.19 5285.44 2427.75
+outside cell simulation: -87723849
+position: -476704 910471 402567
+outside cell simulation: 458566
+position: 2089.53 781.382 4588.79
+outside cell simulation: 138595
+position: 439.121 -223.668 1096.81
+outside cell simulation: 319577066
+position: 1.67481e+06 -478317 1.64761e+06
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9991
+Nlost: 7
+omega: 238091
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9984
+Nlost: 12
+omega: 238064
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9983
+Nlost: 13
+omega: 234671
+Ntraj: 10000
+Nfree: 3
+Nscatter: 9979
+Nlost: 18
+omega: 236945
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9982
+Nlost: 17
+omega: 239756
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9989
+Nlost: 9
+omega: 236218
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9987
+Nlost: 9
+omega: 237453
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9987
+Nlost: 12
+omega: 234942
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9993
+Nlost: 6
+omega: 236499
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9985
+Nlost: 14
+omega: 237898
+CCS time: 273.49 s
+--------------------------------------------------------
+average value of CCS = 237054 Ang^2
+error value of CCS = 462.902 Ang^2
+Total time: 276.597 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 6co8_charge_171.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  3.16993e+11  -3488.86  182563  }
+{  -3488.86  3.16993e+11  11107.4  }
+{  182563  11107.4  3.16993e+11  }
+Rotation matrix applied to molecule: 
+{  0.991446  -0.00165235  0.130504  }
+{  0.0138193  0.99972  -0.0191852  }
+{  -0.130436  0.0208245  0.991192  }
+Molecule radius: 235.768 Ang 
+orientation time of molecule target: 2.6075 s
+target mass: 1.12678e+07 amu
+gas mass: 4.0026 amu
+reduce mass: 4.0026 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 235.74  235.713  235.768  Ang
+Initial axis length: 285.75  285.723  285.778  Ang
+Ellipsoid axis length: 285.8  285.773  285.828  Ang
+ellipsoid calculation time: 0.0429337s
+maximal impact parameter: 285.828 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 110592
+Nx: 48 Ny: 48 Nz: 48
+Filled cells: 17880
+Empty cells: 92712
+Average atoms per cell: 88.1783
+Maximum atoms per cell: 206
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 576.48 Ang
+ly: 576.48 Ang
+lz: 576.48 Ang
+linked-cell calculation time: 0.377883 s
+outside cell simulation: 135088950
+position: 744662 -1.83294e+06 -5.9662e+06
+outside cell simulation: 363490
+position: 1494.19 5285.44 2427.75
+outside cell simulation: -87723849
+position: -476704 910471 402567
+outside cell simulation: 458566
+position: 2089.53 781.382 4588.79
+outside cell simulation: 138595
+position: 439.121 -223.668 1096.81
+outside cell simulation: 319577066
+position: 1.67481e+06 -478317 1.64761e+06
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9991
+Nlost: 7
+omega: 238091
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9984
+Nlost: 12
+omega: 238064
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9983
+Nlost: 13
+omega: 234671
+Ntraj: 10000
+Nfree: 3
+Nscatter: 9979
+Nlost: 18
+omega: 236945
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9982
+Nlost: 17
+omega: 239756
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9989
+Nlost: 9
+omega: 236218
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9987
+Nlost: 9
+omega: 237453
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9987
+Nlost: 12
+omega: 234942
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9993
+Nlost: 6
+omega: 236499
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9985
+Nlost: 14
+omega: 237898
+CCS time: 273.093 s
+--------------------------------------------------------
+average value of CCS = 237054 Ang^2
+error value of CCS = 462.902 Ang^2
+Total time: 276.123 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 6co8_charge_171.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  3.16993e+11  -3488.86  182563  }
+{  -3488.86  3.16993e+11  11107.4  }
+{  182563  11107.4  3.16993e+11  }
+Rotation matrix applied to molecule: 
+{  0.991446  -0.00165235  0.130504  }
+{  0.0138193  0.99972  -0.0191852  }
+{  -0.130436  0.0208245  0.991192  }
+Molecule radius: 235.768 Ang 
+orientation time of molecule target: 2.66368 s
+target mass: 1.12678e+07 amu
+gas mass: 4.0026 amu
+reduce mass: 4.0026 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 235.74  235.713  235.768  Ang
+Initial axis length: 285.75  285.723  285.778  Ang
+Ellipsoid axis length: 285.8  285.773  285.828  Ang
+ellipsoid calculation time: 0.0429687s
+maximal impact parameter: 285.828 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 110592
+Nx: 48 Ny: 48 Nz: 48
+Filled cells: 17880
+Empty cells: 92712
+Average atoms per cell: 88.1783
+Maximum atoms per cell: 206
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 576.48 Ang
+ly: 576.48 Ang
+lz: 576.48 Ang
+linked-cell calculation time: 0.376995 s
+outside cell simulation: 135088950
+position: 744662 -1.83294e+06 -5.9662e+06
+outside cell simulation: 363490
+position: 1494.19 5285.44 2427.75
+outside cell simulation: -87723849
+position: -476704 910471 402567
+outside cell simulation: 458566
+position: 2089.53 781.382 4588.79
+outside cell simulation: 138595
+position: 439.121 -223.668 1096.81
+outside cell simulation: 319577066
+position: 1.67481e+06 -478317 1.64761e+06
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9991
+Nlost: 7
+omega: 238091
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9984
+Nlost: 12
+omega: 238064
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9983
+Nlost: 13
+omega: 234671
+Ntraj: 10000
+Nfree: 3
+Nscatter: 9979
+Nlost: 18
+omega: 236945
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9982
+Nlost: 17
+omega: 239756
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9989
+Nlost: 9
+omega: 236218
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9987
+Nlost: 9
+omega: 237453
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9987
+Nlost: 12
+omega: 234942
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9993
+Nlost: 6
+omega: 236499
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9985
+Nlost: 14
+omega: 237898
+CCS time: 537.396 s
+--------------------------------------------------------
+average value of CCS = 237054 Ang^2
+error value of CCS = 462.902 Ang^2
+Total time: 540.48 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 6co8_charge_171.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  3.16993e+11  -3488.86  182563  }
+{  -3488.86  3.16993e+11  11107.4  }
+{  182563  11107.4  3.16993e+11  }
+Rotation matrix applied to molecule: 
+{  0.991446  -0.00165235  0.130504  }
+{  0.0138193  0.99972  -0.0191852  }
+{  -0.130436  0.0208245  0.991192  }
+Molecule radius: 235.768 Ang 
+orientation time of molecule target: 2.68772 s
+target mass: 1.12678e+07 amu
+gas mass: 4.0026 amu
+reduce mass: 4.0026 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 235.74  235.713  235.768  Ang
+Initial axis length: 285.75  285.723  285.778  Ang
+Ellipsoid axis length: 285.8  285.773  285.828  Ang
+ellipsoid calculation time: 0.0429561s
+maximal impact parameter: 285.828 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 110592
+Nx: 48 Ny: 48 Nz: 48
+Filled cells: 17880
+Empty cells: 92712
+Average atoms per cell: 88.1783
+Maximum atoms per cell: 206
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 576.48 Ang
+ly: 576.48 Ang
+lz: 576.48 Ang
+linked-cell calculation time: 0.379367 s
+outside cell simulation: 135088950
+position: 744662 -1.83294e+06 -5.9662e+06
+outside cell simulation: 363490
+position: 1494.19 5285.44 2427.75
+outside cell simulation: -87723849
+position: -476704 910471 402567
+outside cell simulation: 458566
+position: 2089.53 781.382 4588.79
+outside cell simulation: 138595
+position: 439.121 -223.668 1096.81
+outside cell simulation: 319577066
+position: 1.67481e+06 -478317 1.64761e+06
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9991
+Nlost: 7
+omega: 238091
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9984
+Nlost: 12
+omega: 238064
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9983
+Nlost: 13
+omega: 234671
+Ntraj: 10000
+Nfree: 3
+Nscatter: 9979
+Nlost: 18
+omega: 236945
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9982
+Nlost: 17
+omega: 239756
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9989
+Nlost: 9
+omega: 236218
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9987
+Nlost: 9
+omega: 237453
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9987
+Nlost: 12
+omega: 234942
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9993
+Nlost: 6
+omega: 236499
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9985
+Nlost: 14
+omega: 237898
+CCS time: 537.363 s
+--------------------------------------------------------
+average value of CCS = 237054 Ang^2
+error value of CCS = 462.902 Ang^2
+Total time: 540.474 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 6co8_charge_171.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  3.16993e+11  -3488.86  182563  }
+{  -3488.86  3.16993e+11  11107.4  }
+{  182563  11107.4  3.16993e+11  }
+Rotation matrix applied to molecule: 
+{  0.991446  -0.00165235  0.130504  }
+{  0.0138193  0.99972  -0.0191852  }
+{  -0.130436  0.0208245  0.991192  }
+Molecule radius: 235.768 Ang 
+orientation time of molecule target: 2.61085 s
+target mass: 1.12678e+07 amu
+gas mass: 4.0026 amu
+reduce mass: 4.0026 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 235.74  235.713  235.768  Ang
+Initial axis length: 285.75  285.723  285.778  Ang
+Ellipsoid axis length: 285.8  285.773  285.828  Ang
+ellipsoid calculation time: 0.0429787s
+maximal impact parameter: 285.828 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 110592
+Nx: 48 Ny: 48 Nz: 48
+Filled cells: 17880
+Empty cells: 92712
+Average atoms per cell: 88.1783
+Maximum atoms per cell: 206
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 576.48 Ang
+ly: 576.48 Ang
+lz: 576.48 Ang
+linked-cell calculation time: 0.378904 s
+outside cell simulation: 135088950
+position: 744662 -1.83294e+06 -5.9662e+06
+outside cell simulation: 363490
+position: 1494.19 5285.44 2427.75
+outside cell simulation: -87723849
+position: -476704 910471 402567
+outside cell simulation: 458566
+position: 2089.53 781.382 4588.79
+outside cell simulation: 138595
+position: 439.121 -223.668 1096.81
+outside cell simulation: 319577066
+position: 1.67481e+06 -478317 1.64761e+06
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9991
+Nlost: 7
+omega: 238091
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9984
+Nlost: 12
+omega: 238064
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9983
+Nlost: 13
+omega: 234671
+Ntraj: 10000
+Nfree: 3
+Nscatter: 9979
+Nlost: 18
+omega: 236945
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9982
+Nlost: 17
+omega: 239756
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9989
+Nlost: 9
+omega: 236218
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9987
+Nlost: 9
+omega: 237453
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9987
+Nlost: 12
+omega: 234942
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9993
+Nlost: 6
+omega: 236499
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9985
+Nlost: 14
+omega: 237898
+CCS time: 537.328 s
+--------------------------------------------------------
+average value of CCS = 237054 Ang^2
+error value of CCS = 462.902 Ang^2
+Total time: 540.362 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 6co8_charge_171.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  3.16993e+11  -3488.86  182563  }
+{  -3488.86  3.16993e+11  11107.4  }
+{  182563  11107.4  3.16993e+11  }
+Rotation matrix applied to molecule: 
+{  0.991446  -0.00165235  0.130504  }
+{  0.0138193  0.99972  -0.0191852  }
+{  -0.130436  0.0208245  0.991192  }
+Molecule radius: 235.768 Ang 
+orientation time of molecule target: 2.62996 s
+target mass: 1.12678e+07 amu
+gas mass: 4.0026 amu
+reduce mass: 4.0026 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 235.74  235.713  235.768  Ang
+Initial axis length: 285.75  285.723  285.778  Ang
+Ellipsoid axis length: 285.8  285.773  285.828  Ang
+ellipsoid calculation time: 0.0429698s
+maximal impact parameter: 285.828 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 110592
+Nx: 48 Ny: 48 Nz: 48
+Filled cells: 17880
+Empty cells: 92712
+Average atoms per cell: 88.1783
+Maximum atoms per cell: 206
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 576.48 Ang
+ly: 576.48 Ang
+lz: 576.48 Ang
+linked-cell calculation time: 0.380403 s
+outside cell simulation: 135088950
+position: 744662 -1.83294e+06 -5.9662e+06
+outside cell simulation: 363490
+position: 1494.19 5285.44 2427.75
+outside cell simulation: -87723849
+position: -476704 910471 402567
+outside cell simulation: 458566
+position: 2089.53 781.382 4588.79
+outside cell simulation: 138595
+position: 439.121 -223.668 1096.81
+outside cell simulation: 319577066
+position: 1.67481e+06 -478317 1.64761e+06
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9991
+Nlost: 7
+omega: 238091
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9984
+Nlost: 12
+omega: 238064
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9983
+Nlost: 13
+omega: 234671
+Ntraj: 10000
+Nfree: 3
+Nscatter: 9979
+Nlost: 18
+omega: 236945
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9982
+Nlost: 17
+omega: 239756
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9989
+Nlost: 9
+omega: 236218
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9987
+Nlost: 9
+omega: 237453
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9987
+Nlost: 12
+omega: 234942
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9993
+Nlost: 6
+omega: 236499
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9985
+Nlost: 14
+omega: 237898
+CCS time: 537.705 s
+--------------------------------------------------------
+average value of CCS = 237054 Ang^2
+error value of CCS = 462.902 Ang^2
+Total time: 540.759 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 6co8_charge_171.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  3.16993e+11  -3488.86  182563  }
+{  -3488.86  3.16993e+11  11107.4  }
+{  182563  11107.4  3.16993e+11  }
+Rotation matrix applied to molecule: 
+{  0.991446  -0.00165235  0.130504  }
+{  0.0138193  0.99972  -0.0191852  }
+{  -0.130436  0.0208245  0.991192  }
+Molecule radius: 235.768 Ang 
+orientation time of molecule target: 2.63067 s
+target mass: 1.12678e+07 amu
+gas mass: 4.0026 amu
+reduce mass: 4.0026 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 235.74  235.713  235.768  Ang
+Initial axis length: 285.75  285.723  285.778  Ang
+Ellipsoid axis length: 285.8  285.773  285.828  Ang
+ellipsoid calculation time: 0.0429748s
+maximal impact parameter: 285.828 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 110592
+Nx: 48 Ny: 48 Nz: 48
+Filled cells: 17880
+Empty cells: 92712
+Average atoms per cell: 88.1783
+Maximum atoms per cell: 206
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 576.48 Ang
+ly: 576.48 Ang
+lz: 576.48 Ang
+linked-cell calculation time: 0.379282 s
+outside cell simulation: 135088950
+position: 744662 -1.83294e+06 -5.9662e+06
+outside cell simulation: 363490
+position: 1494.19 5285.44 2427.75
+outside cell simulation: -87723849
+position: -476704 910471 402567
+outside cell simulation: 458566
+position: 2089.53 781.382 4588.79
+outside cell simulation: 138595
+position: 439.121 -223.668 1096.81
+outside cell simulation: 319577066
+position: 1.67481e+06 -478317 1.64761e+06
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9991
+Nlost: 7
+omega: 238091
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9984
+Nlost: 12
+omega: 238064
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9983
+Nlost: 13
+omega: 234671
+Ntraj: 10000
+Nfree: 3
+Nscatter: 9979
+Nlost: 18
+omega: 236945
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9982
+Nlost: 17
+omega: 239756
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9989
+Nlost: 9
+omega: 236218
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9987
+Nlost: 9
+omega: 237453
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9987
+Nlost: 12
+omega: 234942
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9993
+Nlost: 6
+omega: 236499
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9985
+Nlost: 14
+omega: 237898
+CCS time: 537.218 s
+--------------------------------------------------------
+average value of CCS = 237054 Ang^2
+error value of CCS = 462.902 Ang^2
+Total time: 540.271 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 6co8_charge_171.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  3.16993e+11  -3488.86  182563  }
+{  -3488.86  3.16993e+11  11107.4  }
+{  182563  11107.4  3.16993e+11  }
+Rotation matrix applied to molecule: 
+{  0.991446  -0.00165235  0.130504  }
+{  0.0138193  0.99972  -0.0191852  }
+{  -0.130436  0.0208245  0.991192  }
+Molecule radius: 235.768 Ang 
+orientation time of molecule target: 2.6693 s
+target mass: 1.12678e+07 amu
+gas mass: 4.0026 amu
+reduce mass: 4.0026 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 235.74  235.713  235.768  Ang
+Initial axis length: 285.75  285.723  285.778  Ang
+Ellipsoid axis length: 285.8  285.773  285.828  Ang
+ellipsoid calculation time: 0.0429699s
+maximal impact parameter: 285.828 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 110592
+Nx: 48 Ny: 48 Nz: 48
+Filled cells: 17880
+Empty cells: 92712
+Average atoms per cell: 88.1783
+Maximum atoms per cell: 206
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 576.48 Ang
+ly: 576.48 Ang
+lz: 576.48 Ang
+linked-cell calculation time: 0.378869 s
+outside cell simulation: 135088950
+position: 744662 -1.83294e+06 -5.9662e+06
+outside cell simulation: 363490
+position: 1494.19 5285.44 2427.75
+outside cell simulation: -87723849
+position: -476704 910471 402567
+outside cell simulation: 458566
+position: 2089.53 781.382 4588.79
+outside cell simulation: 138595
+position: 439.121 -223.668 1096.81
+outside cell simulation: 319577066
+position: 1.67481e+06 -478317 1.64761e+06
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9991
+Nlost: 7
+omega: 238091
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9984
+Nlost: 12
+omega: 238064
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9983
+Nlost: 13
+omega: 234671
+Ntraj: 10000
+Nfree: 3
+Nscatter: 9979
+Nlost: 18
+omega: 236945
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9982
+Nlost: 17
+omega: 239756
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9989
+Nlost: 9
+omega: 236218
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9987
+Nlost: 9
+omega: 237453
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9987
+Nlost: 12
+omega: 234942
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9993
+Nlost: 6
+omega: 236499
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9985
+Nlost: 14
+omega: 237898
+CCS time: 537.254 s
+--------------------------------------------------------
+average value of CCS = 237054 Ang^2
+error value of CCS = 462.902 Ang^2
+Total time: 540.347 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 6co8_charge_171.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  3.16993e+11  -3488.86  182563  }
+{  -3488.86  3.16993e+11  11107.4  }
+{  182563  11107.4  3.16993e+11  }
+Rotation matrix applied to molecule: 
+{  0.991446  -0.00165235  0.130504  }
+{  0.0138193  0.99972  -0.0191852  }
+{  -0.130436  0.0208245  0.991192  }
+Molecule radius: 235.768 Ang 
+orientation time of molecule target: 2.63271 s
+target mass: 1.12678e+07 amu
+gas mass: 4.0026 amu
+reduce mass: 4.0026 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 235.74  235.713  235.768  Ang
+Initial axis length: 285.75  285.723  285.778  Ang
+Ellipsoid axis length: 285.8  285.773  285.828  Ang
+ellipsoid calculation time: 0.0429583s
+maximal impact parameter: 285.828 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 110592
+Nx: 48 Ny: 48 Nz: 48
+Filled cells: 17880
+Empty cells: 92712
+Average atoms per cell: 88.1783
+Maximum atoms per cell: 206
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 576.48 Ang
+ly: 576.48 Ang
+lz: 576.48 Ang
+linked-cell calculation time: 0.380061 s
+outside cell simulation: 135088950
+position: 744662 -1.83294e+06 -5.9662e+06
+outside cell simulation: 363490
+position: 1494.19 5285.44 2427.75
+outside cell simulation: -87723849
+position: -476704 910471 402567
+outside cell simulation: 458566
+position: 2089.53 781.382 4588.79
+outside cell simulation: 138595
+position: 439.121 -223.668 1096.81
+outside cell simulation: 319577066
+position: 1.67481e+06 -478317 1.64761e+06
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9991
+Nlost: 7
+omega: 238091
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9984
+Nlost: 12
+omega: 238064
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9983
+Nlost: 13
+omega: 234671
+Ntraj: 10000
+Nfree: 3
+Nscatter: 9979
+Nlost: 18
+omega: 236945
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9982
+Nlost: 17
+omega: 239756
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9989
+Nlost: 9
+omega: 236218
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9987
+Nlost: 9
+omega: 237453
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9987
+Nlost: 12
+omega: 234942
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9993
+Nlost: 6
+omega: 236499
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9985
+Nlost: 14
+omega: 237898
+CCS time: 537.565 s
+--------------------------------------------------------
+average value of CCS = 237054 Ang^2
+error value of CCS = 462.902 Ang^2
+Total time: 540.622 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 6co8_charge_171.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  3.16993e+11  -3488.86  182563  }
+{  -3488.86  3.16993e+11  11107.4  }
+{  182563  11107.4  3.16993e+11  }
+Rotation matrix applied to molecule: 
+{  0.991446  -0.00165235  0.130504  }
+{  0.0138193  0.99972  -0.0191852  }
+{  -0.130436  0.0208245  0.991192  }
+Molecule radius: 235.768 Ang 
+orientation time of molecule target: 2.67696 s
+target mass: 1.12678e+07 amu
+gas mass: 4.0026 amu
+reduce mass: 4.0026 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 235.74  235.713  235.768  Ang
+Initial axis length: 285.75  285.723  285.778  Ang
+Ellipsoid axis length: 285.8  285.773  285.828  Ang
+ellipsoid calculation time: 0.0429566s
+maximal impact parameter: 285.828 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 110592
+Nx: 48 Ny: 48 Nz: 48
+Filled cells: 17880
+Empty cells: 92712
+Average atoms per cell: 88.1783
+Maximum atoms per cell: 206
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 576.48 Ang
+ly: 576.48 Ang
+lz: 576.48 Ang
+linked-cell calculation time: 0.379175 s
+outside cell simulation: 135088950
+position: 744662 -1.83294e+06 -5.9662e+06
+outside cell simulation: 363490
+position: 1494.19 5285.44 2427.75
+outside cell simulation: -87723849
+position: -476704 910471 402567
+outside cell simulation: 458566
+position: 2089.53 781.382 4588.79
+outside cell simulation: 138595
+position: 439.121 -223.668 1096.81
+outside cell simulation: 319577066
+position: 1.67481e+06 -478317 1.64761e+06
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9991
+Nlost: 7
+omega: 238091
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9984
+Nlost: 12
+omega: 238064
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9983
+Nlost: 13
+omega: 234671
+Ntraj: 10000
+Nfree: 3
+Nscatter: 9979
+Nlost: 18
+omega: 236945
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9982
+Nlost: 17
+omega: 239756
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9989
+Nlost: 9
+omega: 236218
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9987
+Nlost: 9
+omega: 237453
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9987
+Nlost: 12
+omega: 234942
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9993
+Nlost: 6
+omega: 236499
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9985
+Nlost: 14
+omega: 237898
+CCS time: 537.254 s
+--------------------------------------------------------
+average value of CCS = 237054 Ang^2
+error value of CCS = 462.902 Ang^2
+Total time: 540.354 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 6co8_charge_171.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  3.16993e+11  -3488.86  182563  }
+{  -3488.86  3.16993e+11  11107.4  }
+{  182563  11107.4  3.16993e+11  }
+Rotation matrix applied to molecule: 
+{  0.991446  -0.00165235  0.130504  }
+{  0.0138193  0.99972  -0.0191852  }
+{  -0.130436  0.0208245  0.991192  }
+Molecule radius: 235.768 Ang 
+orientation time of molecule target: 2.67549 s
+target mass: 1.12678e+07 amu
+gas mass: 4.0026 amu
+reduce mass: 4.0026 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 235.74  235.713  235.768  Ang
+Initial axis length: 285.75  285.723  285.778  Ang
+Ellipsoid axis length: 285.8  285.773  285.828  Ang
+ellipsoid calculation time: 0.0429501s
+maximal impact parameter: 285.828 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 110592
+Nx: 48 Ny: 48 Nz: 48
+Filled cells: 17880
+Empty cells: 92712
+Average atoms per cell: 88.1783
+Maximum atoms per cell: 206
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 576.48 Ang
+ly: 576.48 Ang
+lz: 576.48 Ang
+linked-cell calculation time: 0.400297 s
+outside cell simulation: 135088950
+position: 744662 -1.83294e+06 -5.9662e+06
+outside cell simulation: 363490
+position: 1494.19 5285.44 2427.75
+outside cell simulation: -87723849
+position: -476704 910471 402567
+outside cell simulation: 458566
+position: 2089.53 781.382 4588.79
+outside cell simulation: 138595
+position: 439.121 -223.668 1096.81
+outside cell simulation: 319577066
+position: 1.67481e+06 -478317 1.64761e+06
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9991
+Nlost: 7
+omega: 238091
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9984
+Nlost: 12
+omega: 238064
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9983
+Nlost: 13
+omega: 234671
+Ntraj: 10000
+Nfree: 3
+Nscatter: 9979
+Nlost: 18
+omega: 236945
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9982
+Nlost: 17
+omega: 239756
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9989
+Nlost: 9
+omega: 236218
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9987
+Nlost: 9
+omega: 237453
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9987
+Nlost: 12
+omega: 234942
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9993
+Nlost: 6
+omega: 236499
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9985
+Nlost: 14
+omega: 237898
+CCS time: 537.498 s
+--------------------------------------------------------
+average value of CCS = 237054 Ang^2
+error value of CCS = 462.902 Ang^2
+Total time: 540.618 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 6co8_charge_171.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  3.16993e+11  -3488.86  182563  }
+{  -3488.86  3.16993e+11  11107.4  }
+{  182563  11107.4  3.16993e+11  }
+Rotation matrix applied to molecule: 
+{  0.991446  -0.00165235  0.130504  }
+{  0.0138193  0.99972  -0.0191852  }
+{  -0.130436  0.0208245  0.991192  }
+Molecule radius: 235.768 Ang 
+orientation time of molecule target: 2.67754 s
+target mass: 1.12678e+07 amu
+gas mass: 4.0026 amu
+reduce mass: 4.0026 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 235.74  235.713  235.768  Ang
+Initial axis length: 285.75  285.723  285.778  Ang
+Ellipsoid axis length: 285.8  285.773  285.828  Ang
+ellipsoid calculation time: 0.0429675s
+maximal impact parameter: 285.828 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 110592
+Nx: 48 Ny: 48 Nz: 48
+Filled cells: 17880
+Empty cells: 92712
+Average atoms per cell: 88.1783
+Maximum atoms per cell: 206
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 576.48 Ang
+ly: 576.48 Ang
+lz: 576.48 Ang
+linked-cell calculation time: 0.380646 s
+outside cell simulation: 135088950
+position: 744662 -1.83294e+06 -5.9662e+06
+outside cell simulation: 363490
+position: 1494.19 5285.44 2427.75
+outside cell simulation: -87723849
+position: -476704 910471 402567
+outside cell simulation: 458566
+position: 2089.53 781.382 4588.79
+outside cell simulation: 138595
+position: 439.121 -223.668 1096.81
+outside cell simulation: 319577066
+position: 1.67481e+06 -478317 1.64761e+06
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9991
+Nlost: 7
+omega: 238091
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9984
+Nlost: 12
+omega: 238064
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9983
+Nlost: 13
+omega: 234671
+Ntraj: 10000
+Nfree: 3
+Nscatter: 9979
+Nlost: 18
+omega: 236945
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9982
+Nlost: 17
+omega: 239756
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9989
+Nlost: 9
+omega: 236218
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9987
+Nlost: 9
+omega: 237453
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9987
+Nlost: 12
+omega: 234942
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9993
+Nlost: 6
+omega: 236499
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9985
+Nlost: 14
+omega: 237898
+CCS time: 537.5 s
+--------------------------------------------------------
+average value of CCS = 237054 Ang^2
+error value of CCS = 462.902 Ang^2
+Total time: 540.602 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 6co8.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  3.16993e+11  -3488.86  182563  }
+{  -3488.86  3.16993e+11  11107.4  }
+{  182563  11107.4  3.16993e+11  }
+Rotation matrix applied to molecule: 
+{  0.991446  -0.00165235  0.130504  }
+{  0.0138193  0.99972  -0.0191852  }
+{  -0.130436  0.0208245  0.991192  }
+Molecule radius: 235.768 Ang 
+orientation time of molecule target: 2.71131 s
+target mass: 1.12678e+07 amu
+gas mass: 4.0026 amu
+reduce mass: 4.0026 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 235.74  235.713  235.768  Ang
+Initial axis length: 285.75  285.723  285.778  Ang
+Ellipsoid axis length: 285.8  285.773  285.828  Ang
+ellipsoid calculation time: 0.0429912s
+maximal impact parameter: 285.828 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 110592
+Nx: 48 Ny: 48 Nz: 48
+Filled cells: 17880
+Empty cells: 92712
+Average atoms per cell: 88.1783
+Maximum atoms per cell: 206
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 576.48 Ang
+ly: 576.48 Ang
+lz: 576.48 Ang
+linked-cell calculation time: 0.378348 s
+outside cell simulation: 135088950
+position: 744662 -1.83294e+06 -5.9662e+06
+outside cell simulation: 363490
+position: 1494.19 5285.44 2427.75
+outside cell simulation: -87723849
+position: -476704 910471 402567
+outside cell simulation: 458566
+position: 2089.53 781.382 4588.79
+outside cell simulation: 138595
+position: 439.121 -223.668 1096.81
+outside cell simulation: 319577066
+position: 1.67481e+06 -478317 1.64761e+06
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9991
+Nlost: 7
+omega: 238091
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9984
+Nlost: 12
+omega: 238064
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9983
+Nlost: 13
+omega: 234671
+Ntraj: 10000
+Nfree: 3
+Nscatter: 9979
+Nlost: 18
+omega: 236945
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9982
+Nlost: 17
+omega: 239756
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9989
+Nlost: 9
+omega: 236218
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9987
+Nlost: 9
+omega: 237453
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9987
+Nlost: 12
+omega: 234942
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9993
+Nlost: 6
+omega: 236499
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9985
+Nlost: 14
+omega: 237898
+CCS time: 1070.27 s
+--------------------------------------------------------
+average value of CCS = 237054 Ang^2
+error value of CCS = 462.902 Ang^2
+Total time: 1073.4 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 6co8.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  3.16993e+11  -3488.86  182563  }
+{  -3488.86  3.16993e+11  11107.4  }
+{  182563  11107.4  3.16993e+11  }
+Rotation matrix applied to molecule: 
+{  0.991446  -0.00165235  0.130504  }
+{  0.0138193  0.99972  -0.0191852  }
+{  -0.130436  0.0208245  0.991192  }
+Molecule radius: 235.768 Ang 
+orientation time of molecule target: 2.69262 s
+target mass: 1.12678e+07 amu
+gas mass: 4.0026 amu
+reduce mass: 4.0026 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 235.74  235.713  235.768  Ang
+Initial axis length: 285.75  285.723  285.778  Ang
+Ellipsoid axis length: 285.8  285.773  285.828  Ang
+ellipsoid calculation time: 0.0429907s
+maximal impact parameter: 285.828 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 110592
+Nx: 48 Ny: 48 Nz: 48
+Filled cells: 17880
+Empty cells: 92712
+Average atoms per cell: 88.1783
+Maximum atoms per cell: 206
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 576.48 Ang
+ly: 576.48 Ang
+lz: 576.48 Ang
+linked-cell calculation time: 0.380581 s
+outside cell simulation: 135088950
+position: 744662 -1.83294e+06 -5.9662e+06
+outside cell simulation: 363490
+position: 1494.19 5285.44 2427.75
+outside cell simulation: -87723849
+position: -476704 910471 402567
+outside cell simulation: 458566
+position: 2089.53 781.382 4588.79
+outside cell simulation: 138595
+position: 439.121 -223.668 1096.81
+outside cell simulation: 319577066
+position: 1.67481e+06 -478317 1.64761e+06
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9991
+Nlost: 7
+omega: 238091
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9984
+Nlost: 12
+omega: 238064
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9983
+Nlost: 13
+omega: 234671
+Ntraj: 10000
+Nfree: 3
+Nscatter: 9979
+Nlost: 18
+omega: 236945
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9982
+Nlost: 17
+omega: 239756
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9989
+Nlost: 9
+omega: 236218
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9987
+Nlost: 9
+omega: 237453
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9987
+Nlost: 12
+omega: 234942
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9993
+Nlost: 6
+omega: 236499
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9985
+Nlost: 14
+omega: 237898
+CCS time: 1068.71 s
+--------------------------------------------------------
+average value of CCS = 237054 Ang^2
+error value of CCS = 462.902 Ang^2
+Total time: 1071.82 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 6co8.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  3.16993e+11  -3488.86  182563  }
+{  -3488.86  3.16993e+11  11107.4  }
+{  182563  11107.4  3.16993e+11  }
+Rotation matrix applied to molecule: 
+{  0.991446  -0.00165235  0.130504  }
+{  0.0138193  0.99972  -0.0191852  }
+{  -0.130436  0.0208245  0.991192  }
+Molecule radius: 235.768 Ang 
+orientation time of molecule target: 2.61438 s
+target mass: 1.12678e+07 amu
+gas mass: 4.0026 amu
+reduce mass: 4.0026 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 235.74  235.713  235.768  Ang
+Initial axis length: 285.75  285.723  285.778  Ang
+Ellipsoid axis length: 285.8  285.773  285.828  Ang
+ellipsoid calculation time: 0.0429942s
+maximal impact parameter: 285.828 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 110592
+Nx: 48 Ny: 48 Nz: 48
+Filled cells: 17880
+Empty cells: 92712
+Average atoms per cell: 88.1783
+Maximum atoms per cell: 206
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 576.48 Ang
+ly: 576.48 Ang
+lz: 576.48 Ang
+linked-cell calculation time: 0.380289 s
+outside cell simulation: 135088950
+position: 744662 -1.83294e+06 -5.9662e+06
+outside cell simulation: 363490
+position: 1494.19 5285.44 2427.75
+outside cell simulation: -87723849
+position: -476704 910471 402567
+outside cell simulation: 458566
+position: 2089.53 781.382 4588.79
+outside cell simulation: 138595
+position: 439.121 -223.668 1096.81
+outside cell simulation: 319577066
+position: 1.67481e+06 -478317 1.64761e+06
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9991
+Nlost: 7
+omega: 238091
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9984
+Nlost: 12
+omega: 238064
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9983
+Nlost: 13
+omega: 234671
+Ntraj: 10000
+Nfree: 3
+Nscatter: 9979
+Nlost: 18
+omega: 236945
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9982
+Nlost: 17
+omega: 239756
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9989
+Nlost: 9
+omega: 236218
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9987
+Nlost: 9
+omega: 237453
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9987
+Nlost: 12
+omega: 234942
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9993
+Nlost: 6
+omega: 236499
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9985
+Nlost: 14
+omega: 237898
+CCS time: 1068.51 s
+--------------------------------------------------------
+average value of CCS = 237054 Ang^2
+error value of CCS = 462.902 Ang^2
+Total time: 1071.55 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 6co8.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  3.16993e+11  -3488.86  182563  }
+{  -3488.86  3.16993e+11  11107.4  }
+{  182563  11107.4  3.16993e+11  }
+Rotation matrix applied to molecule: 
+{  0.991446  -0.00165235  0.130504  }
+{  0.0138193  0.99972  -0.0191852  }
+{  -0.130436  0.0208245  0.991192  }
+Molecule radius: 235.768 Ang 
+orientation time of molecule target: 2.68827 s
+target mass: 1.12678e+07 amu
+gas mass: 4.0026 amu
+reduce mass: 4.0026 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 235.74  235.713  235.768  Ang
+Initial axis length: 285.75  285.723  285.778  Ang
+Ellipsoid axis length: 285.8  285.773  285.828  Ang
+ellipsoid calculation time: 0.0429937s
+maximal impact parameter: 285.828 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 110592
+Nx: 48 Ny: 48 Nz: 48
+Filled cells: 17880
+Empty cells: 92712
+Average atoms per cell: 88.1783
+Maximum atoms per cell: 206
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 576.48 Ang
+ly: 576.48 Ang
+lz: 576.48 Ang
+linked-cell calculation time: 0.380839 s
+outside cell simulation: 135088950
+position: 744662 -1.83294e+06 -5.9662e+06
+outside cell simulation: 363490
+position: 1494.19 5285.44 2427.75
+outside cell simulation: -87723849
+position: -476704 910471 402567
+outside cell simulation: 458566
+position: 2089.53 781.382 4588.79
+outside cell simulation: 138595
+position: 439.121 -223.668 1096.81
+outside cell simulation: 319577066
+position: 1.67481e+06 -478317 1.64761e+06
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9991
+Nlost: 7
+omega: 238091
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9984
+Nlost: 12
+omega: 238064
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9983
+Nlost: 13
+omega: 234671
+Ntraj: 10000
+Nfree: 3
+Nscatter: 9979
+Nlost: 18
+omega: 236945
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9982
+Nlost: 17
+omega: 239756
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9989
+Nlost: 9
+omega: 236218
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9987
+Nlost: 9
+omega: 237453
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9987
+Nlost: 12
+omega: 234942
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9993
+Nlost: 6
+omega: 236499
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9985
+Nlost: 14
+omega: 237898
+CCS time: 1068.15 s
+--------------------------------------------------------
+average value of CCS = 237054 Ang^2
+error value of CCS = 462.902 Ang^2
+Total time: 1071.27 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 6co8.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  3.16993e+11  -3488.86  182563  }
+{  -3488.86  3.16993e+11  11107.4  }
+{  182563  11107.4  3.16993e+11  }
+Rotation matrix applied to molecule: 
+{  0.991446  -0.00165235  0.130504  }
+{  0.0138193  0.99972  -0.0191852  }
+{  -0.130436  0.0208245  0.991192  }
+Molecule radius: 235.768 Ang 
+orientation time of molecule target: 2.73353 s
+target mass: 1.12678e+07 amu
+gas mass: 4.0026 amu
+reduce mass: 4.0026 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 235.74  235.713  235.768  Ang
+Initial axis length: 285.75  285.723  285.778  Ang
+Ellipsoid axis length: 285.8  285.773  285.828  Ang
+ellipsoid calculation time: 0.0429747s
+maximal impact parameter: 285.828 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 110592
+Nx: 48 Ny: 48 Nz: 48
+Filled cells: 17880
+Empty cells: 92712
+Average atoms per cell: 88.1783
+Maximum atoms per cell: 206
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 576.48 Ang
+ly: 576.48 Ang
+lz: 576.48 Ang
+linked-cell calculation time: 0.380545 s
+outside cell simulation: 135088950
+position: 744662 -1.83294e+06 -5.9662e+06
+outside cell simulation: 363490
+position: 1494.19 5285.44 2427.75
+outside cell simulation: -87723849
+position: -476704 910471 402567
+outside cell simulation: 458566
+position: 2089.53 781.382 4588.79
+outside cell simulation: 138595
+position: 439.121 -223.668 1096.81
+outside cell simulation: 319577066
+position: 1.67481e+06 -478317 1.64761e+06
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9991
+Nlost: 7
+omega: 238091
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9984
+Nlost: 12
+omega: 238064
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9983
+Nlost: 13
+omega: 234671
+Ntraj: 10000
+Nfree: 3
+Nscatter: 9979
+Nlost: 18
+omega: 236945
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9982
+Nlost: 17
+omega: 239756
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9989
+Nlost: 9
+omega: 236218
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9987
+Nlost: 9
+omega: 237453
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9987
+Nlost: 12
+omega: 234942
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9993
+Nlost: 6
+omega: 236499
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9985
+Nlost: 14
+omega: 237898
+CCS time: 1068.51 s
+--------------------------------------------------------
+average value of CCS = 237054 Ang^2
+error value of CCS = 462.902 Ang^2
+Total time: 1071.67 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 6co8.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  3.16993e+11  -3488.86  182563  }
+{  -3488.86  3.16993e+11  11107.4  }
+{  182563  11107.4  3.16993e+11  }
+Rotation matrix applied to molecule: 
+{  0.991446  -0.00165235  0.130504  }
+{  0.0138193  0.99972  -0.0191852  }
+{  -0.130436  0.0208245  0.991192  }
+Molecule radius: 235.768 Ang 
+orientation time of molecule target: 2.61355 s
+target mass: 1.12678e+07 amu
+gas mass: 4.0026 amu
+reduce mass: 4.0026 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 235.74  235.713  235.768  Ang
+Initial axis length: 285.75  285.723  285.778  Ang
+Ellipsoid axis length: 285.8  285.773  285.828  Ang
+ellipsoid calculation time: 0.0429637s
+maximal impact parameter: 285.828 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 110592
+Nx: 48 Ny: 48 Nz: 48
+Filled cells: 17880
+Empty cells: 92712
+Average atoms per cell: 88.1783
+Maximum atoms per cell: 206
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 576.48 Ang
+ly: 576.48 Ang
+lz: 576.48 Ang
+linked-cell calculation time: 0.381042 s
+outside cell simulation: 135088950
+position: 744662 -1.83294e+06 -5.9662e+06
+outside cell simulation: 363490
+position: 1494.19 5285.44 2427.75
+outside cell simulation: -87723849
+position: -476704 910471 402567
+outside cell simulation: 458566
+position: 2089.53 781.382 4588.79
+outside cell simulation: 138595
+position: 439.121 -223.668 1096.81
+outside cell simulation: 319577066
+position: 1.67481e+06 -478317 1.64761e+06
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9991
+Nlost: 7
+omega: 238091
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9984
+Nlost: 12
+omega: 238064
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9983
+Nlost: 13
+omega: 234671
+Ntraj: 10000
+Nfree: 3
+Nscatter: 9979
+Nlost: 18
+omega: 236945
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9982
+Nlost: 17
+omega: 239756
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9989
+Nlost: 9
+omega: 236218
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9987
+Nlost: 9
+omega: 237453
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9987
+Nlost: 12
+omega: 234942
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9993
+Nlost: 6
+omega: 236499
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9985
+Nlost: 14
+omega: 237898
+CCS time: 1068.6 s
+--------------------------------------------------------
+average value of CCS = 237054 Ang^2
+error value of CCS = 462.902 Ang^2
+Total time: 1071.64 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 6co8.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  3.16993e+11  -3488.86  182563  }
+{  -3488.86  3.16993e+11  11107.4  }
+{  182563  11107.4  3.16993e+11  }
+Rotation matrix applied to molecule: 
+{  0.991446  -0.00165235  0.130504  }
+{  0.0138193  0.99972  -0.0191852  }
+{  -0.130436  0.0208245  0.991192  }
+Molecule radius: 235.768 Ang 
+orientation time of molecule target: 2.74914 s
+target mass: 1.12678e+07 amu
+gas mass: 4.0026 amu
+reduce mass: 4.0026 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 235.74  235.713  235.768  Ang
+Initial axis length: 285.75  285.723  285.778  Ang
+Ellipsoid axis length: 285.8  285.773  285.828  Ang
+ellipsoid calculation time: 0.0432466s
+maximal impact parameter: 285.828 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 110592
+Nx: 48 Ny: 48 Nz: 48
+Filled cells: 17880
+Empty cells: 92712
+Average atoms per cell: 88.1783
+Maximum atoms per cell: 206
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 576.48 Ang
+ly: 576.48 Ang
+lz: 576.48 Ang
+linked-cell calculation time: 0.496473 s
+outside cell simulation: 135088950
+position: 744662 -1.83294e+06 -5.9662e+06
+outside cell simulation: 363490
+position: 1494.19 5285.44 2427.75
+outside cell simulation: -87723849
+position: -476704 910471 402567
+outside cell simulation: 458566
+position: 2089.53 781.382 4588.79
+outside cell simulation: 138595
+position: 439.121 -223.668 1096.81
+outside cell simulation: 319577066
+position: 1.67481e+06 -478317 1.64761e+06
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9991
+Nlost: 7
+omega: 238091
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9984
+Nlost: 12
+omega: 238064
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9983
+Nlost: 13
+omega: 234671
+Ntraj: 10000
+Nfree: 3
+Nscatter: 9979
+Nlost: 18
+omega: 236945
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9982
+Nlost: 17
+omega: 239756
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9989
+Nlost: 9
+omega: 236218
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9987
+Nlost: 9
+omega: 237453
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9987
+Nlost: 12
+omega: 234942
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9993
+Nlost: 6
+omega: 236499
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9985
+Nlost: 14
+omega: 237898
+CCS time: 1068.29 s
+--------------------------------------------------------
+average value of CCS = 237054 Ang^2
+error value of CCS = 462.902 Ang^2
+Total time: 1071.58 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 6co8.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  3.16993e+11  -3488.86  182563  }
+{  -3488.86  3.16993e+11  11107.4  }
+{  182563  11107.4  3.16993e+11  }
+Rotation matrix applied to molecule: 
+{  0.991446  -0.00165235  0.130504  }
+{  0.0138193  0.99972  -0.0191852  }
+{  -0.130436  0.0208245  0.991192  }
+Molecule radius: 235.768 Ang 
+orientation time of molecule target: 2.68765 s
+target mass: 1.12678e+07 amu
+gas mass: 4.0026 amu
+reduce mass: 4.0026 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 235.74  235.713  235.768  Ang
+Initial axis length: 285.75  285.723  285.778  Ang
+Ellipsoid axis length: 285.8  285.773  285.828  Ang
+ellipsoid calculation time: 0.0429664s
+maximal impact parameter: 285.828 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 110592
+Nx: 48 Ny: 48 Nz: 48
+Filled cells: 17880
+Empty cells: 92712
+Average atoms per cell: 88.1783
+Maximum atoms per cell: 206
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 576.48 Ang
+ly: 576.48 Ang
+lz: 576.48 Ang
+linked-cell calculation time: 0.38135 s
+outside cell simulation: 135088950
+position: 744662 -1.83294e+06 -5.9662e+06
+outside cell simulation: 363490
+position: 1494.19 5285.44 2427.75
+outside cell simulation: -87723849
+position: -476704 910471 402567
+outside cell simulation: 458566
+position: 2089.53 781.382 4588.79
+outside cell simulation: 138595
+position: 439.121 -223.668 1096.81
+outside cell simulation: 319577066
+position: 1.67481e+06 -478317 1.64761e+06
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9991
+Nlost: 7
+omega: 238091
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9984
+Nlost: 12
+omega: 238064
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9983
+Nlost: 13
+omega: 234671
+Ntraj: 10000
+Nfree: 3
+Nscatter: 9979
+Nlost: 18
+omega: 236945
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9982
+Nlost: 17
+omega: 239756
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9989
+Nlost: 9
+omega: 236218
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9987
+Nlost: 9
+omega: 237453
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9987
+Nlost: 12
+omega: 234942
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9993
+Nlost: 6
+omega: 236499
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9985
+Nlost: 14
+omega: 237898
+CCS time: 1068.49 s
+--------------------------------------------------------
+average value of CCS = 237054 Ang^2
+error value of CCS = 462.902 Ang^2
+Total time: 1071.6 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 6co8.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  3.16993e+11  -3488.86  182563  }
+{  -3488.86  3.16993e+11  11107.4  }
+{  182563  11107.4  3.16993e+11  }
+Rotation matrix applied to molecule: 
+{  0.991446  -0.00165235  0.130504  }
+{  0.0138193  0.99972  -0.0191852  }
+{  -0.130436  0.0208245  0.991192  }
+Molecule radius: 235.768 Ang 
+orientation time of molecule target: 2.67838 s
+target mass: 1.12678e+07 amu
+gas mass: 4.0026 amu
+reduce mass: 4.0026 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 235.74  235.713  235.768  Ang
+Initial axis length: 285.75  285.723  285.778  Ang
+Ellipsoid axis length: 285.8  285.773  285.828  Ang
+ellipsoid calculation time: 0.0429831s
+maximal impact parameter: 285.828 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 110592
+Nx: 48 Ny: 48 Nz: 48
+Filled cells: 17880
+Empty cells: 92712
+Average atoms per cell: 88.1783
+Maximum atoms per cell: 206
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 576.48 Ang
+ly: 576.48 Ang
+lz: 576.48 Ang
+linked-cell calculation time: 0.380386 s
+outside cell simulation: 135088950
+position: 744662 -1.83294e+06 -5.9662e+06
+outside cell simulation: 363490
+position: 1494.19 5285.44 2427.75
+outside cell simulation: -87723849
+position: -476704 910471 402567
+outside cell simulation: 458566
+position: 2089.53 781.382 4588.79
+outside cell simulation: 138595
+position: 439.121 -223.668 1096.81
+outside cell simulation: 319577066
+position: 1.67481e+06 -478317 1.64761e+06
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9991
+Nlost: 7
+omega: 238091
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9984
+Nlost: 12
+omega: 238064
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9983
+Nlost: 13
+omega: 234671
+Ntraj: 10000
+Nfree: 3
+Nscatter: 9979
+Nlost: 18
+omega: 236945
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9982
+Nlost: 17
+omega: 239756
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9989
+Nlost: 9
+omega: 236218
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9987
+Nlost: 9
+omega: 237453
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9987
+Nlost: 12
+omega: 234942
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9993
+Nlost: 6
+omega: 236499
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9985
+Nlost: 14
+omega: 237898
+CCS time: 1068.18 s
+--------------------------------------------------------
+average value of CCS = 237054 Ang^2
+error value of CCS = 462.902 Ang^2
+Total time: 1071.28 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 6co8.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  3.16993e+11  -3488.86  182563  }
+{  -3488.86  3.16993e+11  11107.4  }
+{  182563  11107.4  3.16993e+11  }
+Rotation matrix applied to molecule: 
+{  0.991446  -0.00165235  0.130504  }
+{  0.0138193  0.99972  -0.0191852  }
+{  -0.130436  0.0208245  0.991192  }
+Molecule radius: 235.768 Ang 
+orientation time of molecule target: 2.68559 s
+target mass: 1.12678e+07 amu
+gas mass: 4.0026 amu
+reduce mass: 4.0026 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 235.74  235.713  235.768  Ang
+Initial axis length: 285.75  285.723  285.778  Ang
+Ellipsoid axis length: 285.8  285.773  285.828  Ang
+ellipsoid calculation time: 0.0429844s
+maximal impact parameter: 285.828 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 110592
+Nx: 48 Ny: 48 Nz: 48
+Filled cells: 17880
+Empty cells: 92712
+Average atoms per cell: 88.1783
+Maximum atoms per cell: 206
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 576.48 Ang
+ly: 576.48 Ang
+lz: 576.48 Ang
+linked-cell calculation time: 0.380405 s
+outside cell simulation: 135088950
+position: 744662 -1.83294e+06 -5.9662e+06
+outside cell simulation: 363490
+position: 1494.19 5285.44 2427.75
+outside cell simulation: -87723849
+position: -476704 910471 402567
+outside cell simulation: 458566
+position: 2089.53 781.382 4588.79
+outside cell simulation: 138595
+position: 439.121 -223.668 1096.81
+outside cell simulation: 319577066
+position: 1.67481e+06 -478317 1.64761e+06
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9991
+Nlost: 7
+omega: 238091
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9984
+Nlost: 12
+omega: 238064
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9983
+Nlost: 13
+omega: 234671
+Ntraj: 10000
+Nfree: 3
+Nscatter: 9979
+Nlost: 18
+omega: 236945
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9982
+Nlost: 17
+omega: 239756
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9989
+Nlost: 9
+omega: 236218
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9987
+Nlost: 9
+omega: 237453
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9987
+Nlost: 12
+omega: 234942
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9993
+Nlost: 6
+omega: 236499
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9985
+Nlost: 14
+omega: 237898
+CCS time: 1068.52 s
+--------------------------------------------------------
+average value of CCS = 237054 Ang^2
+error value of CCS = 462.902 Ang^2
+Total time: 1071.63 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 6co8.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  3.16993e+11  -3488.86  182563  }
+{  -3488.86  3.16993e+11  11107.4  }
+{  182563  11107.4  3.16993e+11  }
+Rotation matrix applied to molecule: 
+{  0.991446  -0.00165235  0.130504  }
+{  0.0138193  0.99972  -0.0191852  }
+{  -0.130436  0.0208245  0.991192  }
+Molecule radius: 235.768 Ang 
+orientation time of molecule target: 2.71776 s
+target mass: 1.12678e+07 amu
+gas mass: 4.0026 amu
+reduce mass: 4.0026 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 235.74  235.713  235.768  Ang
+Initial axis length: 285.75  285.723  285.778  Ang
+Ellipsoid axis length: 285.8  285.773  285.828  Ang
+ellipsoid calculation time: 0.0429567s
+maximal impact parameter: 285.828 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 110592
+Nx: 48 Ny: 48 Nz: 48
+Filled cells: 17880
+Empty cells: 92712
+Average atoms per cell: 88.1783
+Maximum atoms per cell: 206
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 576.48 Ang
+ly: 576.48 Ang
+lz: 576.48 Ang
+linked-cell calculation time: 0.380027 s
+outside cell simulation: 135088950
+position: 744662 -1.83294e+06 -5.9662e+06
+outside cell simulation: 363490
+position: 1494.19 5285.44 2427.75
+outside cell simulation: -87723849
+position: -476704 910471 402567
+outside cell simulation: 458566
+position: 2089.53 781.382 4588.79
+outside cell simulation: 138595
+position: 439.121 -223.668 1096.81
+outside cell simulation: 319577066
+position: 1.67481e+06 -478317 1.64761e+06
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9991
+Nlost: 7
+omega: 238091
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9984
+Nlost: 12
+omega: 238064
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9983
+Nlost: 13
+omega: 234671
+Ntraj: 10000
+Nfree: 3
+Nscatter: 9979
+Nlost: 18
+omega: 236945
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9982
+Nlost: 17
+omega: 239756
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9989
+Nlost: 9
+omega: 236218
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9987
+Nlost: 9
+omega: 237453
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9987
+Nlost: 12
+omega: 234942
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9993
+Nlost: 6
+omega: 236499
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9985
+Nlost: 14
+omega: 237898
+CCS time: 2127.95 s
+--------------------------------------------------------
+average value of CCS = 237054 Ang^2
+error value of CCS = 462.902 Ang^2
+Total time: 2131.09 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 6co8.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  3.16993e+11  -3488.86  182563  }
+{  -3488.86  3.16993e+11  11107.4  }
+{  182563  11107.4  3.16993e+11  }
+Rotation matrix applied to molecule: 
+{  0.991446  -0.00165235  0.130504  }
+{  0.0138193  0.99972  -0.0191852  }
+{  -0.130436  0.0208245  0.991192  }
+Molecule radius: 235.768 Ang 
+orientation time of molecule target: 2.61369 s
+target mass: 1.12678e+07 amu
+gas mass: 4.0026 amu
+reduce mass: 4.0026 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 235.74  235.713  235.768  Ang
+Initial axis length: 285.75  285.723  285.778  Ang
+Ellipsoid axis length: 285.8  285.773  285.828  Ang
+ellipsoid calculation time: 0.0429834s
+maximal impact parameter: 285.828 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 110592
+Nx: 48 Ny: 48 Nz: 48
+Filled cells: 17880
+Empty cells: 92712
+Average atoms per cell: 88.1783
+Maximum atoms per cell: 206
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 576.48 Ang
+ly: 576.48 Ang
+lz: 576.48 Ang
+linked-cell calculation time: 0.378408 s
+outside cell simulation: 135088950
+position: 744662 -1.83294e+06 -5.9662e+06
+outside cell simulation: 363490
+position: 1494.19 5285.44 2427.75
+outside cell simulation: -87723849
+position: -476704 910471 402567
+outside cell simulation: 458566
+position: 2089.53 781.382 4588.79
+outside cell simulation: 138595
+position: 439.121 -223.668 1096.81
+outside cell simulation: 319577066
+position: 1.67481e+06 -478317 1.64761e+06
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9991
+Nlost: 7
+omega: 238091
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9984
+Nlost: 12
+omega: 238064
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9983
+Nlost: 13
+omega: 234671
+Ntraj: 10000
+Nfree: 3
+Nscatter: 9979
+Nlost: 18
+omega: 236945
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9982
+Nlost: 17
+omega: 239756
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9989
+Nlost: 9
+omega: 236218
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9987
+Nlost: 9
+omega: 237453
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9987
+Nlost: 12
+omega: 234942
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9993
+Nlost: 6
+omega: 236499
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9985
+Nlost: 14
+omega: 237898
+CCS time: 2128.68 s
+--------------------------------------------------------
+average value of CCS = 237054 Ang^2
+error value of CCS = 462.902 Ang^2
+Total time: 2131.72 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 6co8.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  3.16993e+11  -3488.86  182563  }
+{  -3488.86  3.16993e+11  11107.4  }
+{  182563  11107.4  3.16993e+11  }
+Rotation matrix applied to molecule: 
+{  0.991446  -0.00165235  0.130504  }
+{  0.0138193  0.99972  -0.0191852  }
+{  -0.130436  0.0208245  0.991192  }
+Molecule radius: 235.768 Ang 
+orientation time of molecule target: 2.70306 s
+target mass: 1.12678e+07 amu
+gas mass: 4.0026 amu
+reduce mass: 4.0026 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 235.74  235.713  235.768  Ang
+Initial axis length: 285.75  285.723  285.778  Ang
+Ellipsoid axis length: 285.8  285.773  285.828  Ang
+ellipsoid calculation time: 0.0429504s
+maximal impact parameter: 285.828 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 110592
+Nx: 48 Ny: 48 Nz: 48
+Filled cells: 17880
+Empty cells: 92712
+Average atoms per cell: 88.1783
+Maximum atoms per cell: 206
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 576.48 Ang
+ly: 576.48 Ang
+lz: 576.48 Ang
+linked-cell calculation time: 0.381289 s
+outside cell simulation: 135088950
+position: 744662 -1.83294e+06 -5.9662e+06
+outside cell simulation: 363490
+position: 1494.19 5285.44 2427.75
+outside cell simulation: -87723849
+position: -476704 910471 402567
+outside cell simulation: 458566
+position: 2089.53 781.382 4588.79
+outside cell simulation: 138595
+position: 439.121 -223.668 1096.81
+outside cell simulation: 319577066
+position: 1.67481e+06 -478317 1.64761e+06
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9991
+Nlost: 7
+omega: 238091
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9984
+Nlost: 12
+omega: 238064
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9983
+Nlost: 13
+omega: 234671
+Ntraj: 10000
+Nfree: 3
+Nscatter: 9979
+Nlost: 18
+omega: 236945
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9982
+Nlost: 17
+omega: 239756
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9989
+Nlost: 9
+omega: 236218
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9987
+Nlost: 9
+omega: 237453
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9987
+Nlost: 12
+omega: 234942
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9993
+Nlost: 6
+omega: 236499
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9985
+Nlost: 14
+omega: 237898
+CCS time: 2129.2 s
+--------------------------------------------------------
+average value of CCS = 237054 Ang^2
+error value of CCS = 462.902 Ang^2
+Total time: 2132.33 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 6co8.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  3.16993e+11  -3488.86  182563  }
+{  -3488.86  3.16993e+11  11107.4  }
+{  182563  11107.4  3.16993e+11  }
+Rotation matrix applied to molecule: 
+{  0.991446  -0.00165235  0.130504  }
+{  0.0138193  0.99972  -0.0191852  }
+{  -0.130436  0.0208245  0.991192  }
+Molecule radius: 235.768 Ang 
+orientation time of molecule target: 2.70523 s
+target mass: 1.12678e+07 amu
+gas mass: 4.0026 amu
+reduce mass: 4.0026 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 235.74  235.713  235.768  Ang
+Initial axis length: 285.75  285.723  285.778  Ang
+Ellipsoid axis length: 285.8  285.773  285.828  Ang
+ellipsoid calculation time: 0.0429498s
+maximal impact parameter: 285.828 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 110592
+Nx: 48 Ny: 48 Nz: 48
+Filled cells: 17880
+Empty cells: 92712
+Average atoms per cell: 88.1783
+Maximum atoms per cell: 206
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 576.48 Ang
+ly: 576.48 Ang
+lz: 576.48 Ang
+linked-cell calculation time: 0.379342 s
+outside cell simulation: 135088950
+position: 744662 -1.83294e+06 -5.9662e+06
+outside cell simulation: 363490
+position: 1494.19 5285.44 2427.75
+outside cell simulation: -87723849
+position: -476704 910471 402567
+outside cell simulation: 458566
+position: 2089.53 781.382 4588.79
+outside cell simulation: 138595
+position: 439.121 -223.668 1096.81
+outside cell simulation: 319577066
+position: 1.67481e+06 -478317 1.64761e+06
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9991
+Nlost: 7
+omega: 238091
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9984
+Nlost: 12
+omega: 238064
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9983
+Nlost: 13
+omega: 234671
+Ntraj: 10000
+Nfree: 3
+Nscatter: 9979
+Nlost: 18
+omega: 236945
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9982
+Nlost: 17
+omega: 239756
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9989
+Nlost: 9
+omega: 236218
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9987
+Nlost: 9
+omega: 237453
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9987
+Nlost: 12
+omega: 234942
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9993
+Nlost: 6
+omega: 236499
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9985
+Nlost: 14
+omega: 237898
+CCS time: 2127.89 s
+--------------------------------------------------------
+average value of CCS = 237054 Ang^2
+error value of CCS = 462.902 Ang^2
+Total time: 2131.02 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 6co8.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  3.16993e+11  -3488.86  182563  }
+{  -3488.86  3.16993e+11  11107.4  }
+{  182563  11107.4  3.16993e+11  }
+Rotation matrix applied to molecule: 
+{  0.991446  -0.00165235  0.130504  }
+{  0.0138193  0.99972  -0.0191852  }
+{  -0.130436  0.0208245  0.991192  }
+Molecule radius: 235.768 Ang 
+orientation time of molecule target: 2.69766 s
+target mass: 1.12678e+07 amu
+gas mass: 4.0026 amu
+reduce mass: 4.0026 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 235.74  235.713  235.768  Ang
+Initial axis length: 285.75  285.723  285.778  Ang
+Ellipsoid axis length: 285.8  285.773  285.828  Ang
+ellipsoid calculation time: 0.0429509s
+maximal impact parameter: 285.828 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 110592
+Nx: 48 Ny: 48 Nz: 48
+Filled cells: 17880
+Empty cells: 92712
+Average atoms per cell: 88.1783
+Maximum atoms per cell: 206
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 576.48 Ang
+ly: 576.48 Ang
+lz: 576.48 Ang
+linked-cell calculation time: 0.381034 s
+outside cell simulation: 135088950
+position: 744662 -1.83294e+06 -5.9662e+06
+outside cell simulation: 363490
+position: 1494.19 5285.44 2427.75
+outside cell simulation: -87723849
+position: -476704 910471 402567
+outside cell simulation: 458566
+position: 2089.53 781.382 4588.79
+outside cell simulation: 138595
+position: 439.121 -223.668 1096.81
+outside cell simulation: 319577066
+position: 1.67481e+06 -478317 1.64761e+06
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9991
+Nlost: 7
+omega: 238091
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9984
+Nlost: 12
+omega: 238064
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9983
+Nlost: 13
+omega: 234671
+Ntraj: 10000
+Nfree: 3
+Nscatter: 9979
+Nlost: 18
+omega: 236945
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9982
+Nlost: 17
+omega: 239756
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9989
+Nlost: 9
+omega: 236218
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9987
+Nlost: 9
+omega: 237453
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9987
+Nlost: 12
+omega: 234942
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9993
+Nlost: 6
+omega: 236499
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9985
+Nlost: 14
+omega: 237898
+CCS time: 2129.66 s
+--------------------------------------------------------
+average value of CCS = 237054 Ang^2
+error value of CCS = 462.902 Ang^2
+Total time: 2132.78 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 6co8.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  3.16993e+11  -3488.86  182563  }
+{  -3488.86  3.16993e+11  11107.4  }
+{  182563  11107.4  3.16993e+11  }
+Rotation matrix applied to molecule: 
+{  0.991446  -0.00165235  0.130504  }
+{  0.0138193  0.99972  -0.0191852  }
+{  -0.130436  0.0208245  0.991192  }
+Molecule radius: 235.768 Ang 
+orientation time of molecule target: 2.69052 s
+target mass: 1.12678e+07 amu
+gas mass: 4.0026 amu
+reduce mass: 4.0026 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 235.74  235.713  235.768  Ang
+Initial axis length: 285.75  285.723  285.778  Ang
+Ellipsoid axis length: 285.8  285.773  285.828  Ang
+ellipsoid calculation time: 0.0429544s
+maximal impact parameter: 285.828 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 110592
+Nx: 48 Ny: 48 Nz: 48
+Filled cells: 17880
+Empty cells: 92712
+Average atoms per cell: 88.1783
+Maximum atoms per cell: 206
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 576.48 Ang
+ly: 576.48 Ang
+lz: 576.48 Ang
+linked-cell calculation time: 0.382113 s
+outside cell simulation: 135088950
+position: 744662 -1.83294e+06 -5.9662e+06
+outside cell simulation: 363490
+position: 1494.19 5285.44 2427.75
+outside cell simulation: -87723849
+position: -476704 910471 402567
+outside cell simulation: 458566
+position: 2089.53 781.382 4588.79
+outside cell simulation: 138595
+position: 439.121 -223.668 1096.81
+outside cell simulation: 319577066
+position: 1.67481e+06 -478317 1.64761e+06
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9991
+Nlost: 7
+omega: 238091
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9984
+Nlost: 12
+omega: 238064
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9983
+Nlost: 13
+omega: 234671
+Ntraj: 10000
+Nfree: 3
+Nscatter: 9979
+Nlost: 18
+omega: 236945
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9982
+Nlost: 17
+omega: 239756
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9989
+Nlost: 9
+omega: 236218
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9987
+Nlost: 9
+omega: 237453
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9987
+Nlost: 12
+omega: 234942
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9993
+Nlost: 6
+omega: 236499
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9985
+Nlost: 14
+omega: 237898
+CCS time: 2128.09 s
+--------------------------------------------------------
+average value of CCS = 237054 Ang^2
+error value of CCS = 462.902 Ang^2
+Total time: 2131.2 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 6co8.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  3.16993e+11  -3488.86  182563  }
+{  -3488.86  3.16993e+11  11107.4  }
+{  182563  11107.4  3.16993e+11  }
+Rotation matrix applied to molecule: 
+{  0.991446  -0.00165235  0.130504  }
+{  0.0138193  0.99972  -0.0191852  }
+{  -0.130436  0.0208245  0.991192  }
+Molecule radius: 235.768 Ang 
+orientation time of molecule target: 2.62638 s
+target mass: 1.12678e+07 amu
+gas mass: 4.0026 amu
+reduce mass: 4.0026 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 235.74  235.713  235.768  Ang
+Initial axis length: 285.75  285.723  285.778  Ang
+Ellipsoid axis length: 285.8  285.773  285.828  Ang
+ellipsoid calculation time: 0.0429507s
+maximal impact parameter: 285.828 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 110592
+Nx: 48 Ny: 48 Nz: 48
+Filled cells: 17880
+Empty cells: 92712
+Average atoms per cell: 88.1783
+Maximum atoms per cell: 206
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 576.48 Ang
+ly: 576.48 Ang
+lz: 576.48 Ang
+linked-cell calculation time: 0.382046 s
+outside cell simulation: 135088950
+position: 744662 -1.83294e+06 -5.9662e+06
+outside cell simulation: 363490
+position: 1494.19 5285.44 2427.75
+outside cell simulation: -87723849
+position: -476704 910471 402567
+outside cell simulation: 458566
+position: 2089.53 781.382 4588.79
+outside cell simulation: 138595
+position: 439.121 -223.668 1096.81
+outside cell simulation: 319577066
+position: 1.67481e+06 -478317 1.64761e+06
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9991
+Nlost: 7
+omega: 238091
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9984
+Nlost: 12
+omega: 238064
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9983
+Nlost: 13
+omega: 234671
+Ntraj: 10000
+Nfree: 3
+Nscatter: 9979
+Nlost: 18
+omega: 236945
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9982
+Nlost: 17
+omega: 239756
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9989
+Nlost: 9
+omega: 236218
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9987
+Nlost: 9
+omega: 237453
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9987
+Nlost: 12
+omega: 234942
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9993
+Nlost: 6
+omega: 236499
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9985
+Nlost: 14
+omega: 237898
+CCS time: 2129.3 s
+--------------------------------------------------------
+average value of CCS = 237054 Ang^2
+error value of CCS = 462.902 Ang^2
+Total time: 2132.35 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 6co8.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  3.16993e+11  -3488.86  182563  }
+{  -3488.86  3.16993e+11  11107.4  }
+{  182563  11107.4  3.16993e+11  }
+Rotation matrix applied to molecule: 
+{  0.991446  -0.00165235  0.130504  }
+{  0.0138193  0.99972  -0.0191852  }
+{  -0.130436  0.0208245  0.991192  }
+Molecule radius: 235.768 Ang 
+orientation time of molecule target: 2.70397 s
+target mass: 1.12678e+07 amu
+gas mass: 4.0026 amu
+reduce mass: 4.0026 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 235.74  235.713  235.768  Ang
+Initial axis length: 285.75  285.723  285.778  Ang
+Ellipsoid axis length: 285.8  285.773  285.828  Ang
+ellipsoid calculation time: 0.0429447s
+maximal impact parameter: 285.828 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 110592
+Nx: 48 Ny: 48 Nz: 48
+Filled cells: 17880
+Empty cells: 92712
+Average atoms per cell: 88.1783
+Maximum atoms per cell: 206
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 576.48 Ang
+ly: 576.48 Ang
+lz: 576.48 Ang
+linked-cell calculation time: 0.381421 s
+outside cell simulation: 135088950
+position: 744662 -1.83294e+06 -5.9662e+06
+outside cell simulation: 363490
+position: 1494.19 5285.44 2427.75
+outside cell simulation: -87723849
+position: -476704 910471 402567
+outside cell simulation: 458566
+position: 2089.53 781.382 4588.79
+outside cell simulation: 138595
+position: 439.121 -223.668 1096.81
+outside cell simulation: 319577066
+position: 1.67481e+06 -478317 1.64761e+06
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9991
+Nlost: 7
+omega: 238091
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9984
+Nlost: 12
+omega: 238064
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9983
+Nlost: 13
+omega: 234671
+Ntraj: 10000
+Nfree: 3
+Nscatter: 9979
+Nlost: 18
+omega: 236945
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9982
+Nlost: 17
+omega: 239756
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9989
+Nlost: 9
+omega: 236218
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9987
+Nlost: 9
+omega: 237453
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9987
+Nlost: 12
+omega: 234942
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9993
+Nlost: 6
+omega: 236499
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9985
+Nlost: 14
+omega: 237898
+CCS time: 2128.14 s
+--------------------------------------------------------
+average value of CCS = 237054 Ang^2
+error value of CCS = 462.902 Ang^2
+Total time: 2131.27 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 6co8.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  3.16993e+11  -3488.86  182563  }
+{  -3488.86  3.16993e+11  11107.4  }
+{  182563  11107.4  3.16993e+11  }
+Rotation matrix applied to molecule: 
+{  0.991446  -0.00165235  0.130504  }
+{  0.0138193  0.99972  -0.0191852  }
+{  -0.130436  0.0208245  0.991192  }
+Molecule radius: 235.768 Ang 
+orientation time of molecule target: 2.69226 s
+target mass: 1.12678e+07 amu
+gas mass: 4.0026 amu
+reduce mass: 4.0026 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 235.74  235.713  235.768  Ang
+Initial axis length: 285.75  285.723  285.778  Ang
+Ellipsoid axis length: 285.8  285.773  285.828  Ang
+ellipsoid calculation time: 0.0429459s
+maximal impact parameter: 285.828 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 110592
+Nx: 48 Ny: 48 Nz: 48
+Filled cells: 17880
+Empty cells: 92712
+Average atoms per cell: 88.1783
+Maximum atoms per cell: 206
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 576.48 Ang
+ly: 576.48 Ang
+lz: 576.48 Ang
+linked-cell calculation time: 0.380817 s
+outside cell simulation: 135088950
+position: 744662 -1.83294e+06 -5.9662e+06
+outside cell simulation: 363490
+position: 1494.19 5285.44 2427.75
+outside cell simulation: -87723849
+position: -476704 910471 402567
+outside cell simulation: 458566
+position: 2089.53 781.382 4588.79
+outside cell simulation: 138595
+position: 439.121 -223.668 1096.81
+outside cell simulation: 319577066
+position: 1.67481e+06 -478317 1.64761e+06
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9991
+Nlost: 7
+omega: 238091
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9984
+Nlost: 12
+omega: 238064
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9983
+Nlost: 13
+omega: 234671
+Ntraj: 10000
+Nfree: 3
+Nscatter: 9979
+Nlost: 18
+omega: 236945
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9982
+Nlost: 17
+omega: 239756
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9989
+Nlost: 9
+omega: 236218
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9987
+Nlost: 9
+omega: 237453
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9987
+Nlost: 12
+omega: 234942
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9993
+Nlost: 6
+omega: 236499
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9985
+Nlost: 14
+omega: 237898
+CCS time: 2126.44 s
+--------------------------------------------------------
+average value of CCS = 237054 Ang^2
+error value of CCS = 462.902 Ang^2
+Total time: 2129.55 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 6co8.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  3.16993e+11  -3488.86  182563  }
+{  -3488.86  3.16993e+11  11107.4  }
+{  182563  11107.4  3.16993e+11  }
+Rotation matrix applied to molecule: 
+{  0.991446  -0.00165235  0.130504  }
+{  0.0138193  0.99972  -0.0191852  }
+{  -0.130436  0.0208245  0.991192  }
+Molecule radius: 235.768 Ang 
+orientation time of molecule target: 2.62783 s
+target mass: 1.12678e+07 amu
+gas mass: 4.0026 amu
+reduce mass: 4.0026 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 235.74  235.713  235.768  Ang
+Initial axis length: 285.75  285.723  285.778  Ang
+Ellipsoid axis length: 285.8  285.773  285.828  Ang
+ellipsoid calculation time: 0.0429734s
+maximal impact parameter: 285.828 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 110592
+Nx: 48 Ny: 48 Nz: 48
+Filled cells: 17880
+Empty cells: 92712
+Average atoms per cell: 88.1783
+Maximum atoms per cell: 206
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 576.48 Ang
+ly: 576.48 Ang
+lz: 576.48 Ang
+linked-cell calculation time: 0.38213 s
+outside cell simulation: 135088950
+position: 744662 -1.83294e+06 -5.9662e+06
+outside cell simulation: 363490
+position: 1494.19 5285.44 2427.75
+outside cell simulation: -87723849
+position: -476704 910471 402567
+outside cell simulation: 458566
+position: 2089.53 781.382 4588.79
+outside cell simulation: 138595
+position: 439.121 -223.668 1096.81
+outside cell simulation: 319577066
+position: 1.67481e+06 -478317 1.64761e+06
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9991
+Nlost: 7
+omega: 238091
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9984
+Nlost: 12
+omega: 238064
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9983
+Nlost: 13
+omega: 234671
+Ntraj: 10000
+Nfree: 3
+Nscatter: 9979
+Nlost: 18
+omega: 236945
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9982
+Nlost: 17
+omega: 239756
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9989
+Nlost: 9
+omega: 236218
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9987
+Nlost: 9
+omega: 237453
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9987
+Nlost: 12
+omega: 234942
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9993
+Nlost: 6
+omega: 236499
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9985
+Nlost: 14
+omega: 237898
+CCS time: 2126.61 s
+--------------------------------------------------------
+average value of CCS = 237054 Ang^2
+error value of CCS = 462.902 Ang^2
+Total time: 2129.67 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 6co8.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  3.16993e+11  -3488.86  182563  }
+{  -3488.86  3.16993e+11  11107.4  }
+{  182563  11107.4  3.16993e+11  }
+Rotation matrix applied to molecule: 
+{  0.991446  -0.00165235  0.130504  }
+{  0.0138193  0.99972  -0.0191852  }
+{  -0.130436  0.0208245  0.991192  }
+Molecule radius: 235.768 Ang 
+orientation time of molecule target: 2.7025 s
+target mass: 1.12678e+07 amu
+gas mass: 4.0026 amu
+reduce mass: 4.0026 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 235.74  235.713  235.768  Ang
+Initial axis length: 285.75  285.723  285.778  Ang
+Ellipsoid axis length: 285.8  285.773  285.828  Ang
+ellipsoid calculation time: 0.042962s
+maximal impact parameter: 285.828 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 110592
+Nx: 48 Ny: 48 Nz: 48
+Filled cells: 17880
+Empty cells: 92712
+Average atoms per cell: 88.1783
+Maximum atoms per cell: 206
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 576.48 Ang
+ly: 576.48 Ang
+lz: 576.48 Ang
+linked-cell calculation time: 0.382823 s
+outside cell simulation: 135088950
+position: 744662 -1.83294e+06 -5.9662e+06
+outside cell simulation: 363490
+position: 1494.19 5285.44 2427.75
+outside cell simulation: -87723849
+position: -476704 910471 402567
+outside cell simulation: 458566
+position: 2089.53 781.382 4588.79
+outside cell simulation: 138595
+position: 439.121 -223.668 1096.81
+outside cell simulation: 319577066
+position: 1.67481e+06 -478317 1.64761e+06
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9991
+Nlost: 7
+omega: 238091
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9984
+Nlost: 12
+omega: 238064
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9983
+Nlost: 13
+omega: 234671
+Ntraj: 10000
+Nfree: 3
+Nscatter: 9979
+Nlost: 18
+omega: 236945
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9982
+Nlost: 17
+omega: 239756
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9989
+Nlost: 9
+omega: 236218
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9987
+Nlost: 9
+omega: 237453
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9987
+Nlost: 12
+omega: 234942
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9993
+Nlost: 6
+omega: 236499
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9985
+Nlost: 14
+omega: 237898
+CCS time: 4245.06 s
+--------------------------------------------------------
+average value of CCS = 237054 Ang^2
+error value of CCS = 462.902 Ang^2
+Total time: 4248.19 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 6co8.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  3.16993e+11  -3488.86  182563  }
+{  -3488.86  3.16993e+11  11107.4  }
+{  182563  11107.4  3.16993e+11  }
+Rotation matrix applied to molecule: 
+{  0.991446  -0.00165235  0.130504  }
+{  0.0138193  0.99972  -0.0191852  }
+{  -0.130436  0.0208245  0.991192  }
+Molecule radius: 235.768 Ang 
+orientation time of molecule target: 2.62363 s
+target mass: 1.12678e+07 amu
+gas mass: 4.0026 amu
+reduce mass: 4.0026 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 235.74  235.713  235.768  Ang
+Initial axis length: 285.75  285.723  285.778  Ang
+Ellipsoid axis length: 285.8  285.773  285.828  Ang
+ellipsoid calculation time: 0.0429534s
+maximal impact parameter: 285.828 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 110592
+Nx: 48 Ny: 48 Nz: 48
+Filled cells: 17880
+Empty cells: 92712
+Average atoms per cell: 88.1783
+Maximum atoms per cell: 206
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 576.48 Ang
+ly: 576.48 Ang
+lz: 576.48 Ang
+linked-cell calculation time: 0.382541 s
+outside cell simulation: 135088950
+position: 744662 -1.83294e+06 -5.9662e+06
+outside cell simulation: 363490
+position: 1494.19 5285.44 2427.75
+outside cell simulation: -87723849
+position: -476704 910471 402567
+outside cell simulation: 458566
+position: 2089.53 781.382 4588.79
+outside cell simulation: 138595
+position: 439.121 -223.668 1096.81
+outside cell simulation: 319577066
+position: 1.67481e+06 -478317 1.64761e+06
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9991
+Nlost: 7
+omega: 238091
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9984
+Nlost: 12
+omega: 238064
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9983
+Nlost: 13
+omega: 234671
+Ntraj: 10000
+Nfree: 3
+Nscatter: 9979
+Nlost: 18
+omega: 236945
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9982
+Nlost: 17
+omega: 239756
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9989
+Nlost: 9
+omega: 236218
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9987
+Nlost: 9
+omega: 237453
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9987
+Nlost: 12
+omega: 234942
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9993
+Nlost: 6
+omega: 236499
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9985
+Nlost: 14
+omega: 237898
+CCS time: 4277.23 s
+--------------------------------------------------------
+average value of CCS = 237054 Ang^2
+error value of CCS = 462.902 Ang^2
+Total time: 4280.28 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 6co8.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  3.16993e+11  -3488.86  182563  }
+{  -3488.86  3.16993e+11  11107.4  }
+{  182563  11107.4  3.16993e+11  }
+Rotation matrix applied to molecule: 
+{  0.991446  -0.00165235  0.130504  }
+{  0.0138193  0.99972  -0.0191852  }
+{  -0.130436  0.0208245  0.991192  }
+Molecule radius: 235.768 Ang 
+orientation time of molecule target: 2.62427 s
+target mass: 1.12678e+07 amu
+gas mass: 4.0026 amu
+reduce mass: 4.0026 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 235.74  235.713  235.768  Ang
+Initial axis length: 285.75  285.723  285.778  Ang
+Ellipsoid axis length: 285.8  285.773  285.828  Ang
+ellipsoid calculation time: 0.0429536s
+maximal impact parameter: 285.828 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 110592
+Nx: 48 Ny: 48 Nz: 48
+Filled cells: 17880
+Empty cells: 92712
+Average atoms per cell: 88.1783
+Maximum atoms per cell: 206
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 576.48 Ang
+ly: 576.48 Ang
+lz: 576.48 Ang
+linked-cell calculation time: 0.381675 s
+outside cell simulation: 135088950
+position: 744662 -1.83294e+06 -5.9662e+06
+outside cell simulation: 363490
+position: 1494.19 5285.44 2427.75
+outside cell simulation: -87723849
+position: -476704 910471 402567
+outside cell simulation: 458566
+position: 2089.53 781.382 4588.79
+outside cell simulation: 138595
+position: 439.121 -223.668 1096.81
+outside cell simulation: 319577066
+position: 1.67481e+06 -478317 1.64761e+06
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9991
+Nlost: 7
+omega: 238091
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9984
+Nlost: 12
+omega: 238064
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9983
+Nlost: 13
+omega: 234671
+Ntraj: 10000
+Nfree: 3
+Nscatter: 9979
+Nlost: 18
+omega: 236945
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9982
+Nlost: 17
+omega: 239756
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9989
+Nlost: 9
+omega: 236218
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9987
+Nlost: 9
+omega: 237453
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9987
+Nlost: 12
+omega: 234942
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9993
+Nlost: 6
+omega: 236499
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9985
+Nlost: 14
+omega: 237898
+CCS time: 4255.89 s
+--------------------------------------------------------
+average value of CCS = 237054 Ang^2
+error value of CCS = 462.902 Ang^2
+Total time: 4258.94 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 6co8.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  3.16993e+11  -3488.86  182563  }
+{  -3488.86  3.16993e+11  11107.4  }
+{  182563  11107.4  3.16993e+11  }
+Rotation matrix applied to molecule: 
+{  0.991446  -0.00165235  0.130504  }
+{  0.0138193  0.99972  -0.0191852  }
+{  -0.130436  0.0208245  0.991192  }
+Molecule radius: 235.768 Ang 
+orientation time of molecule target: 2.62709 s
+target mass: 1.12678e+07 amu
+gas mass: 4.0026 amu
+reduce mass: 4.0026 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 235.74  235.713  235.768  Ang
+Initial axis length: 285.75  285.723  285.778  Ang
+Ellipsoid axis length: 285.8  285.773  285.828  Ang
+ellipsoid calculation time: 0.0429614s
+maximal impact parameter: 285.828 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 110592
+Nx: 48 Ny: 48 Nz: 48
+Filled cells: 17880
+Empty cells: 92712
+Average atoms per cell: 88.1783
+Maximum atoms per cell: 206
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 576.48 Ang
+ly: 576.48 Ang
+lz: 576.48 Ang
+linked-cell calculation time: 0.381025 s
+outside cell simulation: 135088950
+position: 744662 -1.83294e+06 -5.9662e+06
+outside cell simulation: 363490
+position: 1494.19 5285.44 2427.75
+outside cell simulation: -87723849
+position: -476704 910471 402567
+outside cell simulation: 458566
+position: 2089.53 781.382 4588.79
+outside cell simulation: 138595
+position: 439.121 -223.668 1096.81
+outside cell simulation: 319577066
+position: 1.67481e+06 -478317 1.64761e+06
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9991
+Nlost: 7
+omega: 238091
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9984
+Nlost: 12
+omega: 238064
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9983
+Nlost: 13
+omega: 234671
+Ntraj: 10000
+Nfree: 3
+Nscatter: 9979
+Nlost: 18
+omega: 236945
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9982
+Nlost: 17
+omega: 239756
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9989
+Nlost: 9
+omega: 236218
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9987
+Nlost: 9
+omega: 237453
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9987
+Nlost: 12
+omega: 234942
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9993
+Nlost: 6
+omega: 236499
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9985
+Nlost: 14
+omega: 237898
+CCS time: 4261.95 s
+--------------------------------------------------------
+average value of CCS = 237054 Ang^2
+error value of CCS = 462.902 Ang^2
+Total time: 4265 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 6co8.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  3.16993e+11  -3488.86  182563  }
+{  -3488.86  3.16993e+11  11107.4  }
+{  182563  11107.4  3.16993e+11  }
+Rotation matrix applied to molecule: 
+{  0.991446  -0.00165235  0.130504  }
+{  0.0138193  0.99972  -0.0191852  }
+{  -0.130436  0.0208245  0.991192  }
+Molecule radius: 235.768 Ang 
+orientation time of molecule target: 2.6321 s
+target mass: 1.12678e+07 amu
+gas mass: 4.0026 amu
+reduce mass: 4.0026 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 235.74  235.713  235.768  Ang
+Initial axis length: 285.75  285.723  285.778  Ang
+Ellipsoid axis length: 285.8  285.773  285.828  Ang
+ellipsoid calculation time: 0.0429526s
+maximal impact parameter: 285.828 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 110592
+Nx: 48 Ny: 48 Nz: 48
+Filled cells: 17880
+Empty cells: 92712
+Average atoms per cell: 88.1783
+Maximum atoms per cell: 206
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 576.48 Ang
+ly: 576.48 Ang
+lz: 576.48 Ang
+linked-cell calculation time: 0.38185 s
+outside cell simulation: 135088950
+position: 744662 -1.83294e+06 -5.9662e+06
+outside cell simulation: 363490
+position: 1494.19 5285.44 2427.75
+outside cell simulation: -87723849
+position: -476704 910471 402567
+outside cell simulation: 458566
+position: 2089.53 781.382 4588.79
+outside cell simulation: 138595
+position: 439.121 -223.668 1096.81
+outside cell simulation: 319577066
+position: 1.67481e+06 -478317 1.64761e+06
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9991
+Nlost: 7
+omega: 238091
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9984
+Nlost: 12
+omega: 238064
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9983
+Nlost: 13
+omega: 234671
+Ntraj: 10000
+Nfree: 3
+Nscatter: 9979
+Nlost: 18
+omega: 236945
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9982
+Nlost: 17
+omega: 239756
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9989
+Nlost: 9
+omega: 236218
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9987
+Nlost: 9
+omega: 237453
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9987
+Nlost: 12
+omega: 234942
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9993
+Nlost: 6
+omega: 236499
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9985
+Nlost: 14
+omega: 237898
+CCS time: 4256.84 s
+--------------------------------------------------------
+average value of CCS = 237054 Ang^2
+error value of CCS = 462.902 Ang^2
+Total time: 4259.9 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 6co8.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  3.16993e+11  -3488.86  182563  }
+{  -3488.86  3.16993e+11  11107.4  }
+{  182563  11107.4  3.16993e+11  }
+Rotation matrix applied to molecule: 
+{  0.991446  -0.00165235  0.130504  }
+{  0.0138193  0.99972  -0.0191852  }
+{  -0.130436  0.0208245  0.991192  }
+Molecule radius: 235.768 Ang 
+orientation time of molecule target: 2.6211 s
+target mass: 1.12678e+07 amu
+gas mass: 4.0026 amu
+reduce mass: 4.0026 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 235.74  235.713  235.768  Ang
+Initial axis length: 285.75  285.723  285.778  Ang
+Ellipsoid axis length: 285.8  285.773  285.828  Ang
+ellipsoid calculation time: 0.0429266s
+maximal impact parameter: 285.828 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 110592
+Nx: 48 Ny: 48 Nz: 48
+Filled cells: 17880
+Empty cells: 92712
+Average atoms per cell: 88.1783
+Maximum atoms per cell: 206
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 576.48 Ang
+ly: 576.48 Ang
+lz: 576.48 Ang
+linked-cell calculation time: 0.382059 s
+outside cell simulation: 135088950
+position: 744662 -1.83294e+06 -5.9662e+06
+outside cell simulation: 363490
+position: 1494.19 5285.44 2427.75
+outside cell simulation: -87723849
+position: -476704 910471 402567
+outside cell simulation: 458566
+position: 2089.53 781.382 4588.79
+outside cell simulation: 138595
+position: 439.121 -223.668 1096.81
+outside cell simulation: 319577066
+position: 1.67481e+06 -478317 1.64761e+06
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9991
+Nlost: 7
+omega: 238091
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9984
+Nlost: 12
+omega: 238064
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9983
+Nlost: 13
+omega: 234671
+Ntraj: 10000
+Nfree: 3
+Nscatter: 9979
+Nlost: 18
+omega: 236945
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9982
+Nlost: 17
+omega: 239756
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9989
+Nlost: 9
+omega: 236218
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9987
+Nlost: 9
+omega: 237453
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9987
+Nlost: 12
+omega: 234942
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9993
+Nlost: 6
+omega: 236499
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9985
+Nlost: 14
+omega: 237898
+CCS time: 4253.14 s
+--------------------------------------------------------
+average value of CCS = 237054 Ang^2
+error value of CCS = 462.902 Ang^2
+Total time: 4256.19 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 6co8.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  3.16993e+11  -3488.86  182563  }
+{  -3488.86  3.16993e+11  11107.4  }
+{  182563  11107.4  3.16993e+11  }
+Rotation matrix applied to molecule: 
+{  0.991446  -0.00165235  0.130504  }
+{  0.0138193  0.99972  -0.0191852  }
+{  -0.130436  0.0208245  0.991192  }
+Molecule radius: 235.768 Ang 
+orientation time of molecule target: 2.62919 s
+target mass: 1.12678e+07 amu
+gas mass: 4.0026 amu
+reduce mass: 4.0026 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 235.74  235.713  235.768  Ang
+Initial axis length: 285.75  285.723  285.778  Ang
+Ellipsoid axis length: 285.8  285.773  285.828  Ang
+ellipsoid calculation time: 0.0429506s
+maximal impact parameter: 285.828 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 110592
+Nx: 48 Ny: 48 Nz: 48
+Filled cells: 17880
+Empty cells: 92712
+Average atoms per cell: 88.1783
+Maximum atoms per cell: 206
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 576.48 Ang
+ly: 576.48 Ang
+lz: 576.48 Ang
+linked-cell calculation time: 0.380156 s
+outside cell simulation: 135088950
+position: 744662 -1.83294e+06 -5.9662e+06
+outside cell simulation: 363490
+position: 1494.19 5285.44 2427.75
+outside cell simulation: -87723849
+position: -476704 910471 402567
+outside cell simulation: 458566
+position: 2089.53 781.382 4588.79
+outside cell simulation: 138595
+position: 439.121 -223.668 1096.81
+outside cell simulation: 319577066
+position: 1.67481e+06 -478317 1.64761e+06
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9991
+Nlost: 7
+omega: 238091
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9984
+Nlost: 12
+omega: 238064
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9983
+Nlost: 13
+omega: 234671
+Ntraj: 10000
+Nfree: 3
+Nscatter: 9979
+Nlost: 18
+omega: 236945
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9982
+Nlost: 17
+omega: 239756
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9989
+Nlost: 9
+omega: 236218
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9987
+Nlost: 9
+omega: 237453
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9987
+Nlost: 12
+omega: 234942
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9993
+Nlost: 6
+omega: 236499
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9985
+Nlost: 14
+omega: 237898
+CCS time: 4259.75 s
+--------------------------------------------------------
+average value of CCS = 237054 Ang^2
+error value of CCS = 462.902 Ang^2
+Total time: 4262.81 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 6co8.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  3.16993e+11  -3488.86  182563  }
+{  -3488.86  3.16993e+11  11107.4  }
+{  182563  11107.4  3.16993e+11  }
+Rotation matrix applied to molecule: 
+{  0.991446  -0.00165235  0.130504  }
+{  0.0138193  0.99972  -0.0191852  }
+{  -0.130436  0.0208245  0.991192  }
+Molecule radius: 235.768 Ang 
+orientation time of molecule target: 2.62291 s
+target mass: 1.12678e+07 amu
+gas mass: 4.0026 amu
+reduce mass: 4.0026 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 235.74  235.713  235.768  Ang
+Initial axis length: 285.75  285.723  285.778  Ang
+Ellipsoid axis length: 285.8  285.773  285.828  Ang
+ellipsoid calculation time: 0.0429612s
+maximal impact parameter: 285.828 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 110592
+Nx: 48 Ny: 48 Nz: 48
+Filled cells: 17880
+Empty cells: 92712
+Average atoms per cell: 88.1783
+Maximum atoms per cell: 206
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 576.48 Ang
+ly: 576.48 Ang
+lz: 576.48 Ang
+linked-cell calculation time: 0.381046 s
+outside cell simulation: 135088950
+position: 744662 -1.83294e+06 -5.9662e+06
+outside cell simulation: 363490
+position: 1494.19 5285.44 2427.75
+outside cell simulation: -87723849
+position: -476704 910471 402567
+outside cell simulation: 458566
+position: 2089.53 781.382 4588.79
+outside cell simulation: 138595
+position: 439.121 -223.668 1096.81
+outside cell simulation: 319577066
+position: 1.67481e+06 -478317 1.64761e+06
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9991
+Nlost: 7
+omega: 238091
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9984
+Nlost: 12
+omega: 238064
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9983
+Nlost: 13
+omega: 234671
+Ntraj: 10000
+Nfree: 3
+Nscatter: 9979
+Nlost: 18
+omega: 236945
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9982
+Nlost: 17
+omega: 239756
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9989
+Nlost: 9
+omega: 236218
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9987
+Nlost: 9
+omega: 237453
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9987
+Nlost: 12
+omega: 234942
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9993
+Nlost: 6
+omega: 236499
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9985
+Nlost: 14
+omega: 237898
+CCS time: 4260.11 s
+--------------------------------------------------------
+average value of CCS = 237054 Ang^2
+error value of CCS = 462.902 Ang^2
+Total time: 4263.16 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 6co8.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  3.16993e+11  -3488.86  182563  }
+{  -3488.86  3.16993e+11  11107.4  }
+{  182563  11107.4  3.16993e+11  }
+Rotation matrix applied to molecule: 
+{  0.991446  -0.00165235  0.130504  }
+{  0.0138193  0.99972  -0.0191852  }
+{  -0.130436  0.0208245  0.991192  }
+Molecule radius: 235.768 Ang 
+orientation time of molecule target: 2.62706 s
+target mass: 1.12678e+07 amu
+gas mass: 4.0026 amu
+reduce mass: 4.0026 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 235.74  235.713  235.768  Ang
+Initial axis length: 285.75  285.723  285.778  Ang
+Ellipsoid axis length: 285.8  285.773  285.828  Ang
+ellipsoid calculation time: 0.0429543s
+maximal impact parameter: 285.828 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 110592
+Nx: 48 Ny: 48 Nz: 48
+Filled cells: 17880
+Empty cells: 92712
+Average atoms per cell: 88.1783
+Maximum atoms per cell: 206
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 576.48 Ang
+ly: 576.48 Ang
+lz: 576.48 Ang
+linked-cell calculation time: 0.379516 s
+outside cell simulation: 135088950
+position: 744662 -1.83294e+06 -5.9662e+06
+outside cell simulation: 363490
+position: 1494.19 5285.44 2427.75
+outside cell simulation: -87723849
+position: -476704 910471 402567
+outside cell simulation: 458566
+position: 2089.53 781.382 4588.79
+outside cell simulation: 138595
+position: 439.121 -223.668 1096.81
+outside cell simulation: 319577066
+position: 1.67481e+06 -478317 1.64761e+06
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9991
+Nlost: 7
+omega: 238091
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9984
+Nlost: 12
+omega: 238064
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9983
+Nlost: 13
+omega: 234671
+Ntraj: 10000
+Nfree: 3
+Nscatter: 9979
+Nlost: 18
+omega: 236945
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9982
+Nlost: 17
+omega: 239756
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9989
+Nlost: 9
+omega: 236218
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9987
+Nlost: 9
+omega: 237453
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9987
+Nlost: 12
+omega: 234942
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9993
+Nlost: 6
+omega: 236499
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9985
+Nlost: 14
+omega: 237898
+CCS time: 4260.63 s
+--------------------------------------------------------
+average value of CCS = 237054 Ang^2
+error value of CCS = 462.902 Ang^2
+Total time: 4263.68 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 6co8.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  3.16993e+11  -3488.86  182563  }
+{  -3488.86  3.16993e+11  11107.4  }
+{  182563  11107.4  3.16993e+11  }
+Rotation matrix applied to molecule: 
+{  0.991446  -0.00165235  0.130504  }
+{  0.0138193  0.99972  -0.0191852  }
+{  -0.130436  0.0208245  0.991192  }
+Molecule radius: 235.768 Ang 
+orientation time of molecule target: 2.62206 s
+target mass: 1.12678e+07 amu
+gas mass: 4.0026 amu
+reduce mass: 4.0026 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 235.74  235.713  235.768  Ang
+Initial axis length: 285.75  285.723  285.778  Ang
+Ellipsoid axis length: 285.8  285.773  285.828  Ang
+ellipsoid calculation time: 0.0429623s
+maximal impact parameter: 285.828 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 110592
+Nx: 48 Ny: 48 Nz: 48
+Filled cells: 17880
+Empty cells: 92712
+Average atoms per cell: 88.1783
+Maximum atoms per cell: 206
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 576.48 Ang
+ly: 576.48 Ang
+lz: 576.48 Ang
+linked-cell calculation time: 0.382082 s
+outside cell simulation: 135088950
+position: 744662 -1.83294e+06 -5.9662e+06
+outside cell simulation: 363490
+position: 1494.19 5285.44 2427.75
+outside cell simulation: -87723849
+position: -476704 910471 402567
+outside cell simulation: 458566
+position: 2089.53 781.382 4588.79
+outside cell simulation: 138595
+position: 439.121 -223.668 1096.81
+outside cell simulation: 319577066
+position: 1.67481e+06 -478317 1.64761e+06
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9991
+Nlost: 7
+omega: 238091
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9984
+Nlost: 12
+omega: 238064
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9983
+Nlost: 13
+omega: 234671
+Ntraj: 10000
+Nfree: 3
+Nscatter: 9979
+Nlost: 18
+omega: 236945
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9982
+Nlost: 17
+omega: 239756
+Ntraj: 10000
+Nfree: 2
+Nscatter: 9989
+Nlost: 9
+omega: 236218
+Ntraj: 10000
+Nfree: 4
+Nscatter: 9987
+Nlost: 9
+omega: 237453
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9987
+Nlost: 12
+omega: 234942
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9993
+Nlost: 6
+omega: 236499
+Ntraj: 10000
+Nfree: 1
+Nscatter: 9985
+Nlost: 14
+omega: 237898
+CCS time: 4262.94 s
+--------------------------------------------------------
+average value of CCS = 237054 Ang^2
+error value of CCS = 462.902 Ang^2
+Total time: 4265.99 s
+Program finished...

@@ -1,0 +1,5600 @@
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 1ubq_charge_4_min.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  774050  -98727  -119273  }
+{  -98727  765481  -55190.9  }
+{  -119273  -55190.9  711486  }
+Rotation matrix applied to molecule: 
+{  0.797039  -0.460096  -0.391204  }
+{  0.592383  0.469553  0.654677  }
+{  -0.117523  -0.753546  0.646805  }
+Molecule radius: 22.0778 Ang 
+orientation time of molecule target: 0.00240713 s
+target mass: 8568.9 amu
+gas mass: 4.0026 amu
+reduce mass: 4.00073 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 13.373  14.2779  21.6306  Ang
+Initial axis length: 63.383  64.2879  71.6406  Ang
+Ellipsoid axis length: 64.833  65.7379  73.0906  Ang
+ellipsoid calculation time: 5.02765e-05s
+maximal impact parameter: 73.0906 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 1573
+Nx: 11 Ny: 11 Nz: 13
+Filled cells: 28
+Empty cells: 1545
+Average atoms per cell: 44.1071
+Maximum atoms per cell: 197
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 132.11 Ang
+ly: 132.11 Ang
+lz: 156.13 Ang
+linked-cell calculation time: 0.00190015 s
+Ntraj: 10000
+Nfree: 1438
+Nscatter: 8562
+Nlost: 0
+omega: 972.254
+Ntraj: 10000
+Nfree: 1384
+Nscatter: 8616
+Nlost: 0
+omega: 1024.23
+Ntraj: 10000
+Nfree: 1390
+Nscatter: 8610
+Nlost: 0
+omega: 958.126
+Ntraj: 10000
+Nfree: 1371
+Nscatter: 8629
+Nlost: 0
+omega: 1150.67
+Ntraj: 10000
+Nfree: 1373
+Nscatter: 8627
+Nlost: 0
+omega: 1163.4
+Ntraj: 10000
+Nfree: 1391
+Nscatter: 8609
+Nlost: 0
+omega: 1104.33
+Ntraj: 10000
+Nfree: 1414
+Nscatter: 8586
+Nlost: 0
+omega: 996.655
+Ntraj: 10000
+Nfree: 1394
+Nscatter: 8606
+Nlost: 0
+omega: 1040.98
+Ntraj: 10000
+Nfree: 1418
+Nscatter: 8582
+Nlost: 0
+omega: 1115.37
+Ntraj: 10000
+Nfree: 1403
+Nscatter: 8597
+Nlost: 0
+omega: 1090.54
+CCS time: 133.482 s
+--------------------------------------------------------
+average value of CCS = 1061.66 Ang^2
+error value of CCS = 22.0411 Ang^2
+Total time: 133.487 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 1ubq_charge_4_min.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  774050  -98727  -119273  }
+{  -98727  765481  -55190.9  }
+{  -119273  -55190.9  711486  }
+Rotation matrix applied to molecule: 
+{  0.797039  -0.460096  -0.391204  }
+{  0.592383  0.469553  0.654677  }
+{  -0.117523  -0.753546  0.646805  }
+Molecule radius: 22.0778 Ang 
+orientation time of molecule target: 0.00221552 s
+target mass: 8568.9 amu
+gas mass: 4.0026 amu
+reduce mass: 4.00073 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 13.373  14.2779  21.6306  Ang
+Initial axis length: 63.383  64.2879  71.6406  Ang
+Ellipsoid axis length: 64.833  65.7379  73.0906  Ang
+ellipsoid calculation time: 5.11259e-05s
+maximal impact parameter: 73.0906 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 1573
+Nx: 11 Ny: 11 Nz: 13
+Filled cells: 28
+Empty cells: 1545
+Average atoms per cell: 44.1071
+Maximum atoms per cell: 197
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 132.11 Ang
+ly: 132.11 Ang
+lz: 156.13 Ang
+linked-cell calculation time: 0.00189088 s
+Ntraj: 10000
+Nfree: 1438
+Nscatter: 8562
+Nlost: 0
+omega: 972.254
+Ntraj: 10000
+Nfree: 1384
+Nscatter: 8616
+Nlost: 0
+omega: 1024.23
+Ntraj: 10000
+Nfree: 1390
+Nscatter: 8610
+Nlost: 0
+omega: 958.126
+Ntraj: 10000
+Nfree: 1371
+Nscatter: 8629
+Nlost: 0
+omega: 1150.67
+Ntraj: 10000
+Nfree: 1373
+Nscatter: 8627
+Nlost: 0
+omega: 1163.4
+Ntraj: 10000
+Nfree: 1391
+Nscatter: 8609
+Nlost: 0
+omega: 1104.33
+Ntraj: 10000
+Nfree: 1414
+Nscatter: 8586
+Nlost: 0
+omega: 996.655
+Ntraj: 10000
+Nfree: 1394
+Nscatter: 8606
+Nlost: 0
+omega: 1040.98
+Ntraj: 10000
+Nfree: 1418
+Nscatter: 8582
+Nlost: 0
+omega: 1115.37
+Ntraj: 10000
+Nfree: 1403
+Nscatter: 8597
+Nlost: 0
+omega: 1090.54
+CCS time: 133.569 s
+--------------------------------------------------------
+average value of CCS = 1061.66 Ang^2
+error value of CCS = 22.0411 Ang^2
+Total time: 133.574 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 1ubq_charge_4_min.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  774050  -98727  -119273  }
+{  -98727  765481  -55190.9  }
+{  -119273  -55190.9  711486  }
+Rotation matrix applied to molecule: 
+{  0.797039  -0.460096  -0.391204  }
+{  0.592383  0.469553  0.654677  }
+{  -0.117523  -0.753546  0.646805  }
+Molecule radius: 22.0778 Ang 
+orientation time of molecule target: 0.00223753 s
+target mass: 8568.9 amu
+gas mass: 4.0026 amu
+reduce mass: 4.00073 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 13.373  14.2779  21.6306  Ang
+Initial axis length: 63.383  64.2879  71.6406  Ang
+Ellipsoid axis length: 64.833  65.7379  73.0906  Ang
+ellipsoid calculation time: 5.08726e-05s
+maximal impact parameter: 73.0906 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 1573
+Nx: 11 Ny: 11 Nz: 13
+Filled cells: 28
+Empty cells: 1545
+Average atoms per cell: 44.1071
+Maximum atoms per cell: 197
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 132.11 Ang
+ly: 132.11 Ang
+lz: 156.13 Ang
+linked-cell calculation time: 0.00190082 s
+Ntraj: 10000
+Nfree: 1438
+Nscatter: 8562
+Nlost: 0
+omega: 972.254
+Ntraj: 10000
+Nfree: 1384
+Nscatter: 8616
+Nlost: 0
+omega: 1024.23
+Ntraj: 10000
+Nfree: 1390
+Nscatter: 8610
+Nlost: 0
+omega: 958.126
+Ntraj: 10000
+Nfree: 1371
+Nscatter: 8629
+Nlost: 0
+omega: 1150.67
+Ntraj: 10000
+Nfree: 1373
+Nscatter: 8627
+Nlost: 0
+omega: 1163.4
+Ntraj: 10000
+Nfree: 1391
+Nscatter: 8609
+Nlost: 0
+omega: 1104.33
+Ntraj: 10000
+Nfree: 1414
+Nscatter: 8586
+Nlost: 0
+omega: 996.655
+Ntraj: 10000
+Nfree: 1394
+Nscatter: 8606
+Nlost: 0
+omega: 1040.98
+Ntraj: 10000
+Nfree: 1418
+Nscatter: 8582
+Nlost: 0
+omega: 1115.37
+Ntraj: 10000
+Nfree: 1403
+Nscatter: 8597
+Nlost: 0
+omega: 1090.54
+CCS time: 133.507 s
+--------------------------------------------------------
+average value of CCS = 1061.66 Ang^2
+error value of CCS = 22.0411 Ang^2
+Total time: 133.512 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 1ubq_charge_4_min.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  774050  -98727  -119273  }
+{  -98727  765481  -55190.9  }
+{  -119273  -55190.9  711486  }
+Rotation matrix applied to molecule: 
+{  0.797039  -0.460096  -0.391204  }
+{  0.592383  0.469553  0.654677  }
+{  -0.117523  -0.753546  0.646805  }
+Molecule radius: 22.0778 Ang 
+orientation time of molecule target: 0.00221793 s
+target mass: 8568.9 amu
+gas mass: 4.0026 amu
+reduce mass: 4.00073 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 13.373  14.2779  21.6306  Ang
+Initial axis length: 63.383  64.2879  71.6406  Ang
+Ellipsoid axis length: 64.833  65.7379  73.0906  Ang
+ellipsoid calculation time: 5.11408e-05s
+maximal impact parameter: 73.0906 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 1573
+Nx: 11 Ny: 11 Nz: 13
+Filled cells: 28
+Empty cells: 1545
+Average atoms per cell: 44.1071
+Maximum atoms per cell: 197
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 132.11 Ang
+ly: 132.11 Ang
+lz: 156.13 Ang
+linked-cell calculation time: 0.00190839 s
+Ntraj: 10000
+Nfree: 1438
+Nscatter: 8562
+Nlost: 0
+omega: 972.254
+Ntraj: 10000
+Nfree: 1384
+Nscatter: 8616
+Nlost: 0
+omega: 1024.23
+Ntraj: 10000
+Nfree: 1390
+Nscatter: 8610
+Nlost: 0
+omega: 958.126
+Ntraj: 10000
+Nfree: 1371
+Nscatter: 8629
+Nlost: 0
+omega: 1150.67
+Ntraj: 10000
+Nfree: 1373
+Nscatter: 8627
+Nlost: 0
+omega: 1163.4
+Ntraj: 10000
+Nfree: 1391
+Nscatter: 8609
+Nlost: 0
+omega: 1104.33
+Ntraj: 10000
+Nfree: 1414
+Nscatter: 8586
+Nlost: 0
+omega: 996.655
+Ntraj: 10000
+Nfree: 1394
+Nscatter: 8606
+Nlost: 0
+omega: 1040.98
+Ntraj: 10000
+Nfree: 1418
+Nscatter: 8582
+Nlost: 0
+omega: 1115.37
+Ntraj: 10000
+Nfree: 1403
+Nscatter: 8597
+Nlost: 0
+omega: 1090.54
+CCS time: 133.611 s
+--------------------------------------------------------
+average value of CCS = 1061.66 Ang^2
+error value of CCS = 22.0411 Ang^2
+Total time: 133.616 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 1ubq_charge_4_min.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  774050  -98727  -119273  }
+{  -98727  765481  -55190.9  }
+{  -119273  -55190.9  711486  }
+Rotation matrix applied to molecule: 
+{  0.797039  -0.460096  -0.391204  }
+{  0.592383  0.469553  0.654677  }
+{  -0.117523  -0.753546  0.646805  }
+Molecule radius: 22.0778 Ang 
+orientation time of molecule target: 0.00218214 s
+target mass: 8568.9 amu
+gas mass: 4.0026 amu
+reduce mass: 4.00073 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 13.373  14.2779  21.6306  Ang
+Initial axis length: 63.383  64.2879  71.6406  Ang
+Ellipsoid axis length: 64.833  65.7379  73.0906  Ang
+ellipsoid calculation time: 5.09024e-05s
+maximal impact parameter: 73.0906 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 1573
+Nx: 11 Ny: 11 Nz: 13
+Filled cells: 28
+Empty cells: 1545
+Average atoms per cell: 44.1071
+Maximum atoms per cell: 197
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 132.11 Ang
+ly: 132.11 Ang
+lz: 156.13 Ang
+linked-cell calculation time: 0.00189064 s
+Ntraj: 10000
+Nfree: 1438
+Nscatter: 8562
+Nlost: 0
+omega: 972.254
+Ntraj: 10000
+Nfree: 1384
+Nscatter: 8616
+Nlost: 0
+omega: 1024.23
+Ntraj: 10000
+Nfree: 1390
+Nscatter: 8610
+Nlost: 0
+omega: 958.126
+Ntraj: 10000
+Nfree: 1371
+Nscatter: 8629
+Nlost: 0
+omega: 1150.67
+Ntraj: 10000
+Nfree: 1373
+Nscatter: 8627
+Nlost: 0
+omega: 1163.4
+Ntraj: 10000
+Nfree: 1391
+Nscatter: 8609
+Nlost: 0
+omega: 1104.33
+Ntraj: 10000
+Nfree: 1414
+Nscatter: 8586
+Nlost: 0
+omega: 996.655
+Ntraj: 10000
+Nfree: 1394
+Nscatter: 8606
+Nlost: 0
+omega: 1040.98
+Ntraj: 10000
+Nfree: 1418
+Nscatter: 8582
+Nlost: 0
+omega: 1115.37
+Ntraj: 10000
+Nfree: 1403
+Nscatter: 8597
+Nlost: 0
+omega: 1090.54
+CCS time: 133.714 s
+--------------------------------------------------------
+average value of CCS = 1061.66 Ang^2
+error value of CCS = 22.0411 Ang^2
+Total time: 133.719 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 1ubq_charge_4_min.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  774050  -98727  -119273  }
+{  -98727  765481  -55190.9  }
+{  -119273  -55190.9  711486  }
+Rotation matrix applied to molecule: 
+{  0.797039  -0.460096  -0.391204  }
+{  0.592383  0.469553  0.654677  }
+{  -0.117523  -0.753546  0.646805  }
+Molecule radius: 22.0778 Ang 
+orientation time of molecule target: 0.00224449 s
+target mass: 8568.9 amu
+gas mass: 4.0026 amu
+reduce mass: 4.00073 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 13.373  14.2779  21.6306  Ang
+Initial axis length: 63.383  64.2879  71.6406  Ang
+Ellipsoid axis length: 64.833  65.7379  73.0906  Ang
+ellipsoid calculation time: 5.07981e-05s
+maximal impact parameter: 73.0906 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 1573
+Nx: 11 Ny: 11 Nz: 13
+Filled cells: 28
+Empty cells: 1545
+Average atoms per cell: 44.1071
+Maximum atoms per cell: 197
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 132.11 Ang
+ly: 132.11 Ang
+lz: 156.13 Ang
+linked-cell calculation time: 0.00189383 s
+Ntraj: 10000
+Nfree: 1438
+Nscatter: 8562
+Nlost: 0
+omega: 972.254
+Ntraj: 10000
+Nfree: 1384
+Nscatter: 8616
+Nlost: 0
+omega: 1024.23
+Ntraj: 10000
+Nfree: 1390
+Nscatter: 8610
+Nlost: 0
+omega: 958.126
+Ntraj: 10000
+Nfree: 1371
+Nscatter: 8629
+Nlost: 0
+omega: 1150.67
+Ntraj: 10000
+Nfree: 1373
+Nscatter: 8627
+Nlost: 0
+omega: 1163.4
+Ntraj: 10000
+Nfree: 1391
+Nscatter: 8609
+Nlost: 0
+omega: 1104.33
+Ntraj: 10000
+Nfree: 1414
+Nscatter: 8586
+Nlost: 0
+omega: 996.655
+Ntraj: 10000
+Nfree: 1394
+Nscatter: 8606
+Nlost: 0
+omega: 1040.98
+Ntraj: 10000
+Nfree: 1418
+Nscatter: 8582
+Nlost: 0
+omega: 1115.37
+Ntraj: 10000
+Nfree: 1403
+Nscatter: 8597
+Nlost: 0
+omega: 1090.54
+CCS time: 133.521 s
+--------------------------------------------------------
+average value of CCS = 1061.66 Ang^2
+error value of CCS = 22.0411 Ang^2
+Total time: 133.526 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 1ubq_charge_4_min.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  774050  -98727  -119273  }
+{  -98727  765481  -55190.9  }
+{  -119273  -55190.9  711486  }
+Rotation matrix applied to molecule: 
+{  0.797039  -0.460096  -0.391204  }
+{  0.592383  0.469553  0.654677  }
+{  -0.117523  -0.753546  0.646805  }
+Molecule radius: 22.0778 Ang 
+orientation time of molecule target: 0.00226273 s
+target mass: 8568.9 amu
+gas mass: 4.0026 amu
+reduce mass: 4.00073 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 13.373  14.2779  21.6306  Ang
+Initial axis length: 63.383  64.2879  71.6406  Ang
+Ellipsoid axis length: 64.833  65.7379  73.0906  Ang
+ellipsoid calculation time: 5.06938e-05s
+maximal impact parameter: 73.0906 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 1573
+Nx: 11 Ny: 11 Nz: 13
+Filled cells: 28
+Empty cells: 1545
+Average atoms per cell: 44.1071
+Maximum atoms per cell: 197
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 132.11 Ang
+ly: 132.11 Ang
+lz: 156.13 Ang
+linked-cell calculation time: 0.00190409 s
+Ntraj: 10000
+Nfree: 1438
+Nscatter: 8562
+Nlost: 0
+omega: 972.254
+Ntraj: 10000
+Nfree: 1384
+Nscatter: 8616
+Nlost: 0
+omega: 1024.23
+Ntraj: 10000
+Nfree: 1390
+Nscatter: 8610
+Nlost: 0
+omega: 958.126
+Ntraj: 10000
+Nfree: 1371
+Nscatter: 8629
+Nlost: 0
+omega: 1150.67
+Ntraj: 10000
+Nfree: 1373
+Nscatter: 8627
+Nlost: 0
+omega: 1163.4
+Ntraj: 10000
+Nfree: 1391
+Nscatter: 8609
+Nlost: 0
+omega: 1104.33
+Ntraj: 10000
+Nfree: 1414
+Nscatter: 8586
+Nlost: 0
+omega: 996.655
+Ntraj: 10000
+Nfree: 1394
+Nscatter: 8606
+Nlost: 0
+omega: 1040.98
+Ntraj: 10000
+Nfree: 1418
+Nscatter: 8582
+Nlost: 0
+omega: 1115.37
+Ntraj: 10000
+Nfree: 1403
+Nscatter: 8597
+Nlost: 0
+omega: 1090.54
+CCS time: 133.453 s
+--------------------------------------------------------
+average value of CCS = 1061.66 Ang^2
+error value of CCS = 22.0411 Ang^2
+Total time: 133.458 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 1ubq_charge_4_min.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  774050  -98727  -119273  }
+{  -98727  765481  -55190.9  }
+{  -119273  -55190.9  711486  }
+Rotation matrix applied to molecule: 
+{  0.797039  -0.460096  -0.391204  }
+{  0.592383  0.469553  0.654677  }
+{  -0.117523  -0.753546  0.646805  }
+Molecule radius: 22.0778 Ang 
+orientation time of molecule target: 0.00218274 s
+target mass: 8568.9 amu
+gas mass: 4.0026 amu
+reduce mass: 4.00073 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 13.373  14.2779  21.6306  Ang
+Initial axis length: 63.383  64.2879  71.6406  Ang
+Ellipsoid axis length: 64.833  65.7379  73.0906  Ang
+ellipsoid calculation time: 5.04553e-05s
+maximal impact parameter: 73.0906 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 1573
+Nx: 11 Ny: 11 Nz: 13
+Filled cells: 28
+Empty cells: 1545
+Average atoms per cell: 44.1071
+Maximum atoms per cell: 197
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 132.11 Ang
+ly: 132.11 Ang
+lz: 156.13 Ang
+linked-cell calculation time: 0.00197278 s
+Ntraj: 10000
+Nfree: 1438
+Nscatter: 8562
+Nlost: 0
+omega: 972.254
+Ntraj: 10000
+Nfree: 1384
+Nscatter: 8616
+Nlost: 0
+omega: 1024.23
+Ntraj: 10000
+Nfree: 1390
+Nscatter: 8610
+Nlost: 0
+omega: 958.126
+Ntraj: 10000
+Nfree: 1371
+Nscatter: 8629
+Nlost: 0
+omega: 1150.67
+Ntraj: 10000
+Nfree: 1373
+Nscatter: 8627
+Nlost: 0
+omega: 1163.4
+Ntraj: 10000
+Nfree: 1391
+Nscatter: 8609
+Nlost: 0
+omega: 1104.33
+Ntraj: 10000
+Nfree: 1414
+Nscatter: 8586
+Nlost: 0
+omega: 996.655
+Ntraj: 10000
+Nfree: 1394
+Nscatter: 8606
+Nlost: 0
+omega: 1040.98
+Ntraj: 10000
+Nfree: 1418
+Nscatter: 8582
+Nlost: 0
+omega: 1115.37
+Ntraj: 10000
+Nfree: 1403
+Nscatter: 8597
+Nlost: 0
+omega: 1090.54
+CCS time: 135.866 s
+--------------------------------------------------------
+average value of CCS = 1061.66 Ang^2
+error value of CCS = 22.0411 Ang^2
+Total time: 135.871 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 1ubq_charge_4_min.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  774050  -98727  -119273  }
+{  -98727  765481  -55190.9  }
+{  -119273  -55190.9  711486  }
+Rotation matrix applied to molecule: 
+{  0.797039  -0.460096  -0.391204  }
+{  0.592383  0.469553  0.654677  }
+{  -0.117523  -0.753546  0.646805  }
+Molecule radius: 22.0778 Ang 
+orientation time of molecule target: 0.00253098 s
+target mass: 8568.9 amu
+gas mass: 4.0026 amu
+reduce mass: 4.00073 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 13.373  14.2779  21.6306  Ang
+Initial axis length: 63.383  64.2879  71.6406  Ang
+Ellipsoid axis length: 64.833  65.7379  73.0906  Ang
+ellipsoid calculation time: 5.13047e-05s
+maximal impact parameter: 73.0906 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 1573
+Nx: 11 Ny: 11 Nz: 13
+Filled cells: 28
+Empty cells: 1545
+Average atoms per cell: 44.1071
+Maximum atoms per cell: 197
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 132.11 Ang
+ly: 132.11 Ang
+lz: 156.13 Ang
+linked-cell calculation time: 0.00190119 s
+Ntraj: 10000
+Nfree: 1438
+Nscatter: 8562
+Nlost: 0
+omega: 972.254
+Ntraj: 10000
+Nfree: 1384
+Nscatter: 8616
+Nlost: 0
+omega: 1024.23
+Ntraj: 10000
+Nfree: 1390
+Nscatter: 8610
+Nlost: 0
+omega: 958.126
+Ntraj: 10000
+Nfree: 1371
+Nscatter: 8629
+Nlost: 0
+omega: 1150.67
+Ntraj: 10000
+Nfree: 1373
+Nscatter: 8627
+Nlost: 0
+omega: 1163.4
+Ntraj: 10000
+Nfree: 1391
+Nscatter: 8609
+Nlost: 0
+omega: 1104.33
+Ntraj: 10000
+Nfree: 1414
+Nscatter: 8586
+Nlost: 0
+omega: 996.655
+Ntraj: 10000
+Nfree: 1394
+Nscatter: 8606
+Nlost: 0
+omega: 1040.98
+Ntraj: 10000
+Nfree: 1418
+Nscatter: 8582
+Nlost: 0
+omega: 1115.37
+Ntraj: 10000
+Nfree: 1403
+Nscatter: 8597
+Nlost: 0
+omega: 1090.54
+CCS time: 133.486 s
+--------------------------------------------------------
+average value of CCS = 1061.66 Ang^2
+error value of CCS = 22.0411 Ang^2
+Total time: 133.491 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 1ubq_charge_4_min.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  774050  -98727  -119273  }
+{  -98727  765481  -55190.9  }
+{  -119273  -55190.9  711486  }
+Rotation matrix applied to molecule: 
+{  0.797039  -0.460096  -0.391204  }
+{  0.592383  0.469553  0.654677  }
+{  -0.117523  -0.753546  0.646805  }
+Molecule radius: 22.0778 Ang 
+orientation time of molecule target: 0.00222103 s
+target mass: 8568.9 amu
+gas mass: 4.0026 amu
+reduce mass: 4.00073 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 13.373  14.2779  21.6306  Ang
+Initial axis length: 63.383  64.2879  71.6406  Ang
+Ellipsoid axis length: 64.833  65.7379  73.0906  Ang
+ellipsoid calculation time: 5.06938e-05s
+maximal impact parameter: 73.0906 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 1573
+Nx: 11 Ny: 11 Nz: 13
+Filled cells: 28
+Empty cells: 1545
+Average atoms per cell: 44.1071
+Maximum atoms per cell: 197
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 132.11 Ang
+ly: 132.11 Ang
+lz: 156.13 Ang
+linked-cell calculation time: 0.00188918 s
+Ntraj: 10000
+Nfree: 1438
+Nscatter: 8562
+Nlost: 0
+omega: 972.254
+Ntraj: 10000
+Nfree: 1384
+Nscatter: 8616
+Nlost: 0
+omega: 1024.23
+Ntraj: 10000
+Nfree: 1390
+Nscatter: 8610
+Nlost: 0
+omega: 958.126
+Ntraj: 10000
+Nfree: 1371
+Nscatter: 8629
+Nlost: 0
+omega: 1150.67
+Ntraj: 10000
+Nfree: 1373
+Nscatter: 8627
+Nlost: 0
+omega: 1163.4
+Ntraj: 10000
+Nfree: 1391
+Nscatter: 8609
+Nlost: 0
+omega: 1104.33
+Ntraj: 10000
+Nfree: 1414
+Nscatter: 8586
+Nlost: 0
+omega: 996.655
+Ntraj: 10000
+Nfree: 1394
+Nscatter: 8606
+Nlost: 0
+omega: 1040.98
+Ntraj: 10000
+Nfree: 1418
+Nscatter: 8582
+Nlost: 0
+omega: 1115.37
+Ntraj: 10000
+Nfree: 1403
+Nscatter: 8597
+Nlost: 0
+omega: 1090.54
+CCS time: 134.02 s
+--------------------------------------------------------
+average value of CCS = 1061.66 Ang^2
+error value of CCS = 22.0411 Ang^2
+Total time: 134.025 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 1ubq_charge_4_min.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  774050  -98727  -119273  }
+{  -98727  765481  -55190.9  }
+{  -119273  -55190.9  711486  }
+Rotation matrix applied to molecule: 
+{  0.797039  -0.460096  -0.391204  }
+{  0.592383  0.469553  0.654677  }
+{  -0.117523  -0.753546  0.646805  }
+Molecule radius: 22.0778 Ang 
+orientation time of molecule target: 0.00220051 s
+target mass: 8568.9 amu
+gas mass: 4.0026 amu
+reduce mass: 4.00073 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 13.373  14.2779  21.6306  Ang
+Initial axis length: 63.383  64.2879  71.6406  Ang
+Ellipsoid axis length: 64.833  65.7379  73.0906  Ang
+ellipsoid calculation time: 5.03361e-05s
+maximal impact parameter: 73.0906 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 1573
+Nx: 11 Ny: 11 Nz: 13
+Filled cells: 28
+Empty cells: 1545
+Average atoms per cell: 44.1071
+Maximum atoms per cell: 197
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 132.11 Ang
+ly: 132.11 Ang
+lz: 156.13 Ang
+linked-cell calculation time: 0.00189969 s
+Ntraj: 10000
+Nfree: 1438
+Nscatter: 8562
+Nlost: 0
+omega: 972.254
+Ntraj: 10000
+Nfree: 1384
+Nscatter: 8616
+Nlost: 0
+omega: 1024.23
+Ntraj: 10000
+Nfree: 1390
+Nscatter: 8610
+Nlost: 0
+omega: 958.126
+Ntraj: 10000
+Nfree: 1371
+Nscatter: 8629
+Nlost: 0
+omega: 1150.67
+Ntraj: 10000
+Nfree: 1373
+Nscatter: 8627
+Nlost: 0
+omega: 1163.4
+Ntraj: 10000
+Nfree: 1391
+Nscatter: 8609
+Nlost: 0
+omega: 1104.33
+Ntraj: 10000
+Nfree: 1414
+Nscatter: 8586
+Nlost: 0
+omega: 996.655
+Ntraj: 10000
+Nfree: 1394
+Nscatter: 8606
+Nlost: 0
+omega: 1040.98
+Ntraj: 10000
+Nfree: 1418
+Nscatter: 8582
+Nlost: 0
+omega: 1115.37
+Ntraj: 10000
+Nfree: 1403
+Nscatter: 8597
+Nlost: 0
+omega: 1090.54
+CCS time: 68.3049 s
+--------------------------------------------------------
+average value of CCS = 1061.66 Ang^2
+error value of CCS = 22.0411 Ang^2
+Total time: 68.3098 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 1ubq_charge_4_min.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  774050  -98727  -119273  }
+{  -98727  765481  -55190.9  }
+{  -119273  -55190.9  711486  }
+Rotation matrix applied to molecule: 
+{  0.797039  -0.460096  -0.391204  }
+{  0.592383  0.469553  0.654677  }
+{  -0.117523  -0.753546  0.646805  }
+Molecule radius: 22.0778 Ang 
+orientation time of molecule target: 0.00198369 s
+target mass: 8568.9 amu
+gas mass: 4.0026 amu
+reduce mass: 4.00073 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 13.373  14.2779  21.6306  Ang
+Initial axis length: 63.383  64.2879  71.6406  Ang
+Ellipsoid axis length: 64.833  65.7379  73.0906  Ang
+ellipsoid calculation time: 5.07385e-05s
+maximal impact parameter: 73.0906 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 1573
+Nx: 11 Ny: 11 Nz: 13
+Filled cells: 28
+Empty cells: 1545
+Average atoms per cell: 44.1071
+Maximum atoms per cell: 197
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 132.11 Ang
+ly: 132.11 Ang
+lz: 156.13 Ang
+linked-cell calculation time: 0.00188668 s
+Ntraj: 10000
+Nfree: 1438
+Nscatter: 8562
+Nlost: 0
+omega: 972.254
+Ntraj: 10000
+Nfree: 1384
+Nscatter: 8616
+Nlost: 0
+omega: 1024.23
+Ntraj: 10000
+Nfree: 1390
+Nscatter: 8610
+Nlost: 0
+omega: 958.126
+Ntraj: 10000
+Nfree: 1371
+Nscatter: 8629
+Nlost: 0
+omega: 1150.67
+Ntraj: 10000
+Nfree: 1373
+Nscatter: 8627
+Nlost: 0
+omega: 1163.4
+Ntraj: 10000
+Nfree: 1391
+Nscatter: 8609
+Nlost: 0
+omega: 1104.33
+Ntraj: 10000
+Nfree: 1414
+Nscatter: 8586
+Nlost: 0
+omega: 996.655
+Ntraj: 10000
+Nfree: 1394
+Nscatter: 8606
+Nlost: 0
+omega: 1040.98
+Ntraj: 10000
+Nfree: 1418
+Nscatter: 8582
+Nlost: 0
+omega: 1115.37
+Ntraj: 10000
+Nfree: 1403
+Nscatter: 8597
+Nlost: 0
+omega: 1090.54
+CCS time: 68.253 s
+--------------------------------------------------------
+average value of CCS = 1061.66 Ang^2
+error value of CCS = 22.0411 Ang^2
+Total time: 68.2575 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 1ubq_charge_4_min.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  774050  -98727  -119273  }
+{  -98727  765481  -55190.9  }
+{  -119273  -55190.9  711486  }
+Rotation matrix applied to molecule: 
+{  0.797039  -0.460096  -0.391204  }
+{  0.592383  0.469553  0.654677  }
+{  -0.117523  -0.753546  0.646805  }
+Molecule radius: 22.0778 Ang 
+orientation time of molecule target: 0.00198376 s
+target mass: 8568.9 amu
+gas mass: 4.0026 amu
+reduce mass: 4.00073 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 13.373  14.2779  21.6306  Ang
+Initial axis length: 63.383  64.2879  71.6406  Ang
+Ellipsoid axis length: 64.833  65.7379  73.0906  Ang
+ellipsoid calculation time: 5.07087e-05s
+maximal impact parameter: 73.0906 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 1573
+Nx: 11 Ny: 11 Nz: 13
+Filled cells: 28
+Empty cells: 1545
+Average atoms per cell: 44.1071
+Maximum atoms per cell: 197
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 132.11 Ang
+ly: 132.11 Ang
+lz: 156.13 Ang
+linked-cell calculation time: 0.00189221 s
+Ntraj: 10000
+Nfree: 1438
+Nscatter: 8562
+Nlost: 0
+omega: 972.254
+Ntraj: 10000
+Nfree: 1384
+Nscatter: 8616
+Nlost: 0
+omega: 1024.23
+Ntraj: 10000
+Nfree: 1390
+Nscatter: 8610
+Nlost: 0
+omega: 958.126
+Ntraj: 10000
+Nfree: 1371
+Nscatter: 8629
+Nlost: 0
+omega: 1150.67
+Ntraj: 10000
+Nfree: 1373
+Nscatter: 8627
+Nlost: 0
+omega: 1163.4
+Ntraj: 10000
+Nfree: 1391
+Nscatter: 8609
+Nlost: 0
+omega: 1104.33
+Ntraj: 10000
+Nfree: 1414
+Nscatter: 8586
+Nlost: 0
+omega: 996.655
+Ntraj: 10000
+Nfree: 1394
+Nscatter: 8606
+Nlost: 0
+omega: 1040.98
+Ntraj: 10000
+Nfree: 1418
+Nscatter: 8582
+Nlost: 0
+omega: 1115.37
+Ntraj: 10000
+Nfree: 1403
+Nscatter: 8597
+Nlost: 0
+omega: 1090.54
+CCS time: 68.2551 s
+--------------------------------------------------------
+average value of CCS = 1061.66 Ang^2
+error value of CCS = 22.0411 Ang^2
+Total time: 68.2597 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 1ubq_charge_4_min.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  774050  -98727  -119273  }
+{  -98727  765481  -55190.9  }
+{  -119273  -55190.9  711486  }
+Rotation matrix applied to molecule: 
+{  0.797039  -0.460096  -0.391204  }
+{  0.592383  0.469553  0.654677  }
+{  -0.117523  -0.753546  0.646805  }
+Molecule radius: 22.0778 Ang 
+orientation time of molecule target: 0.00197284 s
+target mass: 8568.9 amu
+gas mass: 4.0026 amu
+reduce mass: 4.00073 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 13.373  14.2779  21.6306  Ang
+Initial axis length: 63.383  64.2879  71.6406  Ang
+Ellipsoid axis length: 64.833  65.7379  73.0906  Ang
+ellipsoid calculation time: 5.05894e-05s
+maximal impact parameter: 73.0906 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 1573
+Nx: 11 Ny: 11 Nz: 13
+Filled cells: 28
+Empty cells: 1545
+Average atoms per cell: 44.1071
+Maximum atoms per cell: 197
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 132.11 Ang
+ly: 132.11 Ang
+lz: 156.13 Ang
+linked-cell calculation time: 0.00189713 s
+Ntraj: 10000
+Nfree: 1438
+Nscatter: 8562
+Nlost: 0
+omega: 972.254
+Ntraj: 10000
+Nfree: 1384
+Nscatter: 8616
+Nlost: 0
+omega: 1024.23
+Ntraj: 10000
+Nfree: 1390
+Nscatter: 8610
+Nlost: 0
+omega: 958.126
+Ntraj: 10000
+Nfree: 1371
+Nscatter: 8629
+Nlost: 0
+omega: 1150.67
+Ntraj: 10000
+Nfree: 1373
+Nscatter: 8627
+Nlost: 0
+omega: 1163.4
+Ntraj: 10000
+Nfree: 1391
+Nscatter: 8609
+Nlost: 0
+omega: 1104.33
+Ntraj: 10000
+Nfree: 1414
+Nscatter: 8586
+Nlost: 0
+omega: 996.655
+Ntraj: 10000
+Nfree: 1394
+Nscatter: 8606
+Nlost: 0
+omega: 1040.98
+Ntraj: 10000
+Nfree: 1418
+Nscatter: 8582
+Nlost: 0
+omega: 1115.37
+Ntraj: 10000
+Nfree: 1403
+Nscatter: 8597
+Nlost: 0
+omega: 1090.54
+CCS time: 68.2895 s
+--------------------------------------------------------
+average value of CCS = 1061.66 Ang^2
+error value of CCS = 22.0411 Ang^2
+Total time: 68.294 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 1ubq_charge_4_min.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  774050  -98727  -119273  }
+{  -98727  765481  -55190.9  }
+{  -119273  -55190.9  711486  }
+Rotation matrix applied to molecule: 
+{  0.797039  -0.460096  -0.391204  }
+{  0.592383  0.469553  0.654677  }
+{  -0.117523  -0.753546  0.646805  }
+Molecule radius: 22.0778 Ang 
+orientation time of molecule target: 0.00205445 s
+target mass: 8568.9 amu
+gas mass: 4.0026 amu
+reduce mass: 4.00073 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 13.373  14.2779  21.6306  Ang
+Initial axis length: 63.383  64.2879  71.6406  Ang
+Ellipsoid axis length: 64.833  65.7379  73.0906  Ang
+ellipsoid calculation time: 5.01424e-05s
+maximal impact parameter: 73.0906 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 1573
+Nx: 11 Ny: 11 Nz: 13
+Filled cells: 28
+Empty cells: 1545
+Average atoms per cell: 44.1071
+Maximum atoms per cell: 197
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 132.11 Ang
+ly: 132.11 Ang
+lz: 156.13 Ang
+linked-cell calculation time: 0.0018899 s
+Ntraj: 10000
+Nfree: 1438
+Nscatter: 8562
+Nlost: 0
+omega: 972.254
+Ntraj: 10000
+Nfree: 1384
+Nscatter: 8616
+Nlost: 0
+omega: 1024.23
+Ntraj: 10000
+Nfree: 1390
+Nscatter: 8610
+Nlost: 0
+omega: 958.126
+Ntraj: 10000
+Nfree: 1371
+Nscatter: 8629
+Nlost: 0
+omega: 1150.67
+Ntraj: 10000
+Nfree: 1373
+Nscatter: 8627
+Nlost: 0
+omega: 1163.4
+Ntraj: 10000
+Nfree: 1391
+Nscatter: 8609
+Nlost: 0
+omega: 1104.33
+Ntraj: 10000
+Nfree: 1414
+Nscatter: 8586
+Nlost: 0
+omega: 996.655
+Ntraj: 10000
+Nfree: 1394
+Nscatter: 8606
+Nlost: 0
+omega: 1040.98
+Ntraj: 10000
+Nfree: 1418
+Nscatter: 8582
+Nlost: 0
+omega: 1115.37
+Ntraj: 10000
+Nfree: 1403
+Nscatter: 8597
+Nlost: 0
+omega: 1090.54
+CCS time: 68.2854 s
+--------------------------------------------------------
+average value of CCS = 1061.66 Ang^2
+error value of CCS = 22.0411 Ang^2
+Total time: 68.29 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 1ubq_charge_4_min.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  774050  -98727  -119273  }
+{  -98727  765481  -55190.9  }
+{  -119273  -55190.9  711486  }
+Rotation matrix applied to molecule: 
+{  0.797039  -0.460096  -0.391204  }
+{  0.592383  0.469553  0.654677  }
+{  -0.117523  -0.753546  0.646805  }
+Molecule radius: 22.0778 Ang 
+orientation time of molecule target: 0.00196402 s
+target mass: 8568.9 amu
+gas mass: 4.0026 amu
+reduce mass: 4.00073 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 13.373  14.2779  21.6306  Ang
+Initial axis length: 63.383  64.2879  71.6406  Ang
+Ellipsoid axis length: 64.833  65.7379  73.0906  Ang
+ellipsoid calculation time: 5.04553e-05s
+maximal impact parameter: 73.0906 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 1573
+Nx: 11 Ny: 11 Nz: 13
+Filled cells: 28
+Empty cells: 1545
+Average atoms per cell: 44.1071
+Maximum atoms per cell: 197
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 132.11 Ang
+ly: 132.11 Ang
+lz: 156.13 Ang
+linked-cell calculation time: 0.00189489 s
+Ntraj: 10000
+Nfree: 1438
+Nscatter: 8562
+Nlost: 0
+omega: 972.254
+Ntraj: 10000
+Nfree: 1384
+Nscatter: 8616
+Nlost: 0
+omega: 1024.23
+Ntraj: 10000
+Nfree: 1390
+Nscatter: 8610
+Nlost: 0
+omega: 958.126
+Ntraj: 10000
+Nfree: 1371
+Nscatter: 8629
+Nlost: 0
+omega: 1150.67
+Ntraj: 10000
+Nfree: 1373
+Nscatter: 8627
+Nlost: 0
+omega: 1163.4
+Ntraj: 10000
+Nfree: 1391
+Nscatter: 8609
+Nlost: 0
+omega: 1104.33
+Ntraj: 10000
+Nfree: 1414
+Nscatter: 8586
+Nlost: 0
+omega: 996.655
+Ntraj: 10000
+Nfree: 1394
+Nscatter: 8606
+Nlost: 0
+omega: 1040.98
+Ntraj: 10000
+Nfree: 1418
+Nscatter: 8582
+Nlost: 0
+omega: 1115.37
+Ntraj: 10000
+Nfree: 1403
+Nscatter: 8597
+Nlost: 0
+omega: 1090.54
+CCS time: 68.3183 s
+--------------------------------------------------------
+average value of CCS = 1061.66 Ang^2
+error value of CCS = 22.0411 Ang^2
+Total time: 68.3228 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 1ubq_charge_4_min.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  774050  -98727  -119273  }
+{  -98727  765481  -55190.9  }
+{  -119273  -55190.9  711486  }
+Rotation matrix applied to molecule: 
+{  0.797039  -0.460096  -0.391204  }
+{  0.592383  0.469553  0.654677  }
+{  -0.117523  -0.753546  0.646805  }
+Molecule radius: 22.0778 Ang 
+orientation time of molecule target: 0.00200857 s
+target mass: 8568.9 amu
+gas mass: 4.0026 amu
+reduce mass: 4.00073 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 13.373  14.2779  21.6306  Ang
+Initial axis length: 63.383  64.2879  71.6406  Ang
+Ellipsoid axis length: 64.833  65.7379  73.0906  Ang
+ellipsoid calculation time: 5.06341e-05s
+maximal impact parameter: 73.0906 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 1573
+Nx: 11 Ny: 11 Nz: 13
+Filled cells: 28
+Empty cells: 1545
+Average atoms per cell: 44.1071
+Maximum atoms per cell: 197
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 132.11 Ang
+ly: 132.11 Ang
+lz: 156.13 Ang
+linked-cell calculation time: 0.00189315 s
+Ntraj: 10000
+Nfree: 1438
+Nscatter: 8562
+Nlost: 0
+omega: 972.254
+Ntraj: 10000
+Nfree: 1384
+Nscatter: 8616
+Nlost: 0
+omega: 1024.23
+Ntraj: 10000
+Nfree: 1390
+Nscatter: 8610
+Nlost: 0
+omega: 958.126
+Ntraj: 10000
+Nfree: 1371
+Nscatter: 8629
+Nlost: 0
+omega: 1150.67
+Ntraj: 10000
+Nfree: 1373
+Nscatter: 8627
+Nlost: 0
+omega: 1163.4
+Ntraj: 10000
+Nfree: 1391
+Nscatter: 8609
+Nlost: 0
+omega: 1104.33
+Ntraj: 10000
+Nfree: 1414
+Nscatter: 8586
+Nlost: 0
+omega: 996.655
+Ntraj: 10000
+Nfree: 1394
+Nscatter: 8606
+Nlost: 0
+omega: 1040.98
+Ntraj: 10000
+Nfree: 1418
+Nscatter: 8582
+Nlost: 0
+omega: 1115.37
+Ntraj: 10000
+Nfree: 1403
+Nscatter: 8597
+Nlost: 0
+omega: 1090.54
+CCS time: 68.3903 s
+--------------------------------------------------------
+average value of CCS = 1061.66 Ang^2
+error value of CCS = 22.0411 Ang^2
+Total time: 68.3949 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 1ubq_charge_4_min.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  774050  -98727  -119273  }
+{  -98727  765481  -55190.9  }
+{  -119273  -55190.9  711486  }
+Rotation matrix applied to molecule: 
+{  0.797039  -0.460096  -0.391204  }
+{  0.592383  0.469553  0.654677  }
+{  -0.117523  -0.753546  0.646805  }
+Molecule radius: 22.0778 Ang 
+orientation time of molecule target: 0.00197576 s
+target mass: 8568.9 amu
+gas mass: 4.0026 amu
+reduce mass: 4.00073 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 13.373  14.2779  21.6306  Ang
+Initial axis length: 63.383  64.2879  71.6406  Ang
+Ellipsoid axis length: 64.833  65.7379  73.0906  Ang
+ellipsoid calculation time: 5.01424e-05s
+maximal impact parameter: 73.0906 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 1573
+Nx: 11 Ny: 11 Nz: 13
+Filled cells: 28
+Empty cells: 1545
+Average atoms per cell: 44.1071
+Maximum atoms per cell: 197
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 132.11 Ang
+ly: 132.11 Ang
+lz: 156.13 Ang
+linked-cell calculation time: 0.00190702 s
+Ntraj: 10000
+Nfree: 1438
+Nscatter: 8562
+Nlost: 0
+omega: 972.254
+Ntraj: 10000
+Nfree: 1384
+Nscatter: 8616
+Nlost: 0
+omega: 1024.23
+Ntraj: 10000
+Nfree: 1390
+Nscatter: 8610
+Nlost: 0
+omega: 958.126
+Ntraj: 10000
+Nfree: 1371
+Nscatter: 8629
+Nlost: 0
+omega: 1150.67
+Ntraj: 10000
+Nfree: 1373
+Nscatter: 8627
+Nlost: 0
+omega: 1163.4
+Ntraj: 10000
+Nfree: 1391
+Nscatter: 8609
+Nlost: 0
+omega: 1104.33
+Ntraj: 10000
+Nfree: 1414
+Nscatter: 8586
+Nlost: 0
+omega: 996.655
+Ntraj: 10000
+Nfree: 1394
+Nscatter: 8606
+Nlost: 0
+omega: 1040.98
+Ntraj: 10000
+Nfree: 1418
+Nscatter: 8582
+Nlost: 0
+omega: 1115.37
+Ntraj: 10000
+Nfree: 1403
+Nscatter: 8597
+Nlost: 0
+omega: 1090.54
+CCS time: 68.2697 s
+--------------------------------------------------------
+average value of CCS = 1061.66 Ang^2
+error value of CCS = 22.0411 Ang^2
+Total time: 68.2742 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 1ubq_charge_4_min.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  774050  -98727  -119273  }
+{  -98727  765481  -55190.9  }
+{  -119273  -55190.9  711486  }
+Rotation matrix applied to molecule: 
+{  0.797039  -0.460096  -0.391204  }
+{  0.592383  0.469553  0.654677  }
+{  -0.117523  -0.753546  0.646805  }
+Molecule radius: 22.0778 Ang 
+orientation time of molecule target: 0.00224145 s
+target mass: 8568.9 amu
+gas mass: 4.0026 amu
+reduce mass: 4.00073 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 13.373  14.2779  21.6306  Ang
+Initial axis length: 63.383  64.2879  71.6406  Ang
+Ellipsoid axis length: 64.833  65.7379  73.0906  Ang
+ellipsoid calculation time: 5.06341e-05s
+maximal impact parameter: 73.0906 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 1573
+Nx: 11 Ny: 11 Nz: 13
+Filled cells: 28
+Empty cells: 1545
+Average atoms per cell: 44.1071
+Maximum atoms per cell: 197
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 132.11 Ang
+ly: 132.11 Ang
+lz: 156.13 Ang
+linked-cell calculation time: 0.00190741 s
+Ntraj: 10000
+Nfree: 1438
+Nscatter: 8562
+Nlost: 0
+omega: 972.254
+Ntraj: 10000
+Nfree: 1384
+Nscatter: 8616
+Nlost: 0
+omega: 1024.23
+Ntraj: 10000
+Nfree: 1390
+Nscatter: 8610
+Nlost: 0
+omega: 958.126
+Ntraj: 10000
+Nfree: 1371
+Nscatter: 8629
+Nlost: 0
+omega: 1150.67
+Ntraj: 10000
+Nfree: 1373
+Nscatter: 8627
+Nlost: 0
+omega: 1163.4
+Ntraj: 10000
+Nfree: 1391
+Nscatter: 8609
+Nlost: 0
+omega: 1104.33
+Ntraj: 10000
+Nfree: 1414
+Nscatter: 8586
+Nlost: 0
+omega: 996.655
+Ntraj: 10000
+Nfree: 1394
+Nscatter: 8606
+Nlost: 0
+omega: 1040.98
+Ntraj: 10000
+Nfree: 1418
+Nscatter: 8582
+Nlost: 0
+omega: 1115.37
+Ntraj: 10000
+Nfree: 1403
+Nscatter: 8597
+Nlost: 0
+omega: 1090.54
+CCS time: 68.2517 s
+--------------------------------------------------------
+average value of CCS = 1061.66 Ang^2
+error value of CCS = 22.0411 Ang^2
+Total time: 68.2567 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 1ubq_charge_4_min.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  774050  -98727  -119273  }
+{  -98727  765481  -55190.9  }
+{  -119273  -55190.9  711486  }
+Rotation matrix applied to molecule: 
+{  0.797039  -0.460096  -0.391204  }
+{  0.592383  0.469553  0.654677  }
+{  -0.117523  -0.753546  0.646805  }
+Molecule radius: 22.0778 Ang 
+orientation time of molecule target: 0.00197501 s
+target mass: 8568.9 amu
+gas mass: 4.0026 amu
+reduce mass: 4.00073 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 13.373  14.2779  21.6306  Ang
+Initial axis length: 63.383  64.2879  71.6406  Ang
+Ellipsoid axis length: 64.833  65.7379  73.0906  Ang
+ellipsoid calculation time: 5.06788e-05s
+maximal impact parameter: 73.0906 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 1573
+Nx: 11 Ny: 11 Nz: 13
+Filled cells: 28
+Empty cells: 1545
+Average atoms per cell: 44.1071
+Maximum atoms per cell: 197
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 132.11 Ang
+ly: 132.11 Ang
+lz: 156.13 Ang
+linked-cell calculation time: 0.00189771 s
+Ntraj: 10000
+Nfree: 1438
+Nscatter: 8562
+Nlost: 0
+omega: 972.254
+Ntraj: 10000
+Nfree: 1384
+Nscatter: 8616
+Nlost: 0
+omega: 1024.23
+Ntraj: 10000
+Nfree: 1390
+Nscatter: 8610
+Nlost: 0
+omega: 958.126
+Ntraj: 10000
+Nfree: 1371
+Nscatter: 8629
+Nlost: 0
+omega: 1150.67
+Ntraj: 10000
+Nfree: 1373
+Nscatter: 8627
+Nlost: 0
+omega: 1163.4
+Ntraj: 10000
+Nfree: 1391
+Nscatter: 8609
+Nlost: 0
+omega: 1104.33
+Ntraj: 10000
+Nfree: 1414
+Nscatter: 8586
+Nlost: 0
+omega: 996.655
+Ntraj: 10000
+Nfree: 1394
+Nscatter: 8606
+Nlost: 0
+omega: 1040.98
+Ntraj: 10000
+Nfree: 1418
+Nscatter: 8582
+Nlost: 0
+omega: 1115.37
+Ntraj: 10000
+Nfree: 1403
+Nscatter: 8597
+Nlost: 0
+omega: 1090.54
+CCS time: 68.2658 s
+--------------------------------------------------------
+average value of CCS = 1061.66 Ang^2
+error value of CCS = 22.0411 Ang^2
+Total time: 68.2703 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 1ubq_charge_4_min.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  774050  -98727  -119273  }
+{  -98727  765481  -55190.9  }
+{  -119273  -55190.9  711486  }
+Rotation matrix applied to molecule: 
+{  0.797039  -0.460096  -0.391204  }
+{  0.592383  0.469553  0.654677  }
+{  -0.117523  -0.753546  0.646805  }
+Molecule radius: 22.0778 Ang 
+orientation time of molecule target: 0.00232153 s
+target mass: 8568.9 amu
+gas mass: 4.0026 amu
+reduce mass: 4.00073 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 13.373  14.2779  21.6306  Ang
+Initial axis length: 63.383  64.2879  71.6406  Ang
+Ellipsoid axis length: 64.833  65.7379  73.0906  Ang
+ellipsoid calculation time: 5.02765e-05s
+maximal impact parameter: 73.0906 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 1573
+Nx: 11 Ny: 11 Nz: 13
+Filled cells: 28
+Empty cells: 1545
+Average atoms per cell: 44.1071
+Maximum atoms per cell: 197
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 132.11 Ang
+ly: 132.11 Ang
+lz: 156.13 Ang
+linked-cell calculation time: 0.00192896 s
+Ntraj: 10000
+Nfree: 1438
+Nscatter: 8562
+Nlost: 0
+omega: 972.254
+Ntraj: 10000
+Nfree: 1384
+Nscatter: 8616
+Nlost: 0
+omega: 1024.23
+Ntraj: 10000
+Nfree: 1390
+Nscatter: 8610
+Nlost: 0
+omega: 958.126
+Ntraj: 10000
+Nfree: 1371
+Nscatter: 8629
+Nlost: 0
+omega: 1150.67
+Ntraj: 10000
+Nfree: 1373
+Nscatter: 8627
+Nlost: 0
+omega: 1163.4
+Ntraj: 10000
+Nfree: 1391
+Nscatter: 8609
+Nlost: 0
+omega: 1104.33
+Ntraj: 10000
+Nfree: 1414
+Nscatter: 8586
+Nlost: 0
+omega: 996.655
+Ntraj: 10000
+Nfree: 1394
+Nscatter: 8606
+Nlost: 0
+omega: 1040.98
+Ntraj: 10000
+Nfree: 1418
+Nscatter: 8582
+Nlost: 0
+omega: 1115.37
+Ntraj: 10000
+Nfree: 1403
+Nscatter: 8597
+Nlost: 0
+omega: 1090.54
+CCS time: 34.1823 s
+--------------------------------------------------------
+average value of CCS = 1061.66 Ang^2
+error value of CCS = 22.0411 Ang^2
+Total time: 34.1872 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 1ubq_charge_4_min.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  774050  -98727  -119273  }
+{  -98727  765481  -55190.9  }
+{  -119273  -55190.9  711486  }
+Rotation matrix applied to molecule: 
+{  0.797039  -0.460096  -0.391204  }
+{  0.592383  0.469553  0.654677  }
+{  -0.117523  -0.753546  0.646805  }
+Molecule radius: 22.0778 Ang 
+orientation time of molecule target: 0.0018912 s
+target mass: 8568.9 amu
+gas mass: 4.0026 amu
+reduce mass: 4.00073 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 13.373  14.2779  21.6306  Ang
+Initial axis length: 63.383  64.2879  71.6406  Ang
+Ellipsoid axis length: 64.833  65.7379  73.0906  Ang
+ellipsoid calculation time: 5.3972e-05s
+maximal impact parameter: 73.0906 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 1573
+Nx: 11 Ny: 11 Nz: 13
+Filled cells: 28
+Empty cells: 1545
+Average atoms per cell: 44.1071
+Maximum atoms per cell: 197
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 132.11 Ang
+ly: 132.11 Ang
+lz: 156.13 Ang
+linked-cell calculation time: 0.00192894 s
+Ntraj: 10000
+Nfree: 1438
+Nscatter: 8562
+Nlost: 0
+omega: 972.254
+Ntraj: 10000
+Nfree: 1384
+Nscatter: 8616
+Nlost: 0
+omega: 1024.23
+Ntraj: 10000
+Nfree: 1390
+Nscatter: 8610
+Nlost: 0
+omega: 958.126
+Ntraj: 10000
+Nfree: 1371
+Nscatter: 8629
+Nlost: 0
+omega: 1150.67
+Ntraj: 10000
+Nfree: 1373
+Nscatter: 8627
+Nlost: 0
+omega: 1163.4
+Ntraj: 10000
+Nfree: 1391
+Nscatter: 8609
+Nlost: 0
+omega: 1104.33
+Ntraj: 10000
+Nfree: 1414
+Nscatter: 8586
+Nlost: 0
+omega: 996.655
+Ntraj: 10000
+Nfree: 1394
+Nscatter: 8606
+Nlost: 0
+omega: 1040.98
+Ntraj: 10000
+Nfree: 1418
+Nscatter: 8582
+Nlost: 0
+omega: 1115.37
+Ntraj: 10000
+Nfree: 1403
+Nscatter: 8597
+Nlost: 0
+omega: 1090.54
+CCS time: 34.2039 s
+--------------------------------------------------------
+average value of CCS = 1061.66 Ang^2
+error value of CCS = 22.0411 Ang^2
+Total time: 34.2082 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 1ubq_charge_4_min.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  774050  -98727  -119273  }
+{  -98727  765481  -55190.9  }
+{  -119273  -55190.9  711486  }
+Rotation matrix applied to molecule: 
+{  0.797039  -0.460096  -0.391204  }
+{  0.592383  0.469553  0.654677  }
+{  -0.117523  -0.753546  0.646805  }
+Molecule radius: 22.0778 Ang 
+orientation time of molecule target: 0.00197025 s
+target mass: 8568.9 amu
+gas mass: 4.0026 amu
+reduce mass: 4.00073 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 13.373  14.2779  21.6306  Ang
+Initial axis length: 63.383  64.2879  71.6406  Ang
+Ellipsoid axis length: 64.833  65.7379  73.0906  Ang
+ellipsoid calculation time: 5.05447e-05s
+maximal impact parameter: 73.0906 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 1573
+Nx: 11 Ny: 11 Nz: 13
+Filled cells: 28
+Empty cells: 1545
+Average atoms per cell: 44.1071
+Maximum atoms per cell: 197
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 132.11 Ang
+ly: 132.11 Ang
+lz: 156.13 Ang
+linked-cell calculation time: 0.00189523 s
+Ntraj: 10000
+Nfree: 1438
+Nscatter: 8562
+Nlost: 0
+omega: 972.254
+Ntraj: 10000
+Nfree: 1384
+Nscatter: 8616
+Nlost: 0
+omega: 1024.23
+Ntraj: 10000
+Nfree: 1390
+Nscatter: 8610
+Nlost: 0
+omega: 958.126
+Ntraj: 10000
+Nfree: 1371
+Nscatter: 8629
+Nlost: 0
+omega: 1150.67
+Ntraj: 10000
+Nfree: 1373
+Nscatter: 8627
+Nlost: 0
+omega: 1163.4
+Ntraj: 10000
+Nfree: 1391
+Nscatter: 8609
+Nlost: 0
+omega: 1104.33
+Ntraj: 10000
+Nfree: 1414
+Nscatter: 8586
+Nlost: 0
+omega: 996.655
+Ntraj: 10000
+Nfree: 1394
+Nscatter: 8606
+Nlost: 0
+omega: 1040.98
+Ntraj: 10000
+Nfree: 1418
+Nscatter: 8582
+Nlost: 0
+omega: 1115.37
+Ntraj: 10000
+Nfree: 1403
+Nscatter: 8597
+Nlost: 0
+omega: 1090.54
+CCS time: 34.1842 s
+--------------------------------------------------------
+average value of CCS = 1061.66 Ang^2
+error value of CCS = 22.0411 Ang^2
+Total time: 34.1888 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 1ubq_charge_4_min.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  774050  -98727  -119273  }
+{  -98727  765481  -55190.9  }
+{  -119273  -55190.9  711486  }
+Rotation matrix applied to molecule: 
+{  0.797039  -0.460096  -0.391204  }
+{  0.592383  0.469553  0.654677  }
+{  -0.117523  -0.753546  0.646805  }
+Molecule radius: 22.0778 Ang 
+orientation time of molecule target: 0.00189967 s
+target mass: 8568.9 amu
+gas mass: 4.0026 amu
+reduce mass: 4.00073 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 13.373  14.2779  21.6306  Ang
+Initial axis length: 63.383  64.2879  71.6406  Ang
+Ellipsoid axis length: 64.833  65.7379  73.0906  Ang
+ellipsoid calculation time: 5.07087e-05s
+maximal impact parameter: 73.0906 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 1573
+Nx: 11 Ny: 11 Nz: 13
+Filled cells: 28
+Empty cells: 1545
+Average atoms per cell: 44.1071
+Maximum atoms per cell: 197
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 132.11 Ang
+ly: 132.11 Ang
+lz: 156.13 Ang
+linked-cell calculation time: 0.00195886 s
+Ntraj: 10000
+Nfree: 1438
+Nscatter: 8562
+Nlost: 0
+omega: 972.254
+Ntraj: 10000
+Nfree: 1384
+Nscatter: 8616
+Nlost: 0
+omega: 1024.23
+Ntraj: 10000
+Nfree: 1390
+Nscatter: 8610
+Nlost: 0
+omega: 958.126
+Ntraj: 10000
+Nfree: 1371
+Nscatter: 8629
+Nlost: 0
+omega: 1150.67
+Ntraj: 10000
+Nfree: 1373
+Nscatter: 8627
+Nlost: 0
+omega: 1163.4
+Ntraj: 10000
+Nfree: 1391
+Nscatter: 8609
+Nlost: 0
+omega: 1104.33
+Ntraj: 10000
+Nfree: 1414
+Nscatter: 8586
+Nlost: 0
+omega: 996.655
+Ntraj: 10000
+Nfree: 1394
+Nscatter: 8606
+Nlost: 0
+omega: 1040.98
+Ntraj: 10000
+Nfree: 1418
+Nscatter: 8582
+Nlost: 0
+omega: 1115.37
+Ntraj: 10000
+Nfree: 1403
+Nscatter: 8597
+Nlost: 0
+omega: 1090.54
+CCS time: 34.3866 s
+--------------------------------------------------------
+average value of CCS = 1061.66 Ang^2
+error value of CCS = 22.0411 Ang^2
+Total time: 34.391 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 1ubq_charge_4_min.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  774050  -98727  -119273  }
+{  -98727  765481  -55190.9  }
+{  -119273  -55190.9  711486  }
+Rotation matrix applied to molecule: 
+{  0.797039  -0.460096  -0.391204  }
+{  0.592383  0.469553  0.654677  }
+{  -0.117523  -0.753546  0.646805  }
+Molecule radius: 22.0778 Ang 
+orientation time of molecule target: 0.00199275 s
+target mass: 8568.9 amu
+gas mass: 4.0026 amu
+reduce mass: 4.00073 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 13.373  14.2779  21.6306  Ang
+Initial axis length: 63.383  64.2879  71.6406  Ang
+Ellipsoid axis length: 64.833  65.7379  73.0906  Ang
+ellipsoid calculation time: 5.04404e-05s
+maximal impact parameter: 73.0906 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 1573
+Nx: 11 Ny: 11 Nz: 13
+Filled cells: 28
+Empty cells: 1545
+Average atoms per cell: 44.1071
+Maximum atoms per cell: 197
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 132.11 Ang
+ly: 132.11 Ang
+lz: 156.13 Ang
+linked-cell calculation time: 0.00190116 s
+Ntraj: 10000
+Nfree: 1438
+Nscatter: 8562
+Nlost: 0
+omega: 972.254
+Ntraj: 10000
+Nfree: 1384
+Nscatter: 8616
+Nlost: 0
+omega: 1024.23
+Ntraj: 10000
+Nfree: 1390
+Nscatter: 8610
+Nlost: 0
+omega: 958.126
+Ntraj: 10000
+Nfree: 1371
+Nscatter: 8629
+Nlost: 0
+omega: 1150.67
+Ntraj: 10000
+Nfree: 1373
+Nscatter: 8627
+Nlost: 0
+omega: 1163.4
+Ntraj: 10000
+Nfree: 1391
+Nscatter: 8609
+Nlost: 0
+omega: 1104.33
+Ntraj: 10000
+Nfree: 1414
+Nscatter: 8586
+Nlost: 0
+omega: 996.655
+Ntraj: 10000
+Nfree: 1394
+Nscatter: 8606
+Nlost: 0
+omega: 1040.98
+Ntraj: 10000
+Nfree: 1418
+Nscatter: 8582
+Nlost: 0
+omega: 1115.37
+Ntraj: 10000
+Nfree: 1403
+Nscatter: 8597
+Nlost: 0
+omega: 1090.54
+CCS time: 34.1894 s
+--------------------------------------------------------
+average value of CCS = 1061.66 Ang^2
+error value of CCS = 22.0411 Ang^2
+Total time: 34.194 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 1ubq_charge_4_min.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  774050  -98727  -119273  }
+{  -98727  765481  -55190.9  }
+{  -119273  -55190.9  711486  }
+Rotation matrix applied to molecule: 
+{  0.797039  -0.460096  -0.391204  }
+{  0.592383  0.469553  0.654677  }
+{  -0.117523  -0.753546  0.646805  }
+Molecule radius: 22.0778 Ang 
+orientation time of molecule target: 0.00200704 s
+target mass: 8568.9 amu
+gas mass: 4.0026 amu
+reduce mass: 4.00073 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 13.373  14.2779  21.6306  Ang
+Initial axis length: 63.383  64.2879  71.6406  Ang
+Ellipsoid axis length: 64.833  65.7379  73.0906  Ang
+ellipsoid calculation time: 5.06788e-05s
+maximal impact parameter: 73.0906 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 1573
+Nx: 11 Ny: 11 Nz: 13
+Filled cells: 28
+Empty cells: 1545
+Average atoms per cell: 44.1071
+Maximum atoms per cell: 197
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 132.11 Ang
+ly: 132.11 Ang
+lz: 156.13 Ang
+linked-cell calculation time: 0.00188823 s
+Ntraj: 10000
+Nfree: 1438
+Nscatter: 8562
+Nlost: 0
+omega: 972.254
+Ntraj: 10000
+Nfree: 1384
+Nscatter: 8616
+Nlost: 0
+omega: 1024.23
+Ntraj: 10000
+Nfree: 1390
+Nscatter: 8610
+Nlost: 0
+omega: 958.126
+Ntraj: 10000
+Nfree: 1371
+Nscatter: 8629
+Nlost: 0
+omega: 1150.67
+Ntraj: 10000
+Nfree: 1373
+Nscatter: 8627
+Nlost: 0
+omega: 1163.4
+Ntraj: 10000
+Nfree: 1391
+Nscatter: 8609
+Nlost: 0
+omega: 1104.33
+Ntraj: 10000
+Nfree: 1414
+Nscatter: 8586
+Nlost: 0
+omega: 996.655
+Ntraj: 10000
+Nfree: 1394
+Nscatter: 8606
+Nlost: 0
+omega: 1040.98
+Ntraj: 10000
+Nfree: 1418
+Nscatter: 8582
+Nlost: 0
+omega: 1115.37
+Ntraj: 10000
+Nfree: 1403
+Nscatter: 8597
+Nlost: 0
+omega: 1090.54
+CCS time: 34.2482 s
+--------------------------------------------------------
+average value of CCS = 1061.66 Ang^2
+error value of CCS = 22.0411 Ang^2
+Total time: 34.2527 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 1ubq_charge_4_min.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  774050  -98727  -119273  }
+{  -98727  765481  -55190.9  }
+{  -119273  -55190.9  711486  }
+Rotation matrix applied to molecule: 
+{  0.797039  -0.460096  -0.391204  }
+{  0.592383  0.469553  0.654677  }
+{  -0.117523  -0.753546  0.646805  }
+Molecule radius: 22.0778 Ang 
+orientation time of molecule target: 0.00197774 s
+target mass: 8568.9 amu
+gas mass: 4.0026 amu
+reduce mass: 4.00073 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 13.373  14.2779  21.6306  Ang
+Initial axis length: 63.383  64.2879  71.6406  Ang
+Ellipsoid axis length: 64.833  65.7379  73.0906  Ang
+ellipsoid calculation time: 5.03361e-05s
+maximal impact parameter: 73.0906 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 1573
+Nx: 11 Ny: 11 Nz: 13
+Filled cells: 28
+Empty cells: 1545
+Average atoms per cell: 44.1071
+Maximum atoms per cell: 197
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 132.11 Ang
+ly: 132.11 Ang
+lz: 156.13 Ang
+linked-cell calculation time: 0.00189981 s
+Ntraj: 10000
+Nfree: 1438
+Nscatter: 8562
+Nlost: 0
+omega: 972.254
+Ntraj: 10000
+Nfree: 1384
+Nscatter: 8616
+Nlost: 0
+omega: 1024.23
+Ntraj: 10000
+Nfree: 1390
+Nscatter: 8610
+Nlost: 0
+omega: 958.126
+Ntraj: 10000
+Nfree: 1371
+Nscatter: 8629
+Nlost: 0
+omega: 1150.67
+Ntraj: 10000
+Nfree: 1373
+Nscatter: 8627
+Nlost: 0
+omega: 1163.4
+Ntraj: 10000
+Nfree: 1391
+Nscatter: 8609
+Nlost: 0
+omega: 1104.33
+Ntraj: 10000
+Nfree: 1414
+Nscatter: 8586
+Nlost: 0
+omega: 996.655
+Ntraj: 10000
+Nfree: 1394
+Nscatter: 8606
+Nlost: 0
+omega: 1040.98
+Ntraj: 10000
+Nfree: 1418
+Nscatter: 8582
+Nlost: 0
+omega: 1115.37
+Ntraj: 10000
+Nfree: 1403
+Nscatter: 8597
+Nlost: 0
+omega: 1090.54
+CCS time: 34.1809 s
+--------------------------------------------------------
+average value of CCS = 1061.66 Ang^2
+error value of CCS = 22.0411 Ang^2
+Total time: 34.1854 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 1ubq_charge_4_min.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  774050  -98727  -119273  }
+{  -98727  765481  -55190.9  }
+{  -119273  -55190.9  711486  }
+Rotation matrix applied to molecule: 
+{  0.797039  -0.460096  -0.391204  }
+{  0.592383  0.469553  0.654677  }
+{  -0.117523  -0.753546  0.646805  }
+Molecule radius: 22.0778 Ang 
+orientation time of molecule target: 0.00189228 s
+target mass: 8568.9 amu
+gas mass: 4.0026 amu
+reduce mass: 4.00073 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 13.373  14.2779  21.6306  Ang
+Initial axis length: 63.383  64.2879  71.6406  Ang
+Ellipsoid axis length: 64.833  65.7379  73.0906  Ang
+ellipsoid calculation time: 5.05298e-05s
+maximal impact parameter: 73.0906 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 1573
+Nx: 11 Ny: 11 Nz: 13
+Filled cells: 28
+Empty cells: 1545
+Average atoms per cell: 44.1071
+Maximum atoms per cell: 197
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 132.11 Ang
+ly: 132.11 Ang
+lz: 156.13 Ang
+linked-cell calculation time: 0.00189087 s
+Ntraj: 10000
+Nfree: 1438
+Nscatter: 8562
+Nlost: 0
+omega: 972.254
+Ntraj: 10000
+Nfree: 1384
+Nscatter: 8616
+Nlost: 0
+omega: 1024.23
+Ntraj: 10000
+Nfree: 1390
+Nscatter: 8610
+Nlost: 0
+omega: 958.126
+Ntraj: 10000
+Nfree: 1371
+Nscatter: 8629
+Nlost: 0
+omega: 1150.67
+Ntraj: 10000
+Nfree: 1373
+Nscatter: 8627
+Nlost: 0
+omega: 1163.4
+Ntraj: 10000
+Nfree: 1391
+Nscatter: 8609
+Nlost: 0
+omega: 1104.33
+Ntraj: 10000
+Nfree: 1414
+Nscatter: 8586
+Nlost: 0
+omega: 996.655
+Ntraj: 10000
+Nfree: 1394
+Nscatter: 8606
+Nlost: 0
+omega: 1040.98
+Ntraj: 10000
+Nfree: 1418
+Nscatter: 8582
+Nlost: 0
+omega: 1115.37
+Ntraj: 10000
+Nfree: 1403
+Nscatter: 8597
+Nlost: 0
+omega: 1090.54
+CCS time: 34.2606 s
+--------------------------------------------------------
+average value of CCS = 1061.66 Ang^2
+error value of CCS = 22.0411 Ang^2
+Total time: 34.2649 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 1ubq_charge_4_min.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  774050  -98727  -119273  }
+{  -98727  765481  -55190.9  }
+{  -119273  -55190.9  711486  }
+Rotation matrix applied to molecule: 
+{  0.797039  -0.460096  -0.391204  }
+{  0.592383  0.469553  0.654677  }
+{  -0.117523  -0.753546  0.646805  }
+Molecule radius: 22.0778 Ang 
+orientation time of molecule target: 0.00197294 s
+target mass: 8568.9 amu
+gas mass: 4.0026 amu
+reduce mass: 4.00073 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 13.373  14.2779  21.6306  Ang
+Initial axis length: 63.383  64.2879  71.6406  Ang
+Ellipsoid axis length: 64.833  65.7379  73.0906  Ang
+ellipsoid calculation time: 5.02914e-05s
+maximal impact parameter: 73.0906 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 1573
+Nx: 11 Ny: 11 Nz: 13
+Filled cells: 28
+Empty cells: 1545
+Average atoms per cell: 44.1071
+Maximum atoms per cell: 197
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 132.11 Ang
+ly: 132.11 Ang
+lz: 156.13 Ang
+linked-cell calculation time: 0.00189614 s
+Ntraj: 10000
+Nfree: 1438
+Nscatter: 8562
+Nlost: 0
+omega: 972.254
+Ntraj: 10000
+Nfree: 1384
+Nscatter: 8616
+Nlost: 0
+omega: 1024.23
+Ntraj: 10000
+Nfree: 1390
+Nscatter: 8610
+Nlost: 0
+omega: 958.126
+Ntraj: 10000
+Nfree: 1371
+Nscatter: 8629
+Nlost: 0
+omega: 1150.67
+Ntraj: 10000
+Nfree: 1373
+Nscatter: 8627
+Nlost: 0
+omega: 1163.4
+Ntraj: 10000
+Nfree: 1391
+Nscatter: 8609
+Nlost: 0
+omega: 1104.33
+Ntraj: 10000
+Nfree: 1414
+Nscatter: 8586
+Nlost: 0
+omega: 996.655
+Ntraj: 10000
+Nfree: 1394
+Nscatter: 8606
+Nlost: 0
+omega: 1040.98
+Ntraj: 10000
+Nfree: 1418
+Nscatter: 8582
+Nlost: 0
+omega: 1115.37
+Ntraj: 10000
+Nfree: 1403
+Nscatter: 8597
+Nlost: 0
+omega: 1090.54
+CCS time: 34.164 s
+--------------------------------------------------------
+average value of CCS = 1061.66 Ang^2
+error value of CCS = 22.0411 Ang^2
+Total time: 34.1686 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 1ubq_charge_4_min.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  774050  -98727  -119273  }
+{  -98727  765481  -55190.9  }
+{  -119273  -55190.9  711486  }
+Rotation matrix applied to molecule: 
+{  0.797039  -0.460096  -0.391204  }
+{  0.592383  0.469553  0.654677  }
+{  -0.117523  -0.753546  0.646805  }
+Molecule radius: 22.0778 Ang 
+orientation time of molecule target: 0.00189635 s
+target mass: 8568.9 amu
+gas mass: 4.0026 amu
+reduce mass: 4.00073 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 13.373  14.2779  21.6306  Ang
+Initial axis length: 63.383  64.2879  71.6406  Ang
+Ellipsoid axis length: 64.833  65.7379  73.0906  Ang
+ellipsoid calculation time: 5.07087e-05s
+maximal impact parameter: 73.0906 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 1573
+Nx: 11 Ny: 11 Nz: 13
+Filled cells: 28
+Empty cells: 1545
+Average atoms per cell: 44.1071
+Maximum atoms per cell: 197
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 132.11 Ang
+ly: 132.11 Ang
+lz: 156.13 Ang
+linked-cell calculation time: 0.00189836 s
+Ntraj: 10000
+Nfree: 1438
+Nscatter: 8562
+Nlost: 0
+omega: 972.254
+Ntraj: 10000
+Nfree: 1384
+Nscatter: 8616
+Nlost: 0
+omega: 1024.23
+Ntraj: 10000
+Nfree: 1390
+Nscatter: 8610
+Nlost: 0
+omega: 958.126
+Ntraj: 10000
+Nfree: 1371
+Nscatter: 8629
+Nlost: 0
+omega: 1150.67
+Ntraj: 10000
+Nfree: 1373
+Nscatter: 8627
+Nlost: 0
+omega: 1163.4
+Ntraj: 10000
+Nfree: 1391
+Nscatter: 8609
+Nlost: 0
+omega: 1104.33
+Ntraj: 10000
+Nfree: 1414
+Nscatter: 8586
+Nlost: 0
+omega: 996.655
+Ntraj: 10000
+Nfree: 1394
+Nscatter: 8606
+Nlost: 0
+omega: 1040.98
+Ntraj: 10000
+Nfree: 1418
+Nscatter: 8582
+Nlost: 0
+omega: 1115.37
+Ntraj: 10000
+Nfree: 1403
+Nscatter: 8597
+Nlost: 0
+omega: 1090.54
+CCS time: 34.1751 s
+--------------------------------------------------------
+average value of CCS = 1061.66 Ang^2
+error value of CCS = 22.0411 Ang^2
+Total time: 34.1794 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 1ubq_charge_4_min.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  774050  -98727  -119273  }
+{  -98727  765481  -55190.9  }
+{  -119273  -55190.9  711486  }
+Rotation matrix applied to molecule: 
+{  0.797039  -0.460096  -0.391204  }
+{  0.592383  0.469553  0.654677  }
+{  -0.117523  -0.753546  0.646805  }
+Molecule radius: 22.0778 Ang 
+orientation time of molecule target: 0.00221708 s
+target mass: 8568.9 amu
+gas mass: 4.0026 amu
+reduce mass: 4.00073 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 13.373  14.2779  21.6306  Ang
+Initial axis length: 63.383  64.2879  71.6406  Ang
+Ellipsoid axis length: 64.833  65.7379  73.0906  Ang
+ellipsoid calculation time: 5.03063e-05s
+maximal impact parameter: 73.0906 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 1573
+Nx: 11 Ny: 11 Nz: 13
+Filled cells: 28
+Empty cells: 1545
+Average atoms per cell: 44.1071
+Maximum atoms per cell: 197
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 132.11 Ang
+ly: 132.11 Ang
+lz: 156.13 Ang
+linked-cell calculation time: 0.00189526 s
+Ntraj: 10000
+Nfree: 1438
+Nscatter: 8562
+Nlost: 0
+omega: 972.254
+Ntraj: 10000
+Nfree: 1384
+Nscatter: 8616
+Nlost: 0
+omega: 1024.23
+Ntraj: 10000
+Nfree: 1390
+Nscatter: 8610
+Nlost: 0
+omega: 958.126
+Ntraj: 10000
+Nfree: 1371
+Nscatter: 8629
+Nlost: 0
+omega: 1150.67
+Ntraj: 10000
+Nfree: 1373
+Nscatter: 8627
+Nlost: 0
+omega: 1163.4
+Ntraj: 10000
+Nfree: 1391
+Nscatter: 8609
+Nlost: 0
+omega: 1104.33
+Ntraj: 10000
+Nfree: 1414
+Nscatter: 8586
+Nlost: 0
+omega: 996.655
+Ntraj: 10000
+Nfree: 1394
+Nscatter: 8606
+Nlost: 0
+omega: 1040.98
+Ntraj: 10000
+Nfree: 1418
+Nscatter: 8582
+Nlost: 0
+omega: 1115.37
+Ntraj: 10000
+Nfree: 1403
+Nscatter: 8597
+Nlost: 0
+omega: 1090.54
+CCS time: 17.1214 s
+--------------------------------------------------------
+average value of CCS = 1061.66 Ang^2
+error value of CCS = 22.0411 Ang^2
+Total time: 17.1264 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 1ubq_charge_4_min.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  774050  -98727  -119273  }
+{  -98727  765481  -55190.9  }
+{  -119273  -55190.9  711486  }
+Rotation matrix applied to molecule: 
+{  0.797039  -0.460096  -0.391204  }
+{  0.592383  0.469553  0.654677  }
+{  -0.117523  -0.753546  0.646805  }
+Molecule radius: 22.0778 Ang 
+orientation time of molecule target: 0.00189711 s
+target mass: 8568.9 amu
+gas mass: 4.0026 amu
+reduce mass: 4.00073 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 13.373  14.2779  21.6306  Ang
+Initial axis length: 63.383  64.2879  71.6406  Ang
+Ellipsoid axis length: 64.833  65.7379  73.0906  Ang
+ellipsoid calculation time: 5.42402e-05s
+maximal impact parameter: 73.0906 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 1573
+Nx: 11 Ny: 11 Nz: 13
+Filled cells: 28
+Empty cells: 1545
+Average atoms per cell: 44.1071
+Maximum atoms per cell: 197
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 132.11 Ang
+ly: 132.11 Ang
+lz: 156.13 Ang
+linked-cell calculation time: 0.00189051 s
+Ntraj: 10000
+Nfree: 1438
+Nscatter: 8562
+Nlost: 0
+omega: 972.254
+Ntraj: 10000
+Nfree: 1384
+Nscatter: 8616
+Nlost: 0
+omega: 1024.23
+Ntraj: 10000
+Nfree: 1390
+Nscatter: 8610
+Nlost: 0
+omega: 958.126
+Ntraj: 10000
+Nfree: 1371
+Nscatter: 8629
+Nlost: 0
+omega: 1150.67
+Ntraj: 10000
+Nfree: 1373
+Nscatter: 8627
+Nlost: 0
+omega: 1163.4
+Ntraj: 10000
+Nfree: 1391
+Nscatter: 8609
+Nlost: 0
+omega: 1104.33
+Ntraj: 10000
+Nfree: 1414
+Nscatter: 8586
+Nlost: 0
+omega: 996.655
+Ntraj: 10000
+Nfree: 1394
+Nscatter: 8606
+Nlost: 0
+omega: 1040.98
+Ntraj: 10000
+Nfree: 1418
+Nscatter: 8582
+Nlost: 0
+omega: 1115.37
+Ntraj: 10000
+Nfree: 1403
+Nscatter: 8597
+Nlost: 0
+omega: 1090.54
+CCS time: 17.1263 s
+--------------------------------------------------------
+average value of CCS = 1061.66 Ang^2
+error value of CCS = 22.0411 Ang^2
+Total time: 17.1304 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 1ubq_charge_4_min.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  774050  -98727  -119273  }
+{  -98727  765481  -55190.9  }
+{  -119273  -55190.9  711486  }
+Rotation matrix applied to molecule: 
+{  0.797039  -0.460096  -0.391204  }
+{  0.592383  0.469553  0.654677  }
+{  -0.117523  -0.753546  0.646805  }
+Molecule radius: 22.0778 Ang 
+orientation time of molecule target: 0.00189383 s
+target mass: 8568.9 amu
+gas mass: 4.0026 amu
+reduce mass: 4.00073 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 13.373  14.2779  21.6306  Ang
+Initial axis length: 63.383  64.2879  71.6406  Ang
+Ellipsoid axis length: 64.833  65.7379  73.0906  Ang
+ellipsoid calculation time: 5.07236e-05s
+maximal impact parameter: 73.0906 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 1573
+Nx: 11 Ny: 11 Nz: 13
+Filled cells: 28
+Empty cells: 1545
+Average atoms per cell: 44.1071
+Maximum atoms per cell: 197
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 132.11 Ang
+ly: 132.11 Ang
+lz: 156.13 Ang
+linked-cell calculation time: 0.00189224 s
+Ntraj: 10000
+Nfree: 1438
+Nscatter: 8562
+Nlost: 0
+omega: 972.254
+Ntraj: 10000
+Nfree: 1384
+Nscatter: 8616
+Nlost: 0
+omega: 1024.23
+Ntraj: 10000
+Nfree: 1390
+Nscatter: 8610
+Nlost: 0
+omega: 958.126
+Ntraj: 10000
+Nfree: 1371
+Nscatter: 8629
+Nlost: 0
+omega: 1150.67
+Ntraj: 10000
+Nfree: 1373
+Nscatter: 8627
+Nlost: 0
+omega: 1163.4
+Ntraj: 10000
+Nfree: 1391
+Nscatter: 8609
+Nlost: 0
+omega: 1104.33
+Ntraj: 10000
+Nfree: 1414
+Nscatter: 8586
+Nlost: 0
+omega: 996.655
+Ntraj: 10000
+Nfree: 1394
+Nscatter: 8606
+Nlost: 0
+omega: 1040.98
+Ntraj: 10000
+Nfree: 1418
+Nscatter: 8582
+Nlost: 0
+omega: 1115.37
+Ntraj: 10000
+Nfree: 1403
+Nscatter: 8597
+Nlost: 0
+omega: 1090.54
+CCS time: 17.1318 s
+--------------------------------------------------------
+average value of CCS = 1061.66 Ang^2
+error value of CCS = 22.0411 Ang^2
+Total time: 17.1361 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 1ubq_charge_4_min.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  774050  -98727  -119273  }
+{  -98727  765481  -55190.9  }
+{  -119273  -55190.9  711486  }
+Rotation matrix applied to molecule: 
+{  0.797039  -0.460096  -0.391204  }
+{  0.592383  0.469553  0.654677  }
+{  -0.117523  -0.753546  0.646805  }
+Molecule radius: 22.0778 Ang 
+orientation time of molecule target: 0.00190207 s
+target mass: 8568.9 amu
+gas mass: 4.0026 amu
+reduce mass: 4.00073 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 13.373  14.2779  21.6306  Ang
+Initial axis length: 63.383  64.2879  71.6406  Ang
+Ellipsoid axis length: 64.833  65.7379  73.0906  Ang
+ellipsoid calculation time: 5.16027e-05s
+maximal impact parameter: 73.0906 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 1573
+Nx: 11 Ny: 11 Nz: 13
+Filled cells: 28
+Empty cells: 1545
+Average atoms per cell: 44.1071
+Maximum atoms per cell: 197
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 132.11 Ang
+ly: 132.11 Ang
+lz: 156.13 Ang
+linked-cell calculation time: 0.00188614 s
+Ntraj: 10000
+Nfree: 1438
+Nscatter: 8562
+Nlost: 0
+omega: 972.254
+Ntraj: 10000
+Nfree: 1384
+Nscatter: 8616
+Nlost: 0
+omega: 1024.23
+Ntraj: 10000
+Nfree: 1390
+Nscatter: 8610
+Nlost: 0
+omega: 958.126
+Ntraj: 10000
+Nfree: 1371
+Nscatter: 8629
+Nlost: 0
+omega: 1150.67
+Ntraj: 10000
+Nfree: 1373
+Nscatter: 8627
+Nlost: 0
+omega: 1163.4
+Ntraj: 10000
+Nfree: 1391
+Nscatter: 8609
+Nlost: 0
+omega: 1104.33
+Ntraj: 10000
+Nfree: 1414
+Nscatter: 8586
+Nlost: 0
+omega: 996.655
+Ntraj: 10000
+Nfree: 1394
+Nscatter: 8606
+Nlost: 0
+omega: 1040.98
+Ntraj: 10000
+Nfree: 1418
+Nscatter: 8582
+Nlost: 0
+omega: 1115.37
+Ntraj: 10000
+Nfree: 1403
+Nscatter: 8597
+Nlost: 0
+omega: 1090.54
+CCS time: 17.127 s
+--------------------------------------------------------
+average value of CCS = 1061.66 Ang^2
+error value of CCS = 22.0411 Ang^2
+Total time: 17.1313 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 1ubq_charge_4_min.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  774050  -98727  -119273  }
+{  -98727  765481  -55190.9  }
+{  -119273  -55190.9  711486  }
+Rotation matrix applied to molecule: 
+{  0.797039  -0.460096  -0.391204  }
+{  0.592383  0.469553  0.654677  }
+{  -0.117523  -0.753546  0.646805  }
+Molecule radius: 22.0778 Ang 
+orientation time of molecule target: 0.00197899 s
+target mass: 8568.9 amu
+gas mass: 4.0026 amu
+reduce mass: 4.00073 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 13.373  14.2779  21.6306  Ang
+Initial axis length: 63.383  64.2879  71.6406  Ang
+Ellipsoid axis length: 64.833  65.7379  73.0906  Ang
+ellipsoid calculation time: 5.07087e-05s
+maximal impact parameter: 73.0906 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 1573
+Nx: 11 Ny: 11 Nz: 13
+Filled cells: 28
+Empty cells: 1545
+Average atoms per cell: 44.1071
+Maximum atoms per cell: 197
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 132.11 Ang
+ly: 132.11 Ang
+lz: 156.13 Ang
+linked-cell calculation time: 0.00191793 s
+Ntraj: 10000
+Nfree: 1438
+Nscatter: 8562
+Nlost: 0
+omega: 972.254
+Ntraj: 10000
+Nfree: 1384
+Nscatter: 8616
+Nlost: 0
+omega: 1024.23
+Ntraj: 10000
+Nfree: 1390
+Nscatter: 8610
+Nlost: 0
+omega: 958.126
+Ntraj: 10000
+Nfree: 1371
+Nscatter: 8629
+Nlost: 0
+omega: 1150.67
+Ntraj: 10000
+Nfree: 1373
+Nscatter: 8627
+Nlost: 0
+omega: 1163.4
+Ntraj: 10000
+Nfree: 1391
+Nscatter: 8609
+Nlost: 0
+omega: 1104.33
+Ntraj: 10000
+Nfree: 1414
+Nscatter: 8586
+Nlost: 0
+omega: 996.655
+Ntraj: 10000
+Nfree: 1394
+Nscatter: 8606
+Nlost: 0
+omega: 1040.98
+Ntraj: 10000
+Nfree: 1418
+Nscatter: 8582
+Nlost: 0
+omega: 1115.37
+Ntraj: 10000
+Nfree: 1403
+Nscatter: 8597
+Nlost: 0
+omega: 1090.54
+CCS time: 17.1268 s
+--------------------------------------------------------
+average value of CCS = 1061.66 Ang^2
+error value of CCS = 22.0411 Ang^2
+Total time: 17.1314 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 1ubq_charge_4_min.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  774050  -98727  -119273  }
+{  -98727  765481  -55190.9  }
+{  -119273  -55190.9  711486  }
+Rotation matrix applied to molecule: 
+{  0.797039  -0.460096  -0.391204  }
+{  0.592383  0.469553  0.654677  }
+{  -0.117523  -0.753546  0.646805  }
+Molecule radius: 22.0778 Ang 
+orientation time of molecule target: 0.00189562 s
+target mass: 8568.9 amu
+gas mass: 4.0026 amu
+reduce mass: 4.00073 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 13.373  14.2779  21.6306  Ang
+Initial axis length: 63.383  64.2879  71.6406  Ang
+Ellipsoid axis length: 64.833  65.7379  73.0906  Ang
+ellipsoid calculation time: 5.06341e-05s
+maximal impact parameter: 73.0906 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 1573
+Nx: 11 Ny: 11 Nz: 13
+Filled cells: 28
+Empty cells: 1545
+Average atoms per cell: 44.1071
+Maximum atoms per cell: 197
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 132.11 Ang
+ly: 132.11 Ang
+lz: 156.13 Ang
+linked-cell calculation time: 0.00190322 s
+Ntraj: 10000
+Nfree: 1438
+Nscatter: 8562
+Nlost: 0
+omega: 972.254
+Ntraj: 10000
+Nfree: 1384
+Nscatter: 8616
+Nlost: 0
+omega: 1024.23
+Ntraj: 10000
+Nfree: 1390
+Nscatter: 8610
+Nlost: 0
+omega: 958.126
+Ntraj: 10000
+Nfree: 1371
+Nscatter: 8629
+Nlost: 0
+omega: 1150.67
+Ntraj: 10000
+Nfree: 1373
+Nscatter: 8627
+Nlost: 0
+omega: 1163.4
+Ntraj: 10000
+Nfree: 1391
+Nscatter: 8609
+Nlost: 0
+omega: 1104.33
+Ntraj: 10000
+Nfree: 1414
+Nscatter: 8586
+Nlost: 0
+omega: 996.655
+Ntraj: 10000
+Nfree: 1394
+Nscatter: 8606
+Nlost: 0
+omega: 1040.98
+Ntraj: 10000
+Nfree: 1418
+Nscatter: 8582
+Nlost: 0
+omega: 1115.37
+Ntraj: 10000
+Nfree: 1403
+Nscatter: 8597
+Nlost: 0
+omega: 1090.54
+CCS time: 17.1347 s
+--------------------------------------------------------
+average value of CCS = 1061.66 Ang^2
+error value of CCS = 22.0411 Ang^2
+Total time: 17.1391 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 1ubq_charge_4_min.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  774050  -98727  -119273  }
+{  -98727  765481  -55190.9  }
+{  -119273  -55190.9  711486  }
+Rotation matrix applied to molecule: 
+{  0.797039  -0.460096  -0.391204  }
+{  0.592383  0.469553  0.654677  }
+{  -0.117523  -0.753546  0.646805  }
+Molecule radius: 22.0778 Ang 
+orientation time of molecule target: 0.00189666 s
+target mass: 8568.9 amu
+gas mass: 4.0026 amu
+reduce mass: 4.00073 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 13.373  14.2779  21.6306  Ang
+Initial axis length: 63.383  64.2879  71.6406  Ang
+Ellipsoid axis length: 64.833  65.7379  73.0906  Ang
+ellipsoid calculation time: 5.09918e-05s
+maximal impact parameter: 73.0906 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 1573
+Nx: 11 Ny: 11 Nz: 13
+Filled cells: 28
+Empty cells: 1545
+Average atoms per cell: 44.1071
+Maximum atoms per cell: 197
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 132.11 Ang
+ly: 132.11 Ang
+lz: 156.13 Ang
+linked-cell calculation time: 0.00190419 s
+Ntraj: 10000
+Nfree: 1438
+Nscatter: 8562
+Nlost: 0
+omega: 972.254
+Ntraj: 10000
+Nfree: 1384
+Nscatter: 8616
+Nlost: 0
+omega: 1024.23
+Ntraj: 10000
+Nfree: 1390
+Nscatter: 8610
+Nlost: 0
+omega: 958.126
+Ntraj: 10000
+Nfree: 1371
+Nscatter: 8629
+Nlost: 0
+omega: 1150.67
+Ntraj: 10000
+Nfree: 1373
+Nscatter: 8627
+Nlost: 0
+omega: 1163.4
+Ntraj: 10000
+Nfree: 1391
+Nscatter: 8609
+Nlost: 0
+omega: 1104.33
+Ntraj: 10000
+Nfree: 1414
+Nscatter: 8586
+Nlost: 0
+omega: 996.655
+Ntraj: 10000
+Nfree: 1394
+Nscatter: 8606
+Nlost: 0
+omega: 1040.98
+Ntraj: 10000
+Nfree: 1418
+Nscatter: 8582
+Nlost: 0
+omega: 1115.37
+Ntraj: 10000
+Nfree: 1403
+Nscatter: 8597
+Nlost: 0
+omega: 1090.54
+CCS time: 17.1324 s
+--------------------------------------------------------
+average value of CCS = 1061.66 Ang^2
+error value of CCS = 22.0411 Ang^2
+Total time: 17.1367 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 1ubq_charge_4_min.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  774050  -98727  -119273  }
+{  -98727  765481  -55190.9  }
+{  -119273  -55190.9  711486  }
+Rotation matrix applied to molecule: 
+{  0.797039  -0.460096  -0.391204  }
+{  0.592383  0.469553  0.654677  }
+{  -0.117523  -0.753546  0.646805  }
+Molecule radius: 22.0778 Ang 
+orientation time of molecule target: 0.00189327 s
+target mass: 8568.9 amu
+gas mass: 4.0026 amu
+reduce mass: 4.00073 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 13.373  14.2779  21.6306  Ang
+Initial axis length: 63.383  64.2879  71.6406  Ang
+Ellipsoid axis length: 64.833  65.7379  73.0906  Ang
+ellipsoid calculation time: 5.03212e-05s
+maximal impact parameter: 73.0906 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 1573
+Nx: 11 Ny: 11 Nz: 13
+Filled cells: 28
+Empty cells: 1545
+Average atoms per cell: 44.1071
+Maximum atoms per cell: 197
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 132.11 Ang
+ly: 132.11 Ang
+lz: 156.13 Ang
+linked-cell calculation time: 0.0019093 s
+Ntraj: 10000
+Nfree: 1438
+Nscatter: 8562
+Nlost: 0
+omega: 972.254
+Ntraj: 10000
+Nfree: 1384
+Nscatter: 8616
+Nlost: 0
+omega: 1024.23
+Ntraj: 10000
+Nfree: 1390
+Nscatter: 8610
+Nlost: 0
+omega: 958.126
+Ntraj: 10000
+Nfree: 1371
+Nscatter: 8629
+Nlost: 0
+omega: 1150.67
+Ntraj: 10000
+Nfree: 1373
+Nscatter: 8627
+Nlost: 0
+omega: 1163.4
+Ntraj: 10000
+Nfree: 1391
+Nscatter: 8609
+Nlost: 0
+omega: 1104.33
+Ntraj: 10000
+Nfree: 1414
+Nscatter: 8586
+Nlost: 0
+omega: 996.655
+Ntraj: 10000
+Nfree: 1394
+Nscatter: 8606
+Nlost: 0
+omega: 1040.98
+Ntraj: 10000
+Nfree: 1418
+Nscatter: 8582
+Nlost: 0
+omega: 1115.37
+Ntraj: 10000
+Nfree: 1403
+Nscatter: 8597
+Nlost: 0
+omega: 1090.54
+CCS time: 17.1394 s
+--------------------------------------------------------
+average value of CCS = 1061.66 Ang^2
+error value of CCS = 22.0411 Ang^2
+Total time: 17.1438 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 1ubq_charge_4_min.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  774050  -98727  -119273  }
+{  -98727  765481  -55190.9  }
+{  -119273  -55190.9  711486  }
+Rotation matrix applied to molecule: 
+{  0.797039  -0.460096  -0.391204  }
+{  0.592383  0.469553  0.654677  }
+{  -0.117523  -0.753546  0.646805  }
+Molecule radius: 22.0778 Ang 
+orientation time of molecule target: 0.00198121 s
+target mass: 8568.9 amu
+gas mass: 4.0026 amu
+reduce mass: 4.00073 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 13.373  14.2779  21.6306  Ang
+Initial axis length: 63.383  64.2879  71.6406  Ang
+Ellipsoid axis length: 64.833  65.7379  73.0906  Ang
+ellipsoid calculation time: 5.06341e-05s
+maximal impact parameter: 73.0906 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 1573
+Nx: 11 Ny: 11 Nz: 13
+Filled cells: 28
+Empty cells: 1545
+Average atoms per cell: 44.1071
+Maximum atoms per cell: 197
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 132.11 Ang
+ly: 132.11 Ang
+lz: 156.13 Ang
+linked-cell calculation time: 0.0019003 s
+Ntraj: 10000
+Nfree: 1438
+Nscatter: 8562
+Nlost: 0
+omega: 972.254
+Ntraj: 10000
+Nfree: 1384
+Nscatter: 8616
+Nlost: 0
+omega: 1024.23
+Ntraj: 10000
+Nfree: 1390
+Nscatter: 8610
+Nlost: 0
+omega: 958.126
+Ntraj: 10000
+Nfree: 1371
+Nscatter: 8629
+Nlost: 0
+omega: 1150.67
+Ntraj: 10000
+Nfree: 1373
+Nscatter: 8627
+Nlost: 0
+omega: 1163.4
+Ntraj: 10000
+Nfree: 1391
+Nscatter: 8609
+Nlost: 0
+omega: 1104.33
+Ntraj: 10000
+Nfree: 1414
+Nscatter: 8586
+Nlost: 0
+omega: 996.655
+Ntraj: 10000
+Nfree: 1394
+Nscatter: 8606
+Nlost: 0
+omega: 1040.98
+Ntraj: 10000
+Nfree: 1418
+Nscatter: 8582
+Nlost: 0
+omega: 1115.37
+Ntraj: 10000
+Nfree: 1403
+Nscatter: 8597
+Nlost: 0
+omega: 1090.54
+CCS time: 17.1282 s
+--------------------------------------------------------
+average value of CCS = 1061.66 Ang^2
+error value of CCS = 22.0411 Ang^2
+Total time: 17.1328 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 1ubq_charge_4_min.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  774050  -98727  -119273  }
+{  -98727  765481  -55190.9  }
+{  -119273  -55190.9  711486  }
+Rotation matrix applied to molecule: 
+{  0.797039  -0.460096  -0.391204  }
+{  0.592383  0.469553  0.654677  }
+{  -0.117523  -0.753546  0.646805  }
+Molecule radius: 22.0778 Ang 
+orientation time of molecule target: 0.00189772 s
+target mass: 8568.9 amu
+gas mass: 4.0026 amu
+reduce mass: 4.00073 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 13.373  14.2779  21.6306  Ang
+Initial axis length: 63.383  64.2879  71.6406  Ang
+Ellipsoid axis length: 64.833  65.7379  73.0906  Ang
+ellipsoid calculation time: 5.05894e-05s
+maximal impact parameter: 73.0906 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 1573
+Nx: 11 Ny: 11 Nz: 13
+Filled cells: 28
+Empty cells: 1545
+Average atoms per cell: 44.1071
+Maximum atoms per cell: 197
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 132.11 Ang
+ly: 132.11 Ang
+lz: 156.13 Ang
+linked-cell calculation time: 0.00188681 s
+Ntraj: 10000
+Nfree: 1438
+Nscatter: 8562
+Nlost: 0
+omega: 972.254
+Ntraj: 10000
+Nfree: 1384
+Nscatter: 8616
+Nlost: 0
+omega: 1024.23
+Ntraj: 10000
+Nfree: 1390
+Nscatter: 8610
+Nlost: 0
+omega: 958.126
+Ntraj: 10000
+Nfree: 1371
+Nscatter: 8629
+Nlost: 0
+omega: 1150.67
+Ntraj: 10000
+Nfree: 1373
+Nscatter: 8627
+Nlost: 0
+omega: 1163.4
+Ntraj: 10000
+Nfree: 1391
+Nscatter: 8609
+Nlost: 0
+omega: 1104.33
+Ntraj: 10000
+Nfree: 1414
+Nscatter: 8586
+Nlost: 0
+omega: 996.655
+Ntraj: 10000
+Nfree: 1394
+Nscatter: 8606
+Nlost: 0
+omega: 1040.98
+Ntraj: 10000
+Nfree: 1418
+Nscatter: 8582
+Nlost: 0
+omega: 1115.37
+Ntraj: 10000
+Nfree: 1403
+Nscatter: 8597
+Nlost: 0
+omega: 1090.54
+CCS time: 17.1493 s
+--------------------------------------------------------
+average value of CCS = 1061.66 Ang^2
+error value of CCS = 22.0411 Ang^2
+Total time: 17.1536 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 1ubq_charge_4_min.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  774050  -98727  -119273  }
+{  -98727  765481  -55190.9  }
+{  -119273  -55190.9  711486  }
+Rotation matrix applied to molecule: 
+{  0.797039  -0.460096  -0.391204  }
+{  0.592383  0.469553  0.654677  }
+{  -0.117523  -0.753546  0.646805  }
+Molecule radius: 22.0778 Ang 
+orientation time of molecule target: 0.00423199 s
+target mass: 8568.9 amu
+gas mass: 4.0026 amu
+reduce mass: 4.00073 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 13.373  14.2779  21.6306  Ang
+Initial axis length: 63.383  64.2879  71.6406  Ang
+Ellipsoid axis length: 64.833  65.7379  73.0906  Ang
+ellipsoid calculation time: 0.00010094s
+maximal impact parameter: 73.0906 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 1573
+Nx: 11 Ny: 11 Nz: 13
+Filled cells: 28
+Empty cells: 1545
+Average atoms per cell: 44.1071
+Maximum atoms per cell: 197
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 132.11 Ang
+ly: 132.11 Ang
+lz: 156.13 Ang
+linked-cell calculation time: 0.00355384 s
+Ntraj: 10000
+Nfree: 1438
+Nscatter: 8562
+Nlost: 0
+omega: 972.254
+Ntraj: 10000
+Nfree: 1384
+Nscatter: 8616
+Nlost: 0
+omega: 1024.23
+Ntraj: 10000
+Nfree: 1390
+Nscatter: 8610
+Nlost: 0
+omega: 958.126
+Ntraj: 10000
+Nfree: 1371
+Nscatter: 8629
+Nlost: 0
+omega: 1150.67
+Ntraj: 10000
+Nfree: 1373
+Nscatter: 8627
+Nlost: 0
+omega: 1163.4
+Ntraj: 10000
+Nfree: 1391
+Nscatter: 8609
+Nlost: 0
+omega: 1104.33
+Ntraj: 10000
+Nfree: 1414
+Nscatter: 8586
+Nlost: 0
+omega: 996.655
+Ntraj: 10000
+Nfree: 1394
+Nscatter: 8606
+Nlost: 0
+omega: 1040.98
+Ntraj: 10000
+Nfree: 1418
+Nscatter: 8582
+Nlost: 0
+omega: 1115.37
+Ntraj: 10000
+Nfree: 1403
+Nscatter: 8597
+Nlost: 0
+omega: 1090.54
+CCS time: 8.77692 s
+--------------------------------------------------------
+average value of CCS = 1061.66 Ang^2
+error value of CCS = 22.0411 Ang^2
+Total time: 8.78584 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 1ubq_charge_4_min.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  774050  -98727  -119273  }
+{  -98727  765481  -55190.9  }
+{  -119273  -55190.9  711486  }
+Rotation matrix applied to molecule: 
+{  0.797039  -0.460096  -0.391204  }
+{  0.592383  0.469553  0.654677  }
+{  -0.117523  -0.753546  0.646805  }
+Molecule radius: 22.0778 Ang 
+orientation time of molecule target: 0.00189292 s
+target mass: 8568.9 amu
+gas mass: 4.0026 amu
+reduce mass: 4.00073 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 13.373  14.2779  21.6306  Ang
+Initial axis length: 63.383  64.2879  71.6406  Ang
+Ellipsoid axis length: 64.833  65.7379  73.0906  Ang
+ellipsoid calculation time: 5.4121e-05s
+maximal impact parameter: 73.0906 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 1573
+Nx: 11 Ny: 11 Nz: 13
+Filled cells: 28
+Empty cells: 1545
+Average atoms per cell: 44.1071
+Maximum atoms per cell: 197
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 132.11 Ang
+ly: 132.11 Ang
+lz: 156.13 Ang
+linked-cell calculation time: 0.0019121 s
+Ntraj: 10000
+Nfree: 1438
+Nscatter: 8562
+Nlost: 0
+omega: 972.254
+Ntraj: 10000
+Nfree: 1384
+Nscatter: 8616
+Nlost: 0
+omega: 1024.23
+Ntraj: 10000
+Nfree: 1390
+Nscatter: 8610
+Nlost: 0
+omega: 958.126
+Ntraj: 10000
+Nfree: 1371
+Nscatter: 8629
+Nlost: 0
+omega: 1150.67
+Ntraj: 10000
+Nfree: 1373
+Nscatter: 8627
+Nlost: 0
+omega: 1163.4
+Ntraj: 10000
+Nfree: 1391
+Nscatter: 8609
+Nlost: 0
+omega: 1104.33
+Ntraj: 10000
+Nfree: 1414
+Nscatter: 8586
+Nlost: 0
+omega: 996.655
+Ntraj: 10000
+Nfree: 1394
+Nscatter: 8606
+Nlost: 0
+omega: 1040.98
+Ntraj: 10000
+Nfree: 1418
+Nscatter: 8582
+Nlost: 0
+omega: 1115.37
+Ntraj: 10000
+Nfree: 1403
+Nscatter: 8597
+Nlost: 0
+omega: 1090.54
+CCS time: 8.7859 s
+--------------------------------------------------------
+average value of CCS = 1061.66 Ang^2
+error value of CCS = 22.0411 Ang^2
+Total time: 8.79029 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 1ubq_charge_4_min.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  774050  -98727  -119273  }
+{  -98727  765481  -55190.9  }
+{  -119273  -55190.9  711486  }
+Rotation matrix applied to molecule: 
+{  0.797039  -0.460096  -0.391204  }
+{  0.592383  0.469553  0.654677  }
+{  -0.117523  -0.753546  0.646805  }
+Molecule radius: 22.0778 Ang 
+orientation time of molecule target: 0.0019114 s
+target mass: 8568.9 amu
+gas mass: 4.0026 amu
+reduce mass: 4.00073 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 13.373  14.2779  21.6306  Ang
+Initial axis length: 63.383  64.2879  71.6406  Ang
+Ellipsoid axis length: 64.833  65.7379  73.0906  Ang
+ellipsoid calculation time: 5.09173e-05s
+maximal impact parameter: 73.0906 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 1573
+Nx: 11 Ny: 11 Nz: 13
+Filled cells: 28
+Empty cells: 1545
+Average atoms per cell: 44.1071
+Maximum atoms per cell: 197
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 132.11 Ang
+ly: 132.11 Ang
+lz: 156.13 Ang
+linked-cell calculation time: 0.00190833 s
+Ntraj: 10000
+Nfree: 1438
+Nscatter: 8562
+Nlost: 0
+omega: 972.254
+Ntraj: 10000
+Nfree: 1384
+Nscatter: 8616
+Nlost: 0
+omega: 1024.23
+Ntraj: 10000
+Nfree: 1390
+Nscatter: 8610
+Nlost: 0
+omega: 958.126
+Ntraj: 10000
+Nfree: 1371
+Nscatter: 8629
+Nlost: 0
+omega: 1150.67
+Ntraj: 10000
+Nfree: 1373
+Nscatter: 8627
+Nlost: 0
+omega: 1163.4
+Ntraj: 10000
+Nfree: 1391
+Nscatter: 8609
+Nlost: 0
+omega: 1104.33
+Ntraj: 10000
+Nfree: 1414
+Nscatter: 8586
+Nlost: 0
+omega: 996.655
+Ntraj: 10000
+Nfree: 1394
+Nscatter: 8606
+Nlost: 0
+omega: 1040.98
+Ntraj: 10000
+Nfree: 1418
+Nscatter: 8582
+Nlost: 0
+omega: 1115.37
+Ntraj: 10000
+Nfree: 1403
+Nscatter: 8597
+Nlost: 0
+omega: 1090.54
+CCS time: 8.7741 s
+--------------------------------------------------------
+average value of CCS = 1061.66 Ang^2
+error value of CCS = 22.0411 Ang^2
+Total time: 8.77848 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 1ubq_charge_4_min.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  774050  -98727  -119273  }
+{  -98727  765481  -55190.9  }
+{  -119273  -55190.9  711486  }
+Rotation matrix applied to molecule: 
+{  0.797039  -0.460096  -0.391204  }
+{  0.592383  0.469553  0.654677  }
+{  -0.117523  -0.753546  0.646805  }
+Molecule radius: 22.0778 Ang 
+orientation time of molecule target: 0.00189802 s
+target mass: 8568.9 amu
+gas mass: 4.0026 amu
+reduce mass: 4.00073 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 13.373  14.2779  21.6306  Ang
+Initial axis length: 63.383  64.2879  71.6406  Ang
+Ellipsoid axis length: 64.833  65.7379  73.0906  Ang
+ellipsoid calculation time: 5.06639e-05s
+maximal impact parameter: 73.0906 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 1573
+Nx: 11 Ny: 11 Nz: 13
+Filled cells: 28
+Empty cells: 1545
+Average atoms per cell: 44.1071
+Maximum atoms per cell: 197
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 132.11 Ang
+ly: 132.11 Ang
+lz: 156.13 Ang
+linked-cell calculation time: 0.00188832 s
+Ntraj: 10000
+Nfree: 1438
+Nscatter: 8562
+Nlost: 0
+omega: 972.254
+Ntraj: 10000
+Nfree: 1384
+Nscatter: 8616
+Nlost: 0
+omega: 1024.23
+Ntraj: 10000
+Nfree: 1390
+Nscatter: 8610
+Nlost: 0
+omega: 958.126
+Ntraj: 10000
+Nfree: 1371
+Nscatter: 8629
+Nlost: 0
+omega: 1150.67
+Ntraj: 10000
+Nfree: 1373
+Nscatter: 8627
+Nlost: 0
+omega: 1163.4
+Ntraj: 10000
+Nfree: 1391
+Nscatter: 8609
+Nlost: 0
+omega: 1104.33
+Ntraj: 10000
+Nfree: 1414
+Nscatter: 8586
+Nlost: 0
+omega: 996.655
+Ntraj: 10000
+Nfree: 1394
+Nscatter: 8606
+Nlost: 0
+omega: 1040.98
+Ntraj: 10000
+Nfree: 1418
+Nscatter: 8582
+Nlost: 0
+omega: 1115.37
+Ntraj: 10000
+Nfree: 1403
+Nscatter: 8597
+Nlost: 0
+omega: 1090.54
+CCS time: 8.756 s
+--------------------------------------------------------
+average value of CCS = 1061.66 Ang^2
+error value of CCS = 22.0411 Ang^2
+Total time: 8.76005 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 1ubq_charge_4_min.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  774050  -98727  -119273  }
+{  -98727  765481  -55190.9  }
+{  -119273  -55190.9  711486  }
+Rotation matrix applied to molecule: 
+{  0.797039  -0.460096  -0.391204  }
+{  0.592383  0.469553  0.654677  }
+{  -0.117523  -0.753546  0.646805  }
+Molecule radius: 22.0778 Ang 
+orientation time of molecule target: 0.00197326 s
+target mass: 8568.9 amu
+gas mass: 4.0026 amu
+reduce mass: 4.00073 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 13.373  14.2779  21.6306  Ang
+Initial axis length: 63.383  64.2879  71.6406  Ang
+Ellipsoid axis length: 64.833  65.7379  73.0906  Ang
+ellipsoid calculation time: 5.0351e-05s
+maximal impact parameter: 73.0906 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 1573
+Nx: 11 Ny: 11 Nz: 13
+Filled cells: 28
+Empty cells: 1545
+Average atoms per cell: 44.1071
+Maximum atoms per cell: 197
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 132.11 Ang
+ly: 132.11 Ang
+lz: 156.13 Ang
+linked-cell calculation time: 0.00189418 s
+Ntraj: 10000
+Nfree: 1438
+Nscatter: 8562
+Nlost: 0
+omega: 972.254
+Ntraj: 10000
+Nfree: 1384
+Nscatter: 8616
+Nlost: 0
+omega: 1024.23
+Ntraj: 10000
+Nfree: 1390
+Nscatter: 8610
+Nlost: 0
+omega: 958.126
+Ntraj: 10000
+Nfree: 1371
+Nscatter: 8629
+Nlost: 0
+omega: 1150.67
+Ntraj: 10000
+Nfree: 1373
+Nscatter: 8627
+Nlost: 0
+omega: 1163.4
+Ntraj: 10000
+Nfree: 1391
+Nscatter: 8609
+Nlost: 0
+omega: 1104.33
+Ntraj: 10000
+Nfree: 1414
+Nscatter: 8586
+Nlost: 0
+omega: 996.655
+Ntraj: 10000
+Nfree: 1394
+Nscatter: 8606
+Nlost: 0
+omega: 1040.98
+Ntraj: 10000
+Nfree: 1418
+Nscatter: 8582
+Nlost: 0
+omega: 1115.37
+Ntraj: 10000
+Nfree: 1403
+Nscatter: 8597
+Nlost: 0
+omega: 1090.54
+CCS time: 8.77257 s
+--------------------------------------------------------
+average value of CCS = 1061.66 Ang^2
+error value of CCS = 22.0411 Ang^2
+Total time: 8.77698 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 1ubq_charge_4_min.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  774050  -98727  -119273  }
+{  -98727  765481  -55190.9  }
+{  -119273  -55190.9  711486  }
+Rotation matrix applied to molecule: 
+{  0.797039  -0.460096  -0.391204  }
+{  0.592383  0.469553  0.654677  }
+{  -0.117523  -0.753546  0.646805  }
+Molecule radius: 22.0778 Ang 
+orientation time of molecule target: 0.00189359 s
+target mass: 8568.9 amu
+gas mass: 4.0026 amu
+reduce mass: 4.00073 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 13.373  14.2779  21.6306  Ang
+Initial axis length: 63.383  64.2879  71.6406  Ang
+Ellipsoid axis length: 64.833  65.7379  73.0906  Ang
+ellipsoid calculation time: 5.09471e-05s
+maximal impact parameter: 73.0906 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 1573
+Nx: 11 Ny: 11 Nz: 13
+Filled cells: 28
+Empty cells: 1545
+Average atoms per cell: 44.1071
+Maximum atoms per cell: 197
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 132.11 Ang
+ly: 132.11 Ang
+lz: 156.13 Ang
+linked-cell calculation time: 0.00191219 s
+Ntraj: 10000
+Nfree: 1438
+Nscatter: 8562
+Nlost: 0
+omega: 972.254
+Ntraj: 10000
+Nfree: 1384
+Nscatter: 8616
+Nlost: 0
+omega: 1024.23
+Ntraj: 10000
+Nfree: 1390
+Nscatter: 8610
+Nlost: 0
+omega: 958.126
+Ntraj: 10000
+Nfree: 1371
+Nscatter: 8629
+Nlost: 0
+omega: 1150.67
+Ntraj: 10000
+Nfree: 1373
+Nscatter: 8627
+Nlost: 0
+omega: 1163.4
+Ntraj: 10000
+Nfree: 1391
+Nscatter: 8609
+Nlost: 0
+omega: 1104.33
+Ntraj: 10000
+Nfree: 1414
+Nscatter: 8586
+Nlost: 0
+omega: 996.655
+Ntraj: 10000
+Nfree: 1394
+Nscatter: 8606
+Nlost: 0
+omega: 1040.98
+Ntraj: 10000
+Nfree: 1418
+Nscatter: 8582
+Nlost: 0
+omega: 1115.37
+Ntraj: 10000
+Nfree: 1403
+Nscatter: 8597
+Nlost: 0
+omega: 1090.54
+CCS time: 8.75425 s
+--------------------------------------------------------
+average value of CCS = 1061.66 Ang^2
+error value of CCS = 22.0411 Ang^2
+Total time: 8.75863 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 1ubq_charge_4_min.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  774050  -98727  -119273  }
+{  -98727  765481  -55190.9  }
+{  -119273  -55190.9  711486  }
+Rotation matrix applied to molecule: 
+{  0.797039  -0.460096  -0.391204  }
+{  0.592383  0.469553  0.654677  }
+{  -0.117523  -0.753546  0.646805  }
+Molecule radius: 22.0778 Ang 
+orientation time of molecule target: 0.00189431 s
+target mass: 8568.9 amu
+gas mass: 4.0026 amu
+reduce mass: 4.00073 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 13.373  14.2779  21.6306  Ang
+Initial axis length: 63.383  64.2879  71.6406  Ang
+Ellipsoid axis length: 64.833  65.7379  73.0906  Ang
+ellipsoid calculation time: 5.07683e-05s
+maximal impact parameter: 73.0906 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 1573
+Nx: 11 Ny: 11 Nz: 13
+Filled cells: 28
+Empty cells: 1545
+Average atoms per cell: 44.1071
+Maximum atoms per cell: 197
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 132.11 Ang
+ly: 132.11 Ang
+lz: 156.13 Ang
+linked-cell calculation time: 0.00192964 s
+Ntraj: 10000
+Nfree: 1438
+Nscatter: 8562
+Nlost: 0
+omega: 972.254
+Ntraj: 10000
+Nfree: 1384
+Nscatter: 8616
+Nlost: 0
+omega: 1024.23
+Ntraj: 10000
+Nfree: 1390
+Nscatter: 8610
+Nlost: 0
+omega: 958.126
+Ntraj: 10000
+Nfree: 1371
+Nscatter: 8629
+Nlost: 0
+omega: 1150.67
+Ntraj: 10000
+Nfree: 1373
+Nscatter: 8627
+Nlost: 0
+omega: 1163.4
+Ntraj: 10000
+Nfree: 1391
+Nscatter: 8609
+Nlost: 0
+omega: 1104.33
+Ntraj: 10000
+Nfree: 1414
+Nscatter: 8586
+Nlost: 0
+omega: 996.655
+Ntraj: 10000
+Nfree: 1394
+Nscatter: 8606
+Nlost: 0
+omega: 1040.98
+Ntraj: 10000
+Nfree: 1418
+Nscatter: 8582
+Nlost: 0
+omega: 1115.37
+Ntraj: 10000
+Nfree: 1403
+Nscatter: 8597
+Nlost: 0
+omega: 1090.54
+CCS time: 8.78049 s
+--------------------------------------------------------
+average value of CCS = 1061.66 Ang^2
+error value of CCS = 22.0411 Ang^2
+Total time: 8.78481 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 1ubq_charge_4_min.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  774050  -98727  -119273  }
+{  -98727  765481  -55190.9  }
+{  -119273  -55190.9  711486  }
+Rotation matrix applied to molecule: 
+{  0.797039  -0.460096  -0.391204  }
+{  0.592383  0.469553  0.654677  }
+{  -0.117523  -0.753546  0.646805  }
+Molecule radius: 22.0778 Ang 
+orientation time of molecule target: 0.00197135 s
+target mass: 8568.9 amu
+gas mass: 4.0026 amu
+reduce mass: 4.00073 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 13.373  14.2779  21.6306  Ang
+Initial axis length: 63.383  64.2879  71.6406  Ang
+Ellipsoid axis length: 64.833  65.7379  73.0906  Ang
+ellipsoid calculation time: 5.0351e-05s
+maximal impact parameter: 73.0906 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 1573
+Nx: 11 Ny: 11 Nz: 13
+Filled cells: 28
+Empty cells: 1545
+Average atoms per cell: 44.1071
+Maximum atoms per cell: 197
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 132.11 Ang
+ly: 132.11 Ang
+lz: 156.13 Ang
+linked-cell calculation time: 0.00191297 s
+Ntraj: 10000
+Nfree: 1438
+Nscatter: 8562
+Nlost: 0
+omega: 972.254
+Ntraj: 10000
+Nfree: 1384
+Nscatter: 8616
+Nlost: 0
+omega: 1024.23
+Ntraj: 10000
+Nfree: 1390
+Nscatter: 8610
+Nlost: 0
+omega: 958.126
+Ntraj: 10000
+Nfree: 1371
+Nscatter: 8629
+Nlost: 0
+omega: 1150.67
+Ntraj: 10000
+Nfree: 1373
+Nscatter: 8627
+Nlost: 0
+omega: 1163.4
+Ntraj: 10000
+Nfree: 1391
+Nscatter: 8609
+Nlost: 0
+omega: 1104.33
+Ntraj: 10000
+Nfree: 1414
+Nscatter: 8586
+Nlost: 0
+omega: 996.655
+Ntraj: 10000
+Nfree: 1394
+Nscatter: 8606
+Nlost: 0
+omega: 1040.98
+Ntraj: 10000
+Nfree: 1418
+Nscatter: 8582
+Nlost: 0
+omega: 1115.37
+Ntraj: 10000
+Nfree: 1403
+Nscatter: 8597
+Nlost: 0
+omega: 1090.54
+CCS time: 8.75998 s
+--------------------------------------------------------
+average value of CCS = 1061.66 Ang^2
+error value of CCS = 22.0411 Ang^2
+Total time: 8.76456 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 1ubq_charge_4_min.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  774050  -98727  -119273  }
+{  -98727  765481  -55190.9  }
+{  -119273  -55190.9  711486  }
+Rotation matrix applied to molecule: 
+{  0.797039  -0.460096  -0.391204  }
+{  0.592383  0.469553  0.654677  }
+{  -0.117523  -0.753546  0.646805  }
+Molecule radius: 22.0778 Ang 
+orientation time of molecule target: 0.00189871 s
+target mass: 8568.9 amu
+gas mass: 4.0026 amu
+reduce mass: 4.00073 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 13.373  14.2779  21.6306  Ang
+Initial axis length: 63.383  64.2879  71.6406  Ang
+Ellipsoid axis length: 64.833  65.7379  73.0906  Ang
+ellipsoid calculation time: 5.0649e-05s
+maximal impact parameter: 73.0906 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 1573
+Nx: 11 Ny: 11 Nz: 13
+Filled cells: 28
+Empty cells: 1545
+Average atoms per cell: 44.1071
+Maximum atoms per cell: 197
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 132.11 Ang
+ly: 132.11 Ang
+lz: 156.13 Ang
+linked-cell calculation time: 0.00190991 s
+Ntraj: 10000
+Nfree: 1438
+Nscatter: 8562
+Nlost: 0
+omega: 972.254
+Ntraj: 10000
+Nfree: 1384
+Nscatter: 8616
+Nlost: 0
+omega: 1024.23
+Ntraj: 10000
+Nfree: 1390
+Nscatter: 8610
+Nlost: 0
+omega: 958.126
+Ntraj: 10000
+Nfree: 1371
+Nscatter: 8629
+Nlost: 0
+omega: 1150.67
+Ntraj: 10000
+Nfree: 1373
+Nscatter: 8627
+Nlost: 0
+omega: 1163.4
+Ntraj: 10000
+Nfree: 1391
+Nscatter: 8609
+Nlost: 0
+omega: 1104.33
+Ntraj: 10000
+Nfree: 1414
+Nscatter: 8586
+Nlost: 0
+omega: 996.655
+Ntraj: 10000
+Nfree: 1394
+Nscatter: 8606
+Nlost: 0
+omega: 1040.98
+Ntraj: 10000
+Nfree: 1418
+Nscatter: 8582
+Nlost: 0
+omega: 1115.37
+Ntraj: 10000
+Nfree: 1403
+Nscatter: 8597
+Nlost: 0
+omega: 1090.54
+CCS time: 8.75224 s
+--------------------------------------------------------
+average value of CCS = 1061.66 Ang^2
+error value of CCS = 22.0411 Ang^2
+Total time: 8.75659 s
+Program finished...
+*********************************************************
+INPUT:: Simulation Parameters 
+*********************************************************
+target filename                  : 1ubq_charge_4_min.xyz
+number of probe                  : 10000
+number of iterarions             : 10
+seed number                      : 2104
+gas buffer                       : He
+Target Temperature (K)           : 298
+timestep (fs)                    : 10
+Skin cell size (Ang)             : 0.01
+Equipotential                    : no
+Cut short-range interaction      : yes
+LJ cutoff (Ang)                  : 12
+Apply long-range interaction     : yes
+Cut long-range interaction       : yes
+Coulomb cutoff (Ang)             : 25
+Apply induced-dipole interaction : yes
+alpha (Ang^3)                    : 0.204956
+force type 4
+*********************************************************
+Inertia matrix a.u. Ang^2: 
+{  774050  -98727  -119273  }
+{  -98727  765481  -55190.9  }
+{  -119273  -55190.9  711486  }
+Rotation matrix applied to molecule: 
+{  0.797039  -0.460096  -0.391204  }
+{  0.592383  0.469553  0.654677  }
+{  -0.117523  -0.753546  0.646805  }
+Molecule radius: 22.0778 Ang 
+orientation time of molecule target: 0.00189705 s
+target mass: 8568.9 amu
+gas mass: 4.0026 amu
+reduce mass: 4.00073 amu
+*********************************************************
+Geometric Ellipsoid: 
+*********************************************************
+maximal distances: 13.373  14.2779  21.6306  Ang
+Initial axis length: 63.383  64.2879  71.6406  Ang
+Ellipsoid axis length: 64.833  65.7379  73.0906  Ang
+ellipsoid calculation time: 5.09769e-05s
+maximal impact parameter: 73.0906 Ang
+*********************************************************
+Linked-cell: 
+Numbers of cells: 1573
+Nx: 11 Ny: 11 Nz: 13
+Filled cells: 28
+Empty cells: 1545
+Average atoms per cell: 44.1071
+Maximum atoms per cell: 197
+Minimum atoms per cell: 1
+Simulation box: 
+lx: 132.11 Ang
+ly: 132.11 Ang
+lz: 156.13 Ang
+linked-cell calculation time: 0.00191106 s
+Ntraj: 10000
+Nfree: 1438
+Nscatter: 8562
+Nlost: 0
+omega: 972.254
+Ntraj: 10000
+Nfree: 1384
+Nscatter: 8616
+Nlost: 0
+omega: 1024.23
+Ntraj: 10000
+Nfree: 1390
+Nscatter: 8610
+Nlost: 0
+omega: 958.126
+Ntraj: 10000
+Nfree: 1371
+Nscatter: 8629
+Nlost: 0
+omega: 1150.67
+Ntraj: 10000
+Nfree: 1373
+Nscatter: 8627
+Nlost: 0
+omega: 1163.4
+Ntraj: 10000
+Nfree: 1391
+Nscatter: 8609
+Nlost: 0
+omega: 1104.33
+Ntraj: 10000
+Nfree: 1414
+Nscatter: 8586
+Nlost: 0
+omega: 996.655
+Ntraj: 10000
+Nfree: 1394
+Nscatter: 8606
+Nlost: 0
+omega: 1040.98
+Ntraj: 10000
+Nfree: 1418
+Nscatter: 8582
+Nlost: 0
+omega: 1115.37
+Ntraj: 10000
+Nfree: 1403
+Nscatter: 8597
+Nlost: 0
+omega: 1090.54
+CCS time: 8.73468 s
+--------------------------------------------------------
+average value of CCS = 1061.66 Ang^2
+error value of CCS = 22.0411 Ang^2
+Total time: 8.73902 s
+Program finished...
