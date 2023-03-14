@@ -38,5 +38,5 @@ For more information about the software installation and used review the ["MassC
 
 Author & Contact:
 --------------
-Samuel Cajahuaringa - samuelcajahuaringa@gmail.com
+Samuel Cajahuaringa - samuelcm@unicamp.br
 

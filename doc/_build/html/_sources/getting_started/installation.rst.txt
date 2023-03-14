@@ -12,13 +12,11 @@ Required Software
 MassCCS depends on the following software:
 
 * C++9.3+
-* Boost library 1.60.0+
 * CMake 3.13+
 
 On Ubuntu/Debian, you can simply run the following commands to install them with the package manager::
 
   sudo apt install gcc
-  sudo apt-get install -y libboost-filesystem-dev libboost-thread-dev
   sudo apt-get install cmake
 
 Installing
