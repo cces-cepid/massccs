@@ -12,6 +12,13 @@ If you use MassCCS in your research please, cite the following papers:
 
 ["S. Cajahuaringa, L. N. Zanotto, D. L. Z. Caetano, S. Rigo, H. Yviquel, M. S. Skaf and G. Araujo, Ion-Molecule Collision Cross-Section Simulation using Linked-cell and Trajectory Parallelization, 2022 IEEE 34th International Symposium on Computer Architecture and High Performance Computing (SBAC-PAD), Bordeaux, France, 2022, pp. 150-159."](https://ieeexplore.ieee.org/abstract/document/9980906)
 
+### The repository contents:
+[`src`](src): This directory contains massccs source codes.
+
+[`doc`](doc): This directory contains an updated user manual.
+
+[`data`](data): This directory contains information of data set of CCS calculations performed in this work.
+
 ## Installation 
 
 Download the MassCCS or clone the repository on your computer:
