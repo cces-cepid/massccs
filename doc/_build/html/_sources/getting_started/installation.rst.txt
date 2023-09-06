@@ -11,7 +11,7 @@ Required Software
 
 MassCCS depends on the following software:
 
-* C++9.3+
+* C++ 9.3+
 * CMake 3.13+
 
 On Ubuntu/Debian, you can simply run the following commands to install them with the package manager::
