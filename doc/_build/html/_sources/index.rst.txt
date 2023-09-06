@@ -29,7 +29,7 @@ If you use MassCCS in your research please, cite the following papers:
 
 * `S. Cajahuaringa, D. L. Z. Caetano, L. N. Zanotto, G. Araujo and M. S. Skaf, MassCCS: A high performance collision cross-section software for large macromolecules, J. Chem. Inf. Model. 2023, 63, 11, 3557–3566. <https://doi.org/10.1021/acs.jcim.3c00405>`_
 
-* `S. Cajahuaringa, L. N. Zanotto, D. L. Z. Caetano, S. Rigo, H. Yviquel, M. S. Skaf and G. Araujo, Ion-Molecule Collision Cross-Section Simulation using Linked-cell and Trajectory Parallelization, 2022 IEEE 34th International Symposium on Computer Architecture and High Performance Computing (SBAC-PAD), Bordeaux, France, 2022, pp. 150-159. <10.1109/SBAC-PAD55451.2022.00026>`_
+* `S. Cajahuaringa, L. N. Zanotto, D. L. Z. Caetano, S. Rigo, H. Yviquel, M. S. Skaf and G. Araujo, Ion-Molecule Collision Cross-Section Simulation using Linked-cell and Trajectory Parallelization, 2022 IEEE 34th International Symposium on Computer Architecture and High Performance Computing (SBAC-PAD), Bordeaux, France, 2022, pp. 150-159. <https://ieeexplore.ieee.org/document/9980906>`_
 
 ============
 Availability
