@@ -21,6 +21,7 @@ this->filename = filename;
 this->gas_buffer_flag = gas_buffer_flag;
 this->user_ff = user_ff;
 this->user_ff_flag = user_ff_flag;
+this->force_type = force_type;
 
 // identify the extension file is .xyz or pqr
 size_t lastindex = filename.find_last_of("."); 
