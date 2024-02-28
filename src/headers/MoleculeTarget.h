@@ -38,9 +38,14 @@ class MoleculeTarget {
 private:
   string filename;
   string extension;
-	unsigned int gas_buffer_flag;
+  string user_ff;
+  unsigned int gas_buffer_flag;
+  unsigned int user_ff_flag;
+  unsigned int force_type;
   void readXYZfile(string &filename);
   void readPQRfile(string &filename);
+  void readUserFF(string &user_ff);
+  void defaultFF();
   void calculateCenterOfMass(double(&)[3]);
   void moveToCenterOfMass(double[3]);
   void calculateMoleculeRadius();
@@ -52,12 +57,20 @@ private:
   double inertia[3][3];
   double inertiaValues[3];
   double inertiaVectors[3][3];
-  vector<double> defaultparameters(string chemical, unsigned int gas_buffer_flag);
+  //vector<double> defaultparameters(string chemical, unsigned int gas_buffer_flag);
+  vector<double> assignedParameter(string chemical);
+  void printFF();
+  unsigned int nparameters;
+  string *user_atomName;
+  double *user_m;
+  double *user_eps;
+  double *user_sig;
+  bool diagonal; 
 
   void print();
 
 public:
-  MoleculeTarget(string &filename, unsigned int gas_buffer_flag);
+  MoleculeTarget(string &filename, unsigned int gas_buffer_flag, string &user_ff, unsigned int user_ff_flag, unsigned int force_type);
 
   unsigned int natoms;
 
@@ -78,4 +91,3 @@ public:
 };
 
 #endif // MASSCCS_V1_MOLECULETARGET_H
-

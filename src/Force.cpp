@@ -56,8 +56,8 @@ int index;
 linkedcell->calculateIndex(r_probe,index); 
   
 if (index >= linkedcell->Ncells || index < 0) {
-  printf("outside cell simulation: %i\n",index);	    
-  printf("position: %g %g %g\n",r_probe[0],r_probe[1],r_probe[2]);
+  //printf("outside cell simulation: %i\n",index);	    
+  //printf("position: %g %g %g\n",r_probe[0],r_probe[1],r_probe[2]);
   f[0] = 0.0;
   f[1] = 0.0;
   f[2] = 0.0;
@@ -330,8 +330,8 @@ int index;
 linkedcell->calculateIndex(r_probe,index);
 
 if (index >= linkedcell->Ncells || index < 0) {
-  printf("outside cell simulation: %i\n",index);
-  printf("position: %g %g %g\n",r_probe[0],r_probe[1],r_probe[2]);
+  //printf("outside cell simulation: %i\n",index);
+  //printf("position: %g %g %g\n",r_probe[0],r_probe[1],r_probe[2]);
   f[0] = 0.0;
   f[1] = 0.0;
   f[2] = 0.0;
@@ -624,8 +624,8 @@ fz = 0.0;
 linkedcell->calculateIndex(r_probe,index);
 
 if (index >= linkedcell->Ncells || index < 0) {
-  printf("outside box: %i\n",index);
-  printf("position: %g %g %g\n",r_probe[0],r_probe[1],r_probe[2]);
+  //printf("outside box: %i\n",index);
+  //printf("position: %g %g %g\n",r_probe[0],r_probe[1],r_probe[2]);
   f[0] = 0.0;
   f[1] = 0.0;
   f[2] = 0.0;
@@ -751,8 +751,8 @@ int index;
 linkedcell->calculateIndex(r_probe,index);
 
 if (index >= linkedcell->Ncells && index < 0) {
-  printf("outside cell simulation: %i\n",index);
-  printf("position: %g %g %g\n",r_probe[0],r_probe[1],r_probe[2]);
+  //printf("outside cell simulation: %i\n",index);
+  //printf("position: %g %g %g\n",r_probe[0],r_probe[1],r_probe[2]);
   f[0] = 0.0;
   f[1] = 0.0;
   f[2] = 0.0;
@@ -923,8 +923,8 @@ int index;
 linkedcell->calculateIndex(r_probe,index);
 
 if (index >= linkedcell->Ncells || index < 0) {
-  printf("outside cell simulation: %i\n",index);
-  printf("position: %g %g %g\n",r_probe[0],r_probe[1],r_probe[2]);
+  //printf("outside cell simulation: %i\n",index);
+  //printf("position: %g %g %g\n",r_probe[0],r_probe[1],r_probe[2]);
   f[0] = 0.0;
   f[1] = 0.0;
   f[2] = 0.0;
@@ -1110,8 +1110,8 @@ int index;
 linkedcell->calculateIndex(r_probe,index); 
   
 if (index >= linkedcell->Ncells || index < 0) {
-  printf("outside cell simulation: %i\n",index);	    
-  printf("position: %g %g %g\n",r_probe[0],r_probe[1],r_probe[2]);
+  //printf("outside cell simulation: %i\n",index);	    
+  //printf("position: %g %g %g\n",r_probe[0],r_probe[1],r_probe[2]);
   f[0] = 0.0;
   f[1] = 0.0;
   f[2] = 0.0;
@@ -1265,8 +1265,8 @@ fz = 0.0;
 linkedcell->calculateIndex(r_probe,index);
 
 if (index >= linkedcell->Ncells || index < 0) {
-  printf("outside box: %i\n",index);
-  printf("position: %g %g %g\n",r_probe[0],r_probe[1],r_probe[2]);
+  //printf("outside box: %i\n",index);
+  //printf("position: %g %g %g\n",r_probe[0],r_probe[1],r_probe[2]);
   f[0] = 0.0;
   f[1] = 0.0;
   f[2] = 0.0;
@@ -1480,8 +1480,8 @@ int index;
 linkedcell->calculateIndex(r_probe,index);
 
 if (index >= linkedcell->Ncells || index < 0) {
-  printf("outside cell simulation: %i\n",index);
-  printf("position: %g %g %g\n",r_probe[0],r_probe[1],r_probe[2]);
+  //printf("outside cell simulation: %i\n",index);
+  //printf("position: %g %g %g\n",r_probe[0],r_probe[1],r_probe[2]);
   f[0] = 0.0;
   f[1] = 0.0;
   f[2] = 0.0;

@@ -245,6 +245,14 @@ void Input::readInputFile(char const *input) noexcept(false) {
       else if (gas_buffer_flag == 3) alpha = ALPHA_CO2;
       else alpha = 0.0;
     }  
+  }
+
+  // force field flag
+  if (d.HasMember("force-field")) {
+    user_ff = d["force-field"].GetString();
+    user_ff_flag = 1;
+  } else {
+    user_ff_flag = 0;
   } 
 }
 
@@ -324,5 +332,8 @@ void Input::printReadInput() {
   cout << "Apply induced-dipole interaction : " << polarizability_str << endl;
   if (polarizability_flag == 1) {
   cout << "alpha (Ang^3)                    : " << alpha << endl;
+  }
+  if (user_ff_flag == 1) {
+    cout << "force-field                      : " << user_ff << endl;
   }
 }

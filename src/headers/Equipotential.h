@@ -34,6 +34,7 @@ private:
   MoleculeTarget *moleculeTarget;
   GasBuffer *gas;
   unsigned int polarizability_flag;
+  unsigned int gas_buffer_flag;
   double epsilon_gas, sigma_gas;
   double aUncert, bUncert, cUncert, rmsd;
   double cov_aa, cov_bb, cov_cc, cov_ab, cov_ac, cov_bc;
@@ -50,7 +51,7 @@ private:
   vector<vector<double>> minmax{};
 
 public:
-  Equipotential(MoleculeTarget *moleculeTarget, GasBuffer *gas, unsigned int long_range_flag, double temperature, double mu, double alpha);
+  Equipotential(MoleculeTarget *moleculeTarget, GasBuffer *gas, unsigned int long_range_flag, double temperature, double mu, double alpha, unsigned int gas_buffer_flag);
   ~Equipotential();
 
   double maxX, maxY, maxZ;
@@ -62,7 +63,10 @@ public:
 
   void print();  
 
-  double potential(vector<double> pos); 
+  //double potential(vector<double> pos); 
+  double potential_He(vector<double> pos);
+  double potential_N2(vector<double> pos);
+  double potential_CO2(vector<double> pos);
 
   void enlargeEllipsoidBoundry();
 };

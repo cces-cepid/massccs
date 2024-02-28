@@ -16,13 +16,14 @@
 
 #include "headers/Equipotential.h"
 
-Equipotential::Equipotential(MoleculeTarget *moleculeTarget, GasBuffer *gas, unsigned int polarizability_flag, double temperature, double mu, double alpha) {
+Equipotential::Equipotential(MoleculeTarget *moleculeTarget, GasBuffer *gas, unsigned int polarizability_flag, double temperature, double mu, double alpha, unsigned int gas_buffer_flag) {
 this->moleculeTarget = moleculeTarget;
 this->gas = gas;
 this->polarizability_flag = polarizability_flag;
 this->temperature = temperature;
 this->mu = mu;
 this->alpha = alpha;
+this->gas_buffer_flag = gas_buffer_flag;
 
 a = 0.0;
 b = 0.0;
@@ -85,7 +86,16 @@ accept = false;
 pos[0] = 0.0;
 pos[1] = 0.0;
 pos[2] = abs(maxZ) + 20.0; // initial position equal maxZ + 20 Angstrom
-energy = potential(pos);
+//energy = potential(pos);
+
+if (gas_buffer_flag == 1) {
+  energy = potential_He(pos);
+} else if (gas_buffer_flag == 2) {
+  energy = potential_N2(pos);
+} else if (gas_buffer_flag == 3) {
+  energy = potential_CO2(pos);
+}
+
 Ek_min = 0.01*Ek_min;
 
 if(energy + Ek_min < 0.0) slope = -1.0; // total energy is negative
@@ -93,7 +103,14 @@ if(energy + Ek_min < 0.0) slope = -1.0; // total energy is negative
 while (!accept) {
      prevPos = pos;
      pos[2] -= 0.5*slope; // increment or decrement 0.5 Ansgtrom
-     energy = potential(pos);
+     //energy = potential(pos);
+     if (gas_buffer_flag == 1) {
+       energy = potential_He(pos);
+     } else if (gas_buffer_flag == 2) {
+       energy = potential_N2(pos);
+     } else if (gas_buffer_flag == 3) {
+       energy = potential_CO2(pos);
+     }
 
      //found closest distance along z-axis
      if ((energy + Ek_min)*slope < 0.0) {
@@ -130,7 +147,14 @@ for (int i = 0; i < (maxZLevels + 1); i ++) {
       hit = false;
 
       //get potential energy at pos
-      energy = potential(pos);
+      //energy = potential(pos);
+      if (gas_buffer_flag == 1) {
+        energy = potential_He(pos);
+      } else if (gas_buffer_flag == 2) {
+        energy = potential_N2(pos);
+      } else if (gas_buffer_flag == 3) {
+        energy = potential_CO2(pos);
+      }
 
       //if within the boundry that is being set up,
       //search from inside-out instead
@@ -140,7 +164,14 @@ for (int i = 0; i < (maxZLevels + 1); i ++) {
       vel[2] = vel[2]*slope;
 
       while (!hit) {
-           energy = potential(pos);
+           //energy = potential(pos);
+	   if (gas_buffer_flag == 1) {
+             energy = potential_He(pos);
+           } else if (gas_buffer_flag == 2) {
+             energy = potential_N2(pos);
+           } else if (gas_buffer_flag == 3) {
+             energy = potential_CO2(pos);
+           }
 
            //potential energy vs kinetic energy condition
            if ((energy + Ek_min)*slope <  0.0) {
@@ -187,7 +218,7 @@ for (int i = 0; i < (signed)boundryPoints_temp.size(); i ++) {
 
 }
 
-double Equipotential::potential(vector<double> pos) {
+double Equipotential::potential_He(vector<double> pos) {
 double pot;
 double epsilon_target, sigma_target;
 double Ulj, Uind;
@@ -232,6 +263,153 @@ if (polarizability_flag != 0) pot -= 0.5*alpha*(Ex*Ex + Ey*Ey + Ez*Ez);
 
 return pot;
 }
+
+double Equipotential::potential_N2(vector<double> pos) {
+double pot;
+double epsilon_target, sigma_target;
+double r_N[6][3], Ulj_N[6], Ucoul_N[6], Ucoul_C;
+double Ex, Ey, Ez;
+double Exx, Eyy, Ezz, Exy, Exz, Eyz;
+double qC, qN, d;
+
+qC = 0.965;
+qN = -0.5*qC;
+d = 0.5488;
+
+// Nitrogen 1 axis X
+r_N[0][0] = pos[0] + d;
+r_N[0][1] = pos[1];
+r_N[0][2] = pos[2];
+// Nitrogen 2 axis X
+r_N[1][0] = pos[0] - d;
+r_N[1][1] = pos[1];
+r_N[1][2] = pos[2];
+// Nitrogen 1 axis Y
+r_N[2][0] = pos[0];
+r_N[2][1] = pos[1] + d;
+r_N[2][2] = pos[2];
+// Nitrogen 2 axis Y
+r_N[3][0] = pos[0];
+r_N[3][1] = pos[1] - d;
+r_N[3][2] = pos[2];
+// Nitrogen 1 axis Z
+r_N[4][0] = pos[0];
+r_N[4][1] = pos[1];
+r_N[4][2] = pos[2] + d;
+// Nitrogen 2 axis Z
+r_N[5][0] = pos[0];
+r_N[5][1] = pos[1];
+r_N[5][2] = pos[2] - d;
+
+for (int i = 0; i < 6; i++) {
+  Ulj_N[i] = 0.0;
+  Ucoul_N[i] = 0.0;
+}
+
+Ucoul_C = 0.0;
+Ex = 0.0;
+Ey = 0.0;
+Ez = 0.0;
+Exx = 0.0;
+Eyy = 0.0;
+Ezz = 0.0;
+Exy = 0.0;
+Exz = 0.0;
+Eyz = 0.0;
+
+#pragma omp parallel for reduction(+:Ulj_N,Ucoul_N,Ucoul_C,Ex,Ey,Ez) 
+for (int i = 0; i < moleculeTarget->natoms; i++) {
+  double r_target[3];
+  r_target[0] = moleculeTarget->x[i];
+  r_target[1] = moleculeTarget->y[i];
+  r_target[2] = moleculeTarget->z[i];
+  double q = moleculeTarget->q[i];
+  double epsilon = moleculeTarget->eps[i];
+  double sigma = moleculeTarget->sig[i];
+  double lj1 = 4.0*epsilon*pow(sigma,6);
+  double lj2 = lj1*pow(sigma,6);
+
+  // nitrogen calculations
+  for (int k =0; k < 6; k++) {
+    double dx = r_N[k][0] - r_target[0];
+    double dy = r_N[k][1] - r_target[1];
+    double dz = r_N[k][2] - r_target[2];
+
+    double r2 = dx*dx + dy*dy + dz*dz;
+    double r2inv = 1.0/r2;
+    double r6inv = r2inv*r2inv*r2inv;
+
+    double Ulj = r6inv*(lj2*r6inv - lj1);
+    Ulj_N[k] += Ulj;
+
+    if (polarizability_flag != 0) {
+      double rinv  = sqrt(r2inv);
+      double Ucoul = qN*q*rinv*KCOUL;
+      Ucoul_N[k] += Ucoul;
+    }
+  }
+
+  // central particle calculations
+  if (polarizability_flag != 0) {
+    double dx = pos[0] - r_target[0];
+    double dy = pos[1] - r_target[1];
+    double dz = pos[2] - r_target[2];
+    double r2 = dx*dx + dy*dy + dz*dz;
+    double r = sqrt(r2);
+    double rinv = 1.0/r;
+    double Ucoul = qC*q*rinv*KCOUL;
+
+    Ucoul_C += Ucoul;
+
+    double r2inv = 1.0/r2;
+    double r3inv = rinv*r2inv;
+
+    Ex += dx * q * r3inv;
+    Ey += dy * q * r3inv;
+    Ez += dz * q * r3inv;
+  }
+}
+
+double Uind;
+Uind = -0.5 * alpha * (Ex*Ex + Ey*Ey + Ez*Ez);
+
+double Umol[3];
+Umol[0] = Ulj_N[0] + Ulj_N[1] + Ucoul_N[0] + Ucoul_N[1] + Uind + Ucoul_C;
+Umol[1] = Ulj_N[2] + Ulj_N[3] + Ucoul_N[2] + Ucoul_N[3] + Uind + Ucoul_C;
+Umol[2] = Ulj_N[4] + Ulj_N[5] + Ucoul_N[4] + Ucoul_N[5] + Uind + Ucoul_C;
+
+double Umin;
+Umin = min(Umol[0],min(Umol[1],Umol[2]));
+
+double dU, Z, kBT, T;
+dU =0.0;
+Z = 0.0;
+T = 500.0;
+kBT = BOLTZMANN_K * T * J_TO_eV * eV_TO_KCAL_MOL;
+
+for (int i = 0; i < 3; i++) {
+  dU = Umol[i] - Umin;
+  Z += exp(-dU/kBT);
+}
+
+double w;
+pot = 0.0;
+for (int i = 0; i < 3; i++) {
+  dU = Umol[i] - Umin;
+  w = exp(-dU/kBT)/Z;
+  pot += w * Umol[i];
+}
+
+return pot;
+}
+
+/* developed in progress */
+double Equipotential::potential_CO2(vector<double> pos) {
+double pot;
+
+return pot;
+}
+
 
 void Equipotential::ellipsoid() {
 //stores summation information

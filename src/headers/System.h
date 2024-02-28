@@ -45,12 +45,12 @@ using namespace std;
 class System {
 private:
   unsigned int seed, nProbe, nIter, equipotential_flag, gas_buffer_flag, nthreads;
-  unsigned int short_range_cutoff, long_range_flag, long_range_cutoff, polarizability_flag;
+  unsigned int short_range_cutoff, long_range_flag, long_range_cutoff, polarizability_flag, user_ff_flag;
   double temperatureTarget, dt, skin;
   double lj_cutoff;
   double coul_cutoff;
   unsigned int force_type; 
-  string targetFilename, probeFilename;
+  string targetFilename, user_ff;
   Input *input;
   RandomNumber *mt{};
   MoleculeTarget *moleculeTarget;

@@ -50,7 +50,9 @@ public:
   unsigned int nIter;                // numbers of ccs calculations     
   unsigned int seed;                 // seed       
   unsigned int nthreads;             // numbers of threads, default use all
-  string targetFilename;             // molecule target file 
+  string targetFilename;             // molecule target
+  string user_ff;                    // user force field
+  unsigned int user_ff_flag;         // yes = 1 and not = 0, default is not 
   double dt;                         // time step in fs
   double temperatureTarget;          // temperature in Kelvin
   double skin;                       // skin of linked-cell size

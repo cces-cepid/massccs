@@ -43,6 +43,8 @@ long_range_cutoff = input->long_range_cutoff;     // yes = 1 and not = 0 for cut
 coul_cutoff = input->coul_cutoff;                 // coulomb cutoff
 polarizability_flag = input->polarizability_flag; // apply induced-dipole interaction
 alpha = input->alpha;                             // polarizability
+user_ff_flag = input->user_ff_flag;               // user force field
+user_ff = input->user_ff;                         // name of force field 
 
 if (gas_buffer_flag == 1) {
   if (short_range_cutoff == 0 && long_range_flag == 0) { 
@@ -87,7 +89,7 @@ if (gas_buffer_flag == 1) {
 gas = new GasBuffer(gas_buffer_flag);
 
 double start_molecule = omp_get_wtime();
-moleculeTarget = new MoleculeTarget(targetFilename, gas_buffer_flag); 
+moleculeTarget = new MoleculeTarget(targetFilename, gas_buffer_flag, user_ff, user_ff_flag, force_type); 
 double end_molecule = omp_get_wtime();
 cout << "orientation time of molecule target: " << (end_molecule - start_molecule) << " s" << endl;
 
@@ -116,13 +118,11 @@ alpha *= ALPHA_TO_KCAL_MOL;
 
 double start_ellipsoid = omp_get_wtime();
 if (equipotential_flag == 1) {
-  if (gas_buffer_flag == 1) {
-  equipotential = new Equipotential(moleculeTarget, gas, polarizability_flag, temperatureTarget, mu, alpha);
+  equipotential = new Equipotential(moleculeTarget, gas, polarizability_flag, temperatureTarget, mu, alpha, gas_buffer_flag);
   a = equipotential->a;
   b = equipotential->b;
   c = equipotential->c;
   cout << "ellipsoid axis length: " << a << "  "<< b << "  "<< c << "  Ang" << endl;
-  }
 } else geometric_ellipsoid();
   
 double end_ellipsoid = omp_get_wtime();
