@@ -6,19 +6,15 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'massccs_doc'
-copyright = '2023, Samuel Cajahuaringa'
+project = 'massccs'
+copyright = '2024, Samuel Cajahuaringa'
 author = 'Samuel Cajahuaringa'
-release = 'v1.0'
+release = '1.0'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
-master_doc = 'index'
 
-extensions = [
-        'sphinx_rtd_theme',
-        # Add any other extensions you need
-        ]
+extensions = []
 
 templates_path = ['_templates']
 exclude_patterns = []
@@ -29,5 +25,4 @@ language = 'english'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'sphinx_rtd_theme'
-#html_theme = 'alabaster'
 html_static_path = ['_static']
