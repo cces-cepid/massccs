@@ -1080,7 +1080,7 @@ Up = U - 0.5 * alpha * (Ex*Ex + Ey*Ey + Ez*Ez);
 return;
 }
 
-// only for diatomic CO2 molecule
+// only for Carbon of CO2 diatomic molecule
 
 /*
  * Compute the lennard jones force and potential using linked-cell for CO2
@@ -1090,8 +1090,6 @@ double r_probe[3];
 double fx, fy, fz, U, Ulj, flj, Ulj_cut;    
 double dx, dy, dz;
 double epsilon, sigma;
-double epsilon_probe, epsilon_target;
-double sigma_probe, sigma_target;
 double r2, r;
 double r2inv, r6inv, rc6inv;
 double lj1, lj2, lj3, lj4;
@@ -1100,8 +1098,6 @@ double s1, s2;
 r_probe[0] = gas->x[iatom];
 r_probe[1] = gas->y[iatom];
 r_probe[2] = gas->z[iatom];
-epsilon_probe = gas->eps[iatom];
-sigma_probe = gas->sig[iatom];
 
 U = 0.0;
 fx = 0.0;
@@ -1137,12 +1133,9 @@ for (int i = 0; i < neighborscells; i++) {
     r =  sqrt(r2);
 
     if (r < lj_cutoff) {
-      epsilon_target = moleculeTarget->eps[target_id]; 
-      sigma_target = moleculeTarget->sig[target_id]; 
+      epsilon = moleculeTarget->eps_central[target_id]; 
+      sigma = moleculeTarget->sig_central[target_id]; 
 
-      epsilon = sqrt(epsilon_target * epsilon_probe);
-      sigma = 0.5*(sigma_target + sigma_probe);
-  
       r2inv = 1.0/r2;
       r6inv = r2inv*r2inv*r2inv;
       lj1 = 4.0*epsilon*pow(sigma,6.0);
@@ -1178,8 +1171,6 @@ double r_probe[3];
 double fx, fy,fz, Ulj, flj;
 double dx, dy, dz;
 double epsilon, sigma;
-double epsilon_probe, epsilon_target;
-double sigma_probe, sigma_target;
 double r2,r;
 double r2inv,r6inv;
 double lj1,lj2,lj3,lj4;
@@ -1193,9 +1184,6 @@ fx = 0.0;
 fy = 0.0;
 fz = 0.0;
 
-epsilon_probe = gas->eps[iatom];
-sigma_probe = gas->sig[iatom];
-
 #pragma omp simd
 for (int i = 0; i < moleculeTarget->natoms; i++) {
   dx = r_probe[0] - moleculeTarget->x[i];
@@ -1205,12 +1193,9 @@ for (int i = 0; i < moleculeTarget->natoms; i++) {
   r2 = dx*dx + dy*dy + dz*dz;
   r = sqrt(r2);
 
-  epsilon_target = moleculeTarget->eps[i]; 
-  sigma_target = moleculeTarget->sig[i]; 
-
-  epsilon = sqrt(epsilon_target * epsilon_probe);
-  sigma = 0.5*(sigma_target + sigma_probe);
-       
+  epsilon = moleculeTarget->eps_central[i]; 
+  sigma = moleculeTarget->sig_central[i]; 
+     
   r2inv = 1.0/r2;
   r6inv = r2inv*r2inv*r2inv;
   lj1 = 4.0*epsilon*pow(sigma,6.0);
@@ -1241,8 +1226,6 @@ double r_probe[3];
 double fx, fy,fz, Ulj, flj, U;
 double dx, dy, dz;
 double epsilon, sigma;
-double epsilon_probe, epsilon_target;
-double sigma_probe, sigma_target;
 double r2,r;
 double rinv,r2inv,r6inv;
 double lj1,lj2,lj3,lj4;
@@ -1251,13 +1234,10 @@ double Ucoul, fcoul, s1, s2;
 int index;
 double Ulj_cut, rc6inv, Ucoul_shift;
 
-
 r_probe[0] = gas->x[iatom];
 r_probe[1] = gas->y[iatom];
 r_probe[2] = gas->z[iatom];
 qi = gas->q[iatom];
-epsilon_probe = gas->eps[iatom];
-sigma_probe = gas->sig[iatom];
 
 U = 0.0;
 fx = 0.0;
@@ -1292,10 +1272,8 @@ for (int i = 0; i < neighborscells; i++) {
     r =  sqrt(r2);
 
     if (r < lj_cutoff) {
-     epsilon_target = moleculeTarget->eps[target_id]; 
-     sigma_target = moleculeTarget->sig[target_id]; 
-     epsilon = sqrt(epsilon_target * epsilon_probe);
-     sigma = 0.5*(sigma_target + sigma_probe);
+     epsilon = moleculeTarget->eps_central[target_id]; 
+     sigma = moleculeTarget->sig_central[target_id];      
      r2inv = 1.0/r2;
      r6inv = r2inv*r2inv*r2inv;
      lj1 = 4.0*epsilon*pow(sigma,6.0);
@@ -1376,8 +1354,6 @@ double r_probe[3];
 double fx, fy,fz, Ulj, flj, U, Ucoul, fcoul;
 double dx, dy, dz;
 double epsilon, sigma;
-double epsilon_probe, epsilon_target;
-double sigma_probe, sigma_target;
 double r2, r;
 double rinv, r2inv, r6inv;
 double lj1, lj2, lj3, lj4;
@@ -1387,8 +1363,6 @@ r_probe[0] = gas->x[iatom];
 r_probe[1] = gas->y[iatom];
 r_probe[2] = gas->z[iatom];
 qi = gas->q[iatom];
-epsilon_probe = gas->eps[iatom];
-sigma_probe = gas->sig[iatom];
 
 U = 0.0;
 fx = 0.0;
@@ -1404,12 +1378,9 @@ for (int i = 0; i < moleculeTarget->natoms; i++) {
   r2 = dx*dx + dy*dy + dz*dz;
   r =  sqrt(r2);
 
-  epsilon_target = moleculeTarget->eps[i]; 
-  sigma_target = moleculeTarget->sig[i]; 
-
-  epsilon = sqrt(epsilon_target * epsilon_probe);
-  sigma = 0.5*(sigma_target + sigma_probe);
-     
+  epsilon = moleculeTarget->eps_central[i]; 
+  sigma = moleculeTarget->sig_central[i]; 
+   
   r2inv = 1.0/r2; 
   r6inv = r2inv*r2inv*r2inv;
   lj1 = 4.0*epsilon*pow(sigma,6.0);
@@ -1451,8 +1422,6 @@ double r_probe[3];
 double fx, fy,fz, Ulj, flj, U, Ulj_cut;
 double dx, dy, dz;
 double epsilon, sigma;
-double epsilon_probe, epsilon_target;
-double sigma_probe, sigma_target;
 double r2, x2, y2, z2, r;
 double r2inv, r6inv, rc6inv;
 double lj1, lj2, lj3, lj4;
@@ -1470,8 +1439,6 @@ r_probe[0] = gas->x[iatom];
 r_probe[1] = gas->y[iatom];
 r_probe[2] = gas->z[iatom];
 qi = gas->q[iatom];
-epsilon_probe = gas->eps[iatom];
-sigma_probe = gas->sig[iatom];
 
 U = 0.0;
 fx = 0.0;
@@ -1522,11 +1489,8 @@ for (int i = 0; i < neighborscells; i++) {
     
     // lennard-jones interaction
     if (r < lj_cutoff) {
-     epsilon_target = moleculeTarget->eps[target_id]; 
-     sigma_target = moleculeTarget->sig[target_id]; 
-
-     epsilon = sqrt(epsilon_target * epsilon_probe);
-     sigma = 0.5*(sigma_target + sigma_probe);
+     epsilon = moleculeTarget->eps_central[target_id]; 
+     sigma = moleculeTarget->sig_central[target_id]; 
 
      r6inv = r2inv*r2inv*r2inv;
      lj1 = 4.0*epsilon*pow(sigma,6.0);
@@ -1676,8 +1640,6 @@ double r_probe[3];
 double fx, fy,fz, Ulj, flj, U, Ucoul, fcoul;
 double dx, dy, dz;
 double epsilon, sigma;
-double epsilon_probe, epsilon_target;
-double sigma_probe, sigma_target;
 double r2, x2, y2, z2, r;
 double r2inv, r6inv;
 double lj1, lj2, lj3, lj4;
@@ -1689,8 +1651,6 @@ r_probe[0] = gas->x[iatom];
 r_probe[1] = gas->y[iatom];
 r_probe[2] = gas->z[iatom];
 qi = gas->q[iatom];
-epsilon_probe = gas->eps[iatom];
-sigma_probe = gas->sig[iatom];
 
 U = 0.0;
 fx = 0.0;
@@ -1712,11 +1672,8 @@ for (int i = 0; i < moleculeTarget->natoms; i++) {
   r2 = dx*dx + dy*dy + dz*dz;
   r =  sqrt(r2);
 
-  epsilon_target = moleculeTarget->eps[i];
-  sigma_target = moleculeTarget->sig[i];
-
-  epsilon = sqrt(epsilon_target * epsilon_probe);
-  sigma = 0.5*(sigma_target + sigma_probe);
+  epsilon = moleculeTarget->eps_central[i];
+  sigma = moleculeTarget->sig_central[i];
 
   r2inv = 1.0/r2;
   r6inv = r2inv*r2inv*r2inv;

@@ -135,7 +135,7 @@ cout << "maximal impact parameter: " << bmax << " Ang" << endl;
 
 // create the linked cell list
 double start_linked_cell = omp_get_wtime();
-linkedcell = new LinkedCell(moleculeTarget, a, b, c, lj_cutoff, skin, long_range_flag, long_range_cutoff, coul_cutoff);
+linkedcell = new LinkedCell(moleculeTarget, a, b, c, lj_cutoff, skin, long_range_flag, long_range_cutoff, coul_cutoff, gas_buffer_flag);
 double end_linked_cell = omp_get_wtime(); 
 cout << "linked-cell calculation time: " << (end_linked_cell - start_linked_cell) << " s" << endl;
 
@@ -1028,24 +1028,40 @@ double fi_gas[natoms][3]; // initial force of buffer gas
 Up_gas = 0.0;
 for (int iatom = 0; iatom < natoms; iatom++) {
   if (force_type == 1) {
-    force->lennardjones_CO2(gasProbe,iatom,f,Up);
+    if (iatom == 1) { 
+      force->lennardjones_CO2(gasProbe,iatom,f,Up);
+    } else {
+      force->lennardjones(gasProbe,iatom,f,Up);
+    }
   } else if (force_type == 2) {
-    force->lennardjones_LC_CO2(gasProbe,iatom,f,Up);    
+    if (iatom == 1) { 
+      force->lennardjones_LC_CO2(gasProbe,iatom,f,Up);
+    } else {
+      force->lennardjones_LC(gasProbe,iatom,f,Up);
+    }    
   } else if (force_type == 3) {
-    force->lennardjones_coulomb_CO2(gasProbe,iatom,f,Up);    
+    if (iatom == 1) { 
+      force->lennardjones_coulomb_CO2(gasProbe,iatom,f,Up);    
+    } else {
+      force->lennardjones_coulomb(gasProbe,iatom,f,Up);    
+    }  
   } else if (force_type == 4) {
-    force->lennardjones_coulomb_LC_CO2(gasProbe,iatom,f,Up);
+    if (iatom == 1) { 
+      force->lennardjones_coulomb_LC_CO2(gasProbe,iatom,f,Up);    
+    } else {
+      force->lennardjones_coulomb_LC(gasProbe,iatom,f,Up);    
+    }
   } else if (force_type == 5) {
     if (iatom == 1) {
       force->lennardjones_coulomb_induced_dipole_iso_CO2(gasProbe,iatom,f,Up);
     } else {
-      force->lennardjones_coulomb_CO2(gasProbe,iatom,f,Up);
+      force->lennardjones_coulomb(gasProbe,iatom,f,Up);
     }
   } else if (force_type == 6) {
     if (iatom == 1) {
       force->lennardjones_coulomb_induced_dipole_iso_LC_CO2(gasProbe,iatom,f,Up);
     } else {
-      force->lennardjones_coulomb_LC_CO2(gasProbe,iatom,f,Up);
+      force->lennardjones_coulomb_LC(gasProbe,iatom,f,Up);
     }
   }
   
@@ -1200,26 +1216,43 @@ while (trajTries < maxTries && maxTries < 10) {
   
   // calculate force
   Up_gas = 0.0;
+  
   for (int iatom = 0; iatom < natoms; iatom++) {
     if (force_type == 1) {
-      force->lennardjones_CO2(gasProbe,iatom,f,Up);
+      if (iatom == 1) { 
+        force->lennardjones_CO2(gasProbe,iatom,f,Up);
+      } else {
+        force->lennardjones(gasProbe,iatom,f,Up);
+      }
     } else if (force_type == 2) {
-      force->lennardjones_LC_CO2(gasProbe,iatom,f,Up);    
+      if (iatom == 1) { 
+        force->lennardjones_LC_CO2(gasProbe,iatom,f,Up);
+      } else {
+        force->lennardjones_LC(gasProbe,iatom,f,Up);
+      }    
     } else if (force_type == 3) {
-      force->lennardjones_coulomb_CO2(gasProbe,iatom,f,Up);    
+      if (iatom == 1) { 
+        force->lennardjones_coulomb_CO2(gasProbe,iatom,f,Up);    
+      } else {
+        force->lennardjones_coulomb(gasProbe,iatom,f,Up);    
+      }  
     } else if (force_type == 4) {
-      force->lennardjones_coulomb_LC_CO2(gasProbe,iatom,f,Up);
+      if (iatom == 1) { 
+        force->lennardjones_coulomb_LC_CO2(gasProbe,iatom,f,Up);    
+      } else {
+        force->lennardjones_coulomb_LC(gasProbe,iatom,f,Up);    
+      }
     } else if (force_type == 5) {
       if (iatom == 1) {
         force->lennardjones_coulomb_induced_dipole_iso_CO2(gasProbe,iatom,f,Up);
       } else {
-        force->lennardjones_coulomb_CO2(gasProbe,iatom,f,Up);
+        force->lennardjones_coulomb(gasProbe,iatom,f,Up);
       }
     } else if (force_type == 6) {
       if (iatom == 1) {
         force->lennardjones_coulomb_induced_dipole_iso_LC_CO2(gasProbe,iatom,f,Up);
       } else {
-        force->lennardjones_coulomb_LC_CO2(gasProbe,iatom,f,Up);
+        force->lennardjones_coulomb_LC(gasProbe,iatom,f,Up);
       }
     }
   
@@ -1228,7 +1261,7 @@ while (trajTries < maxTries && maxTries < 10) {
     f_gas[iatom][1] = f[1];
     f_gas[iatom][2] = f[2];
   } 
-  
+
   // second-half verlet integration     
   m2M = m[1]/M;
   for (int i = 0; i < 3; i++) {

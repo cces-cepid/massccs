@@ -91,10 +91,17 @@ eps = new double[natoms];
 sig = new double[natoms];
 atomName = new string[natoms];
 
+if (gas_buffer_flag == 3) {
+  eps_central = new double[natoms];
+  sig_central = new double[natoms];
+}
+
 // read the coordinates and types
 string atomType;
 double xi, yi, zi, mi, qi, epsi, sigi, ri;
-vector<double> ret(3);
+int ret_size = 3;
+if (gas_buffer_flag == 3) ret_size = 5;
+vector<double> ret(ret_size);
 
 i = 0;
 infile.open(filename);
@@ -121,6 +128,12 @@ if (infile.is_open()) {
       m[i] = mi;
       eps[i] = ret[1];
       sig[i] = ret[2]; 
+      
+      if (gas_buffer_flag == 3) {
+        eps_central[i] = ret[3];
+        sig_central[i] = ret[4];
+      }
+      
       this->mass += mi; 
       this->Q += qi; 
       ++i;     
@@ -221,13 +234,20 @@ eps = new double[natoms];
 sig = new double[natoms];
 atomName = new string[natoms];
 
+if (gas_buffer_flag == 3) {
+  eps_central = new double[natoms];
+  sig_central = new double[natoms];
+}
+
 // skip the second line (comment)
 getline(coordinates, line);
 
 // read the coordinates and types
 string atomType;
 double xi, yi, zi, mi, qi, epsi, sigi;
-vector<double> ret(3);
+int ret_size = 3;
+if (gas_buffer_flag == 3) ret_size = 5;
+vector<double> ret(ret_size);
 
 for (unsigned int i = 0; i < natoms; i++) {
   getline(coordinates, line);
@@ -238,7 +258,6 @@ for (unsigned int i = 0; i < natoms; i++) {
     ss >> atomType >> xi >> yi >> zi;
     id[i] = i;
     atomName[i] = atomType;
-    //ret = defaultparameters(atomType, gas_buffer_flag);
     ret = assignedParameter(atomName[i]);
     x[i] = xi;
     y[i] = yi;
@@ -248,6 +267,10 @@ for (unsigned int i = 0; i < natoms; i++) {
     m[i] = mi;
     eps[i] = ret[1];
     sig[i] = ret[2];
+    if (gas_buffer_flag == 3) {
+      eps_central[i] = ret[3];
+      sig_central[i] = ret[4];
+    }
     this->mass += mi;
     this->Q += 0.;
   } else if (cond == 1) {
@@ -255,7 +278,6 @@ for (unsigned int i = 0; i < natoms; i++) {
     if (force_type == 1 || force_type == 2) {
       id[i] = i;
       atomName[i] = atomType;
-      //ret = defaultparameters(atomType, gas_buffer_flag);  
       ret = assignedParameter(atomName[i]);
       x[i] = xi;
       y[i] = yi;
@@ -265,6 +287,10 @@ for (unsigned int i = 0; i < natoms; i++) {
       m[i] = mi;
       eps[i] = ret[1];
       sig[i] = ret[2]; 
+      if (gas_buffer_flag == 3) {
+        eps_central[i] = ret[3];
+        sig_central[i] = ret[4];
+      }
       this->mass += mi; 
       this->Q += 0.; 
     } else {
@@ -280,6 +306,10 @@ for (unsigned int i = 0; i < natoms; i++) {
       m[i] = mi;
       eps[i] = ret[1];
       sig[i] = ret[2]; 
+      if (gas_buffer_flag == 3) {
+        eps_central[i] = ret[3];
+        sig_central[i] = ret[4];
+      }
       this->mass += mi; 
       this->Q += qi; 
     }  
@@ -304,7 +334,7 @@ ss.clear();
 // read the number of parameters
 ss.str(line);
 if (!(ss >> nparameters)) {
-  perror("Error: reading xyz file");
+  perror("Error: reading force file");
   throw std::invalid_argument("Error: reading force-field parameters file");
   exit (EXIT_FAILURE);
 }
@@ -332,7 +362,7 @@ double mi, epsi, sigi;
       user_eps[i] = epsi;
       user_sig[i] = sigi;
     } else {
-      perror("Error: reading xyz file");
+      perror("Error: reading force file");
       throw std::invalid_argument("Error: reading force-field parameters file");
       exit (EXIT_FAILURE);
     }
@@ -467,13 +497,24 @@ if (gas_buffer_flag == 1) {
 
 vector<double> MoleculeTarget::assignedParameter(string chemical) {
 
-vector<double> ret(3);
+int ret_size = 3;
+if (gas_buffer_flag == 3) ret_size = 5;
+vector<double> ret(ret_size);
 
 for (int i = 0; i < nparameters; i++) {
   if (chemical == user_atomName[i]) {
     ret[0] = user_m[i];
-    ret[1] = user_eps[i];
-    ret[2] = user_sig[i];
+    if (gas_buffer_flag ==3) {
+      // oxygen
+      ret[1] = sqrt(user_eps[i]*0.159); 
+      ret[2] = 0.5*(user_sig[i]+3.033);
+      // carbon
+      ret[3] = sqrt(user_eps[i]*0.055);
+      ret[4] = 0.5*(user_sig[i]+2.757);   
+    } else {      
+      ret[1] = user_eps[i];
+      ret[2] = user_sig[i];
+    }  
     return ret;
   }
 }
@@ -550,8 +591,6 @@ zi = z[atom_id];
 if (xi != 0.0 & yi != 0.0) theta = atan2(yi,xi);
 
 phi = acos(zi/rmax);
-
-//printf("rmax: %f theta: %f phi: %f id: %i\n",rmax,theta*180/M_PI,phi*180/M_PI,id);
 
 // rotation around z axis
 theta *= -1.0;

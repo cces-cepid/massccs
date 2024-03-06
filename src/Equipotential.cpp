@@ -472,8 +472,10 @@ for (int i = 0; i < moleculeTarget->natoms; i++) {
   r_target[1] = moleculeTarget->y[i];
   r_target[2] = moleculeTarget->z[i];
   double q = moleculeTarget->q[i];
-  double epsilon_target = moleculeTarget->eps[i];
-  double sigma_target = moleculeTarget->sig[i];
+  double epsilon = moleculeTarget->eps[i];
+  double sigma = moleculeTarget->sig[i];
+  double lj1 = 4.0*epsilon*pow(sigma,6);
+  double lj2 = lj1*pow(sigma,6);
 
   // oxygen calculations
   for (int k =0; k < 6; k++) {
@@ -485,11 +487,6 @@ for (int i = 0; i < moleculeTarget->natoms; i++) {
     double r2inv = 1.0/r2;
     double r6inv = r2inv*r2inv*r2inv;
   
-    double epsilon = sqrt(epsilon_target*eps_O);    
-    double sigma = 0.5*(sigma_target+sig_O);
-    double lj1 = 4.0*epsilon*pow(sigma,6);
-    double lj2 = lj1*pow(sigma,6);
-
     double Ulj = r6inv*(lj2*r6inv - lj1);
     Ulj_O[k] += Ulj;
 
@@ -508,12 +505,12 @@ for (int i = 0; i < moleculeTarget->natoms; i++) {
   double r2inv = 1.0/r2;
   double r6inv = r2inv*r2inv*r2inv;
 
-  double epsilon = sqrt(epsilon_target*eps_C);    
-  double sigma = 0.5*(sigma_target+sig_C);
-  double lj1 = 4.0*epsilon*pow(sigma,6);
-  double lj2 = lj1*pow(sigma,6);
+  double epsilon_central = moleculeTarget->eps_central[i];
+  double sigma_central = moleculeTarget->sig_central[i];
+  double lj1_central= 4.0*epsilon_central*pow(sigma_central,6);
+  double lj2_central = lj1_central*pow(sigma_central,6);
 
-  double Ulj = r6inv*(lj2*r6inv - lj1);
+  double Ulj = r6inv*(lj2_central*r6inv - lj1_central);
   Ulj_C += Ulj;
 
   if (polarizability_flag != 0) {    

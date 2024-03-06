@@ -17,7 +17,7 @@
 #include "headers/LinkedCell.h"
 
 LinkedCell::LinkedCell(MoleculeTarget *moleculeTarget, double a, double b, double c, 
-  double lj_cutoff, double skin, unsigned int long_range_flag, unsigned int long_range_cutoff, double coul_cutoff) {
+  double lj_cutoff, double skin, unsigned int long_range_flag, unsigned int long_range_cutoff, double coul_cutoff, unsigned int gas_buffer_flag) {
   this->moleculeTarget = moleculeTarget;
   this->a = a;
   this->b = b;
@@ -27,6 +27,7 @@ LinkedCell::LinkedCell(MoleculeTarget *moleculeTarget, double a, double b, doubl
   this->long_range_flag = long_range_flag;
   this->long_range_cutoff = long_range_cutoff;
   this->coul_cutoff = coul_cutoff;
+  this->gas_buffer_flag = gas_buffer_flag;
 
   next_neighbor = 0;  
   lx = 2.0*a; 
@@ -140,6 +141,8 @@ double *tmp_q;
 double *tmp_m;
 double *tmp_eps;
 double *tmp_sig;
+double *tmp_eps_central;
+double *tmp_sig_central;
 
 tmp_atomName = new string[natoms]();
 tmp_x = new double[natoms]();
@@ -149,6 +152,10 @@ tmp_q = new double[natoms]();
 tmp_m = new double[natoms]();
 tmp_eps = new double[natoms]();
 tmp_sig = new double[natoms]();
+if (gas_buffer_flag == 3) {
+  tmp_eps_central = new double[natoms]();
+  tmp_sig_central = new double[natoms]();
+}
 
 int iatom;
 iatom = 0;
@@ -156,39 +163,47 @@ int id;
 for (int i = 0; i < Ncells; i++) {
   if (atoms_inside_cell[i]) {
     for (int j = 0; j < atoms_inside_cell[i]; j++) {
-       id = atoms_ids[i][j];
-       tmp_atomName[iatom] = moleculeTarget->atomName[id];
-       tmp_x[iatom] = moleculeTarget->x[id];
-       tmp_y[iatom] = moleculeTarget->y[id];
-       tmp_z[iatom] = moleculeTarget->z[id];
-       tmp_q[iatom] = moleculeTarget->q[id];
-       tmp_m[iatom] = moleculeTarget->m[id];
-       tmp_eps[iatom] = moleculeTarget->eps[id];
-       tmp_sig[iatom] = moleculeTarget->sig[id];
-       iatom += 1;  
+      id = atoms_ids[i][j];
+      tmp_atomName[iatom] = moleculeTarget->atomName[id];
+      tmp_x[iatom] = moleculeTarget->x[id];
+      tmp_y[iatom] = moleculeTarget->y[id];
+      tmp_z[iatom] = moleculeTarget->z[id];
+      tmp_q[iatom] = moleculeTarget->q[id];
+      tmp_m[iatom] = moleculeTarget->m[id];
+      tmp_eps[iatom] = moleculeTarget->eps[id];
+      tmp_sig[iatom] = moleculeTarget->sig[id];
+      if (gas_buffer_flag == 3) {
+        tmp_eps_central[iatom] = moleculeTarget->eps_central[id];
+        tmp_sig_central[iatom] = moleculeTarget->sig_central[id];
+      }  
+      iatom += 1;  
     }	    
   }	  
 }
 
 for (int i = 0; i < natoms; i++) {
-   moleculeTarget->atomName[i] = tmp_atomName[i];
-   moleculeTarget->x[i] = tmp_x[i];
-   moleculeTarget->y[i] = tmp_y[i];
-   moleculeTarget->z[i] = tmp_z[i];
-   moleculeTarget->q[i] = tmp_q[i];
-   moleculeTarget->m[i] = tmp_m[i];
-   moleculeTarget->eps[i] = tmp_eps[i];
-   moleculeTarget->sig[i] = tmp_sig[i];
+  moleculeTarget->atomName[i] = tmp_atomName[i];
+  moleculeTarget->x[i] = tmp_x[i];
+  moleculeTarget->y[i] = tmp_y[i];
+  moleculeTarget->z[i] = tmp_z[i];
+  moleculeTarget->q[i] = tmp_q[i];
+  moleculeTarget->m[i] = tmp_m[i];
+  moleculeTarget->eps[i] = tmp_eps[i];
+  moleculeTarget->sig[i] = tmp_sig[i];
+  if (gas_buffer_flag == 3) {
+    moleculeTarget->eps_central[i] = tmp_eps_central[i];
+    moleculeTarget->sig_central[i] = tmp_sig_central[i];
+  }
 }
 
 iatom = 0;
 for (int i = 0; i < Ncells; i++) {
-   if (atoms_inside_cell[i]) {
-     for (int j = 0; j < atoms_inside_cell[i]; j++) {
-        atoms_ids[i][j] = iatom;
-        iatom += 1;		
-     }	     
-   } 
+  if (atoms_inside_cell[i]) {
+    for (int j = 0; j < atoms_inside_cell[i]; j++) {
+      atoms_ids[i][j] = iatom;
+      iatom += 1;		
+    }	     
+  } 
 }
 
 for (int i = 0; i < Ncells; i++) {
@@ -207,6 +222,8 @@ delete [] tmp_q;
 delete [] tmp_m;
 delete [] tmp_eps;
 delete [] tmp_sig;
+delete [] tmp_eps_central;
+delete [] tmp_sig_central;
 }
 
 // calculate the neighbors cell index around specify cell

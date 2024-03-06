@@ -57,7 +57,6 @@ private:
   double inertia[3][3];
   double inertiaValues[3];
   double inertiaVectors[3][3];
-  //vector<double> defaultparameters(string chemical, unsigned int gas_buffer_flag);
   vector<double> assignedParameter(string chemical);
   void printFF();
   unsigned int nparameters;
@@ -83,6 +82,9 @@ public:
   double *m;
   double *eps;
   double *sig;
+
+  double *eps_central;
+  double *sig_central;
 
   double moleculeRadius = 0.0, mass = 0.0, Q = 0.0;
   double rcm[3];
