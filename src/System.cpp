@@ -46,6 +46,7 @@ alpha = input->alpha;                             // polarizability
 user_ff_flag = input->user_ff_flag;               // user force field
 user_ff = input->user_ff;                         // name of force field 
 
+
 if (gas_buffer_flag == 1) {
   if (short_range_cutoff == 0 && long_range_flag == 0) { 
   // only lennard-jones interaction 
@@ -267,8 +268,6 @@ if (gas_buffer_flag == 1) {
     gasProbe = new GasBuffer(gas_buffer_flag);  
 
     setup(gasProbe, hit, rnd_vec1[j],rnd_vec2[j],rnd_vec3[j],rnd_vec4[j],rnd_vec5[j],rnd_vec6[j],rnd_vec7[j],rnd_vec8[j],rnd_vec9[j]);
-    
-    //run_CO2(gasProbe, success, chi, dt, force);
     
     if (hit) {
       run_CO2(gasProbe, success, chi, dt, force);
@@ -1089,6 +1088,10 @@ double mi, mj, m2M, d2ij;
 
 d2ij = d_bond*d_bond;
 
+double Ek_cm, Ew_rot;
+Ek_cm = KineticEnergy(mu,vcm);
+Ew_rot = Ek - Ek_cm;
+
 while (trajTries < maxTries && maxTries < 10) {
   
   if (stepcount == 0) {
@@ -1129,10 +1132,10 @@ while (trajTries < maxTries && maxTries < 10) {
   // G. Ciccotti et al. Molecular dynamics of rigid systems 
   // in cartesian coordinates A general formulation
   // MOLECULAR PHYSICS, 1982, VOL. 47, No. 6, 1253-1264
-  m2M = m[0]/M;
+  m2M = m[1]/M;
   for (int i = 0; i < 3; i++) {
-    fi[i] = (1.0 - 0.5*m2M)*f_gas[0][i] + m[1]/M*f_gas[1][i] - 0.5*m2M*f_gas[2][i];
-    fj[i] = (1.0 - 0.5*m2M)*f_gas[2][i] + m[1]/M*f_gas[1][i] - 0.5*m2M*f_gas[0][i];
+    fi[i] = (1.0 - 0.5*m2M)*f_gas[0][i] + m[0]/M*f_gas[1][i] - 0.5*m2M*f_gas[2][i];
+    fj[i] = (1.0 - 0.5*m2M)*f_gas[2][i] + m[0]/M*f_gas[1][i] - 0.5*m2M*f_gas[0][i];
   }  
   // oxygen 1
   ri[0] = x[0];
@@ -1227,10 +1230,10 @@ while (trajTries < maxTries && maxTries < 10) {
   } 
   
   // second-half verlet integration     
-  m2M = m[0]/M;
+  m2M = m[1]/M;
   for (int i = 0; i < 3; i++) {
-    fi[i] = (1.0 - 0.5*m2M)*f_gas[0][i] + m[1]/M*f_gas[1][i] - 0.5*m2M*f_gas[2][i];
-    fj[i] = (1.0 - 0.5*m2M)*f_gas[2][i] + m[1]/M*f_gas[1][i] - 0.5*m2M*f_gas[0][i];
+    fi[i] = (1.0 - 0.5*m2M)*f_gas[0][i] + m[0]/M*f_gas[1][i] - 0.5*m2M*f_gas[2][i];
+    fj[i] = (1.0 - 0.5*m2M)*f_gas[2][i] + m[0]/M*f_gas[1][i] - 0.5*m2M*f_gas[0][i];
   }
   // oxygen 1
   ri[0] = x[0];
@@ -1290,26 +1293,20 @@ while (trajTries < maxTries && maxTries < 10) {
     dt = time_step/(trajTries + 1);
     stepcount = 0;
     continue;
-  }
-  
-  Ek = 0.0;
-  for (int iatom = 0; iatom < natoms; iatom++) {
-    v[0] = vx[iatom];
-    v[1] = vy[iatom];
-    v[2] = vz[iatom];
-    Ek += KineticEnergy(m[iatom],v);
   } 
 
-  // update total energy
-  E = Up_gas + Ek;
-  // conservation energy condition
-  tmp += abs((E-Ei)/Ei);
-  dH = tmp/((float)t);
-  t++; 
-    
   // check if outside the box simulation
   if (abs(rcm[0]) >= lx || abs(rcm[1]) >= ly || abs(rcm[2]) >= lz) {
-    if (dH > 10.0) {
+    Ek = 0.0;
+    for (int iatom = 0; iatom < natoms; iatom++) {
+      v[0] = vx[iatom];
+      v[1] = vy[iatom];
+      v[2] = vz[iatom];
+      Ek += KineticEnergy(m[iatom],v);
+    }
+    E = Up_gas + Ek;
+    dE = abs((E-Ei)/Ei)*100.0;
+    if (dE > 5.0) {
       trajTries++;
       maxTries++;
       dt = time_step/(trajTries + 1);
@@ -1328,7 +1325,16 @@ while (trajTries < maxTries && maxTries < 10) {
     ur[2] = rcm_new[2]/c;
     r = Math::dotProduct(ur,ur);
     if (r > 1.0) {
-      if (dH > 10.0) {
+      Ek = 0.0;
+      for (int iatom = 0; iatom < natoms; iatom++) {
+        v[0] = vx[iatom];
+        v[1] = vy[iatom];
+        v[2] = vz[iatom];
+        Ek += KineticEnergy(m[iatom],v);
+      }
+      E = Up_gas + Ek;
+      dE = abs((E-Ei)/Ei)*100.0;      
+      if (dE > 5.0) {
         trajTries++;
         maxTries++;
         dt = time_step/(trajTries + 1);

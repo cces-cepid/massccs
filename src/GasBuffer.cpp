@@ -102,11 +102,11 @@ if (gas_type == "He") {
   mass = m[0] + m[1];
   d = abs(z[0]-z[1]);
 } else if (gas_type == "CO2") {
-  // force field paramter of Harris and Yung (1995)
+  // force field paramter of Harris and Yung (1995) EPM2
   // oxygen 1
   x[0] = 0.0;
   y[0] = 0.0;
-  z[0] = -1.49;
+  z[0] = -1.149;
   // carbon
   x[1] = 0.0;
   y[1] = 0.0;
@@ -114,7 +114,7 @@ if (gas_type == "He") {
   // oxygen 2
   x[2] = 0.0;
   y[2] = 0.0;
-  z[2] = 1.49;
+  z[2] = 1.149;
   vx[0] = 0.0;
   vy[0] = 0.0;
   vz[0] = 0.0;
@@ -124,9 +124,9 @@ if (gas_type == "He") {
   vx[2] = 0.0;
   vy[2] = 0.0;
   vz[2] = 0.0;
-  q[0] = -0.3256;
-  q[1] = 0.6512;
-  q[2] = -0.3256;
+  q[0] = -0.3256; // qO1
+  q[1] = 0.6512;  // qC
+  q[2] = -0.3256; // qO2
   m[0] = 15.999;
   m[1] = 12.011;
   m[2] = 15.999;
@@ -137,8 +137,8 @@ if (gas_type == "He") {
   sig[1] = 2.757; 
   sig[2] = 3.033; 
   atomName[0] = "O1";
-  atomName[1] = "C1";
-  atomName[2] = "O1";
+  atomName[1] = "C";
+  atomName[2] = "O2";
   mass = m[0] + m[1] + m[2];
   d = abs(z[0]-z[2]);
 } 

@@ -1080,6 +1080,8 @@ Up = U - 0.5 * alpha * (Ex*Ex + Ey*Ey + Ez*Ez);
 return;
 }
 
+// only for diatomic CO2 molecule
+
 /*
  * Compute the lennard jones force and potential using linked-cell for CO2
  */

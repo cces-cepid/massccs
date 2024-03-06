@@ -406,6 +406,160 @@ return pot;
 /* developed in progress */
 double Equipotential::potential_CO2(vector<double> pos) {
 double pot;
+double epsilon_target, sigma_target;
+double r_O[6][3], Ulj_O[6], Ucoul_O[6], Ulj_C, Ucoul_C;
+double Ex, Ey, Ez;
+double Exx, Eyy, Ezz, Exy, Exz, Eyz;
+double qC, qO, d;
+double eps_O, eps_C;
+double sig_O, sig_C;
+
+qC = 0.6512;
+qO = -0.5*qC;
+d = 1.149;
+
+eps_O = 0.159; 
+eps_C = 0.055;   
+sig_O = 3.033; 
+sig_C = 2.757; 
+
+// Oxygen 1 axis X
+r_O[0][0] = pos[0] + d;
+r_O[0][1] = pos[1];
+r_O[0][2] = pos[2];
+// Oxygen 2 axis X
+r_O[1][0] = pos[0] - d;
+r_O[1][1] = pos[1];
+r_O[1][2] = pos[2];
+// Oxygen 1 axis Y
+r_O[2][0] = pos[0];
+r_O[2][1] = pos[1] + d;
+r_O[2][2] = pos[2];
+// Oxygen 2 axis Y
+r_O[3][0] = pos[0];
+r_O[3][1] = pos[1] - d;
+r_O[3][2] = pos[2];
+// Oxygen 1 axis Z
+r_O[4][0] = pos[0];
+r_O[4][1] = pos[1];
+r_O[4][2] = pos[2] + d;
+// Oxygen 2 axis Z
+r_O[5][0] = pos[0];
+r_O[5][1] = pos[1];
+r_O[5][2] = pos[2] - d;
+
+Ulj_C = 0.0;
+Ucoul_C = 0.0;
+for (int i = 0; i < 6; i++) {
+  Ulj_O[i] = 0.0;
+  Ucoul_O[i] = 0.0;
+}
+
+Ex = 0.0;
+Ey = 0.0;
+Ez = 0.0;
+Exx = 0.0;
+Eyy = 0.0;
+Ezz = 0.0;
+Exy = 0.0;
+Exz = 0.0;
+Eyz = 0.0;
+
+#pragma omp parallel for reduction(+:Ulj_O,Ucoul_O,Ulj_C,Ucoul_C,Ex,Ey,Ez) 
+for (int i = 0; i < moleculeTarget->natoms; i++) {
+  double r_target[3];
+  r_target[0] = moleculeTarget->x[i];
+  r_target[1] = moleculeTarget->y[i];
+  r_target[2] = moleculeTarget->z[i];
+  double q = moleculeTarget->q[i];
+  double epsilon_target = moleculeTarget->eps[i];
+  double sigma_target = moleculeTarget->sig[i];
+
+  // oxygen calculations
+  for (int k =0; k < 6; k++) {
+    double dx = r_O[k][0] - r_target[0];
+    double dy = r_O[k][1] - r_target[1];
+    double dz = r_O[k][2] - r_target[2];
+
+    double r2 = dx*dx + dy*dy + dz*dz;
+    double r2inv = 1.0/r2;
+    double r6inv = r2inv*r2inv*r2inv;
+  
+    double epsilon = sqrt(epsilon_target*eps_O);    
+    double sigma = 0.5*(sigma_target+sig_O);
+    double lj1 = 4.0*epsilon*pow(sigma,6);
+    double lj2 = lj1*pow(sigma,6);
+
+    double Ulj = r6inv*(lj2*r6inv - lj1);
+    Ulj_O[k] += Ulj;
+
+    if (polarizability_flag != 0) {
+      double rinv  = sqrt(r2inv);
+      double Ucoul = qO*q*rinv*KCOUL;
+      Ucoul_O[k] += Ucoul;
+    }
+  }
+
+  // carbon particle calculations
+  double dx = pos[0] - r_target[0];
+  double dy = pos[1] - r_target[1];
+  double dz = pos[2] - r_target[2];
+  double r2 = dx*dx + dy*dy + dz*dz;
+  double r2inv = 1.0/r2;
+  double r6inv = r2inv*r2inv*r2inv;
+
+  double epsilon = sqrt(epsilon_target*eps_C);    
+  double sigma = 0.5*(sigma_target+sig_C);
+  double lj1 = 4.0*epsilon*pow(sigma,6);
+  double lj2 = lj1*pow(sigma,6);
+
+  double Ulj = r6inv*(lj2*r6inv - lj1);
+  Ulj_C += Ulj;
+
+  if (polarizability_flag != 0) {    
+    double r = sqrt(r2);
+    double rinv = 1.0/r;     
+    double Ucoul = qC*q*rinv*KCOUL;
+    Ucoul_C += Ucoul;
+
+    double r2inv = 1.0/r2;
+    double r3inv = rinv*r2inv;
+
+    Ex += dx * q * r3inv;
+    Ey += dy * q * r3inv;
+    Ez += dz * q * r3inv;
+  }
+}
+
+double Uind;
+Uind = -0.5 * alpha * (Ex*Ex + Ey*Ey + Ez*Ez);
+
+double Umol[3];
+Umol[0] = Ulj_O[0] + Ulj_O[1] + Ucoul_O[0] + Ucoul_O[1] + Uind + Ulj_C + Ucoul_C;
+Umol[1] = Ulj_O[2] + Ulj_O[3] + Ucoul_O[2] + Ucoul_O[3] + Uind + Ulj_C + Ucoul_C;
+Umol[2] = Ulj_O[4] + Ulj_O[5] + Ucoul_O[4] + Ucoul_O[5] + Uind + Ulj_C + Ucoul_C;
+
+double Umin;
+Umin = min(Umol[0],min(Umol[1],Umol[2]));
+
+double dU, Z, kBT, T;
+dU =0.0;
+Z = 0.0;
+T = 500.0;
+kBT = BOLTZMANN_K * T * J_TO_eV * eV_TO_KCAL_MOL;
+
+for (int i = 0; i < 3; i++) {
+  dU = Umol[i] - Umin;
+  Z += exp(-dU/kBT);
+}
+
+double w;
+pot = 0.0;
+for (int i = 0; i < 3; i++) {
+  dU = Umol[i] - Umin;
+  w = exp(-dU/kBT)/Z;
+  pot += w * Umol[i];
+}
 
 return pot;
 }
