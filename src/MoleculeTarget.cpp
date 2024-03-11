@@ -91,10 +91,17 @@ eps = new double[natoms];
 sig = new double[natoms];
 atomName = new string[natoms];
 
+if (gas_buffer_flag == 3) {
+  eps_central = new double[natoms];
+  sig_central = new double[natoms];
+}
+
 // read the coordinates and types
 string atomType;
 double xi, yi, zi, mi, qi, epsi, sigi, ri;
-vector<double> ret(3);
+int ret_size = 3;
+if (gas_buffer_flag == 3) ret_size = 5;
+vector<double> ret(ret_size);
 
 i = 0;
 infile.open(filename);
@@ -109,9 +116,7 @@ if (infile.is_open()) {
       z[i] = zi;
       q[i] = qi;
       id[i] = i;
-      //atomName[i] = AtomName.substr(0,1);
-      //cout << AtomName << "  " << atomName[i] << endl;
-      //ret = defaultparameters(atomName[i], gas_buffer_flag);
+
       if (user_ff_flag) {
         atomName[i] = AtomName;
         ret = assignedParameter(atomName[i]);
@@ -123,6 +128,12 @@ if (infile.is_open()) {
       m[i] = mi;
       eps[i] = ret[1];
       sig[i] = ret[2]; 
+      
+      if (gas_buffer_flag == 3) {
+        eps_central[i] = ret[3];
+        sig_central[i] = ret[4];
+      }
+      
       this->mass += mi; 
       this->Q += qi; 
       ++i;     
@@ -223,13 +234,20 @@ eps = new double[natoms];
 sig = new double[natoms];
 atomName = new string[natoms];
 
+if (gas_buffer_flag == 3) {
+  eps_central = new double[natoms];
+  sig_central = new double[natoms];
+}
+
 // skip the second line (comment)
 getline(coordinates, line);
 
 // read the coordinates and types
 string atomType;
 double xi, yi, zi, mi, qi, epsi, sigi;
-vector<double> ret(3);
+int ret_size = 3;
+if (gas_buffer_flag == 3) ret_size = 5;
+vector<double> ret(ret_size);
 
 for (unsigned int i = 0; i < natoms; i++) {
   getline(coordinates, line);
@@ -240,7 +258,6 @@ for (unsigned int i = 0; i < natoms; i++) {
     ss >> atomType >> xi >> yi >> zi;
     id[i] = i;
     atomName[i] = atomType;
-    //ret = defaultparameters(atomType, gas_buffer_flag);
     ret = assignedParameter(atomName[i]);
     x[i] = xi;
     y[i] = yi;
@@ -250,6 +267,10 @@ for (unsigned int i = 0; i < natoms; i++) {
     m[i] = mi;
     eps[i] = ret[1];
     sig[i] = ret[2];
+    if (gas_buffer_flag == 3) {
+      eps_central[i] = ret[3];
+      sig_central[i] = ret[4];
+    }
     this->mass += mi;
     this->Q += 0.;
   } else if (cond == 1) {
@@ -257,7 +278,6 @@ for (unsigned int i = 0; i < natoms; i++) {
     if (force_type == 1 || force_type == 2) {
       id[i] = i;
       atomName[i] = atomType;
-      //ret = defaultparameters(atomType, gas_buffer_flag);  
       ret = assignedParameter(atomName[i]);
       x[i] = xi;
       y[i] = yi;
@@ -267,6 +287,10 @@ for (unsigned int i = 0; i < natoms; i++) {
       m[i] = mi;
       eps[i] = ret[1];
       sig[i] = ret[2]; 
+      if (gas_buffer_flag == 3) {
+        eps_central[i] = ret[3];
+        sig_central[i] = ret[4];
+      }
       this->mass += mi; 
       this->Q += 0.; 
     } else {
@@ -282,6 +306,10 @@ for (unsigned int i = 0; i < natoms; i++) {
       m[i] = mi;
       eps[i] = ret[1];
       sig[i] = ret[2]; 
+      if (gas_buffer_flag == 3) {
+        eps_central[i] = ret[3];
+        sig_central[i] = ret[4];
+      }
       this->mass += mi; 
       this->Q += qi; 
     }  
@@ -306,7 +334,7 @@ ss.clear();
 // read the number of parameters
 ss.str(line);
 if (!(ss >> nparameters)) {
-  perror("Error: reading xyz file");
+  perror("Error: reading force file");
   throw std::invalid_argument("Error: reading force-field parameters file");
   exit (EXIT_FAILURE);
 }
@@ -334,7 +362,7 @@ double mi, epsi, sigi;
       user_eps[i] = epsi;
       user_sig[i] = sigi;
     } else {
-      perror("Error: reading xyz file");
+      perror("Error: reading force file");
       throw std::invalid_argument("Error: reading force-field parameters file");
       exit (EXIT_FAILURE);
     }
@@ -426,147 +454,67 @@ if (gas_buffer_flag == 1) {
   user_m[6] = 18.9984;
   user_eps[6] = 0.04649;
   user_sig[6] = 3.1285;
-}
-// for carbon dioxide
-// force field parameter from charmm file par_all27_prot_na.prm
-/*} else if (gas_buffer_flag == 3) {
-  if (chemical == carbon) {
-    m = 12.011;
-    eps = 0.11;
-    sig = 3.564;
-  } else if (chemical == nitrogen) {
-    m = 14.007;
-    eps = 0.200;
-    sig = 3.296;
-  } else if (chemical == hydrogen) {
-    m = 1.008;
-    eps = 0.046;
-    sig = 0.400;
-  } else if (chemical == oxygen) {
-    m = 15.999;
-    eps = 0.12;
-    sig = 3.029;
-  } else if (chemical == sulfur) {
-    m = 32.06;
-    eps = 0.45;
-    sig = 3.564;
-  } else if (chemical == phosphorus) {
-    m = 30.9738;
-    eps = 0.585;
-    sig = 3.831;
-  }
-} */
-}
-
-/*vector<double> MoleculeTarget::defaultparameters(string chemical, unsigned int gas_buffer_flag) {
-
-vector<double> ret(3);
-
-double m, eps, sig;
-
-string carbon = "C";
-string nitrogen = "N";
-string hydrogen = "H";
-string oxygen = "O";
-string sulfur = "S";
-string phosphorus = "P";
-
-// for hellium
-if (gas_buffer_flag == 1) {
-  if (chemical == carbon) {
-    m = 12.011;
-    eps = 0.0309;
-    sig = 3.043;
-  } else if (chemical == nitrogen) {
-    m = 14.007;
-    eps = 0.0309;
-    sig = 3.043;
-  } else if (chemical == hydrogen) {
-    m = 1.008;
-    eps = 0.0150;
-    sig = 2.38;
-  } else if (chemical == oxygen) {
-    m = 15.999;
-    eps = 0.0309;
-    sig = 3.043;
-  } else if (chemical == sulfur) {
-    m = 32.06;
-    eps = 0.0311;
-    sig = 3.5;
-  }	
-// for nitrogen  
-} else if (gas_buffer_flag == 2) {
-  if (chemical == carbon) {
-    m = 12.011;
-    eps = 0.0824736;
-    sig = 3.2255;
-  } else if (chemical == nitrogen) {
-    m = 14.007;
-    eps = 0.0758527;
-    sig = 3.5719;
-  } else if (chemical == hydrogen) {
-    m = 1.008;
-    eps = 0.0362711;
-    sig = 1.8986;
-  } else if (chemical == oxygen) {
-    m = 15.999;
-    eps = 0.062323;
-    sig = 3.0750;
-  } else if (chemical == sulfur) {
-    m = 32.06;
-    eps = 0.138032;
-    sig = 3.4237;
-  } else if (chemical == phosphorus) {
-    m = 30.9738;
-    eps = 0.145372;
-    sig = 3.47;
-  }
-// for carbon dioxide
-// force field parameter from charmm file par_all27_prot_na.prm
 } else if (gas_buffer_flag == 3) {
-  if (chemical == carbon) {
-    m = 12.011;
-    eps = 0.11;
-    sig = 3.564;
-  } else if (chemical == nitrogen) {
-    m = 14.007;
-    eps = 0.200;
-    sig = 3.296;
-  } else if (chemical == hydrogen) {
-    m = 1.008;
-    eps = 0.046;
-    sig = 0.400;
-  } else if (chemical == oxygen) {
-    m = 15.999;
-    eps = 0.12;
-    sig = 3.029;
-  } else if (chemical == sulfur) {
-    m = 32.06;
-    eps = 0.45;
-    sig = 3.564;
-  } else if (chemical == phosphorus) {
-    m = 30.9738;
-    eps = 0.585;
-    sig = 3.831;
-  }
-} 
-
-ret[0] = m;
-ret[1] = eps;
-ret[2] = sig;
-
-return ret;
-}*/	
+// for carbon dioxide
+// universal force field lennard-jones parameters
+  nparameters = 6;
+  user_atomName = new string[nparameters];
+  user_m = new double[nparameters];
+  user_eps = new double[nparameters];
+  user_sig = new double[nparameters];
+  //  C - C ϵ =   52.83807 K, σ =    3.43085 Å
+  user_atomName[0] = carbon;
+  user_m[0] = 12.011;
+  user_eps[0] = 0.10499;
+  user_sig[0] = 3.43085;
+  //  N - N ϵ =   34.72216 K, σ =    3.26069 Å
+  user_atomName[1] = nitrogen;
+  user_m[1] = 14.007;
+  user_eps[1] = 0.06899;
+  user_sig[1] = 3.26069;
+  //  H - H ϵ =   22.14167 K, σ =    2.57113 Å
+  user_atomName[2] = hydrogen;
+  user_m[2] = 1.008;
+  user_eps[2] = 0.04399;
+  user_sig[2] = 2.57113;
+  // O - O ϵ =   30.19318 K, σ =    3.11815 Å
+  user_atomName[3] = oxygen;
+  user_m[3] = 15.999;
+  user_eps[3] = 0.05999;
+  user_sig[3] = 3.11815;
+  // S - S ϵ =  137.88220 K, σ =    3.59478 Å
+  user_atomName[4] = sulfur;
+  user_m[4] = 32.06;
+  user_eps[4] = 0.27399;
+  user_sig[4] = 3.59478;
+  // P - P ϵ =  153.48201 K, σ =    3.69456 Å
+  user_atomName[5] = phosphorus;
+  user_m[5] = 30.9738;
+  user_eps[5] = 0.30499;
+  user_sig[5] = 3.69456;
+}  
+}
 
 vector<double> MoleculeTarget::assignedParameter(string chemical) {
 
-vector<double> ret(3);
+int ret_size = 3;
+if (gas_buffer_flag == 3) ret_size = 5;
+vector<double> ret(ret_size);
 
 for (int i = 0; i < nparameters; i++) {
   if (chemical == user_atomName[i]) {
     ret[0] = user_m[i];
-    ret[1] = user_eps[i];
-    ret[2] = user_sig[i];
+    if (gas_buffer_flag ==3) {
+      // oxygen
+      ret[1] = sqrt(user_eps[i]*0.159); 
+      ret[2] = 0.5*(user_sig[i]+3.033);
+      // carbon
+      ret[3] = sqrt(user_eps[i]*0.055);
+      ret[4] = 0.5*(user_sig[i]+2.757);   
+    } else {      
+      ret[1] = user_eps[i];
+      ret[2] = user_sig[i];
+    }  
     return ret;
   }
 }
@@ -643,8 +591,6 @@ zi = z[atom_id];
 if (xi != 0.0 & yi != 0.0) theta = atan2(yi,xi);
 
 phi = acos(zi/rmax);
-
-//printf("rmax: %f theta: %f phi: %f id: %i\n",rmax,theta*180/M_PI,phi*180/M_PI,id);
 
 // rotation around z axis
 theta *= -1.0;
@@ -723,7 +669,7 @@ for (unsigned int i = 0; i < natoms; i++) {
    }
 }
 
-if (inertia[0][1] < 1.e-12 && inertia[1][0] < 1.e-12 && inertia[1][2] < 1.e-12 && inertia[2][1] < 1.e-12 && inertia[2][0] < 1.e-12 && inertia[0][2] < 1.e-12) {
+if (abs(inertia[0][1]) < 1.e-12 && abs(inertia[1][0]) < 1.e-12 && abs(inertia[1][2]) < 1.e-12 && abs(inertia[2][1]) < 1.e-12 && abs(inertia[2][0]) < 1.e-12 && abs(inertia[0][2]) < 1.e-12) {
   orientateMolecule();
   diagonal = true;
 } else {

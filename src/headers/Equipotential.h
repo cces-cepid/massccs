@@ -64,9 +64,9 @@ public:
   void print();  
 
   //double potential(vector<double> pos); 
-  double potential_He(vector<double> pos);
-  double potential_N2(vector<double> pos);
-  double potential_CO2(vector<double> pos);
+  double potential_He(vector<double> pos); // potential for atomic buffer gas He and Ar
+  double potential_N2(vector<double> pos); // potential for linear diatomic buffer gas N2
+  double potential_CO2(vector<double> pos); // potential for linear triatomic buffer gas CO2
 
   void enlargeEllipsoidBoundry();
 };

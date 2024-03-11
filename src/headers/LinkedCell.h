@@ -29,6 +29,7 @@ private:
   double lj_cutoff;
   unsigned int long_range_flag;
   unsigned int long_range_cutoff;
+  unsigned int gas_buffer_flag;
   int next_neighbor;
   double coul_cutoff;
   double skin;
@@ -42,7 +43,7 @@ private:
 
 public:
   LinkedCell(MoleculeTarget *moleculeTarget, double a, double b, double c,
-	  double lj_cutoff, double skin, unsigned int long_range_flag, unsigned int long_range_cutoff, double coul_cutoff);
+	  double lj_cutoff, double skin, unsigned int long_range_flag, unsigned int long_range_cutoff, double coul_cutoff, unsigned int gas_buffer_flag);
 
   int Nx, Ny, Nz, Ncells;
   double a, b, c;
