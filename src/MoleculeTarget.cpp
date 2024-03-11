@@ -454,8 +454,7 @@ if (gas_buffer_flag == 1) {
   user_m[6] = 18.9984;
   user_eps[6] = 0.04649;
   user_sig[6] = 3.1285;
-} else if (gas_buffer_flag == 3) {
-// for carbon dioxide
+} else if (gas_buffer_flag == 3 || gas_buffer_flag == 4) {
 // universal force field lennard-jones parameters
   nparameters = 6;
   user_atomName = new string[nparameters];
@@ -504,13 +503,16 @@ vector<double> ret(ret_size);
 for (int i = 0; i < nparameters; i++) {
   if (chemical == user_atomName[i]) {
     ret[0] = user_m[i];
-    if (gas_buffer_flag ==3) {
+    if (gas_buffer_flag == 3) {
       // oxygen
       ret[1] = sqrt(user_eps[i]*0.159); 
       ret[2] = 0.5*(user_sig[i]+3.033);
       // carbon
       ret[3] = sqrt(user_eps[i]*0.055);
-      ret[4] = 0.5*(user_sig[i]+2.757);   
+      ret[4] = 0.5*(user_sig[i]+2.757);
+    } else if (gas_buffer_flag == 4) {  
+      ret[1] = sqrt(user_eps[i]*0.185); 
+      ret[2] = 0.5*(user_sig[i]+3.446);  
     } else {      
       ret[1] = user_eps[i];
       ret[2] = user_sig[i];

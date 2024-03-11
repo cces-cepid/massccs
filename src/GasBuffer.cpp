@@ -27,6 +27,9 @@ if (gas_buffer_flag == 1) {
 } else if (gas_buffer_flag == 3) {
   natoms = 3; 
   gas_type = "CO2";
+} else if (gas_buffer_flag == 4) {
+  natoms = 1; 
+  gas_type = "Ar";
 }
 
 x = new double[natoms];
@@ -141,6 +144,20 @@ if (gas_type == "He") {
   atomName[2] = "O2";
   mass = m[0] + m[1] + m[2];
   d = abs(z[0]-z[2]);
+} else if (gas_type == "Ar") {
+  x[0] = 0.0;
+  y[0] = 0.0;
+  z[0] = 0.0;
+  vx[0] = 0.0;
+  vy[0] = 0.0;
+  vz[0] = 0.0;
+  q[0] = 0.0;
+  m[0] = 39.948;
+  eps[0] = 0.185;
+  sig[0] = 3.446;
+  atomName[0] = "Ar";
+  mass = m[0];
+  d = 0.0;
 } 
 
 } 

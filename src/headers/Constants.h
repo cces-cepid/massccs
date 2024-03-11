@@ -77,6 +77,7 @@
 #define LONG_CUTOFF 25.0
 #define INNER_LONG_CUTOFF 22.0
 #define ALPHA_HE 0.204956  
+#define ALPHA_AR 1.6411
 #define ALPHA_N2 1.710
 #define ALPHA_CO2 2.911
 

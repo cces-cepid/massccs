@@ -46,7 +46,7 @@ alpha = input->alpha;                             // polarizability
 user_ff_flag = input->user_ff_flag;               // user force field
 user_ff = input->user_ff;                         // name of force field 
 
-if (gas_buffer_flag == 1) {
+if (gas_buffer_flag == 1 || gas_buffer_flag == 4) {
   if (short_range_cutoff == 0 && long_range_flag == 0) { 
   // only lennard-jones interaction 
   force_type = 1;  
@@ -94,7 +94,7 @@ double end_molecule = omp_get_wtime();
 cout << "orientation time of molecule target: " << (end_molecule - start_molecule) << " s" << endl;
 
 // reduced mass
-if (gas_buffer_flag == 1) {
+if (gas_buffer_flag == 1 || gas_buffer_flag == 4) {
   mu = moleculeTarget->mass * gas->mass / (moleculeTarget->mass + gas->mass); 
   cout << "target mass: " << moleculeTarget->mass << " amu" << endl;
   cout << "gas mass: " << gas->mass << " amu" << endl;
@@ -201,7 +201,7 @@ omp_set_num_threads(nthreads);
 cout << "*********************************************************" << endl;
 cout << "Trajectory calculations " << endl;
 cout << "*********************************************************" << endl;
-if (gas_buffer_flag == 1) { 
+if (gas_buffer_flag == 1 || gas_buffer_flag == 4) { 
   // Hellium: He - atomic 
   #pragma omp parallel for schedule(dynamic)   
   for (int j = 0; j < Niter * Ntraj; j++) {
@@ -1463,7 +1463,7 @@ gasProbe->vcm[0] = vcm[0];
 gasProbe->vcm[1] = vcm[1];
 gasProbe->vcm[2] = vcm[2];
 
-if (gas_buffer_flag == 1) {
+if (gas_buffer_flag == 1 || gas_buffer_flag == 4) {
   gasProbe->x[0] = rcm[0];
   gasProbe->y[0] = rcm[1];
   gasProbe->z[0] = rcm[2];

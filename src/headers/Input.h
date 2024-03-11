@@ -56,7 +56,7 @@ public:
   double dt;                         // time step in fs
   double temperatureTarget;          // temperature in Kelvin
   double skin;                       // skin of linked-cell size
-  unsigned int gas_buffer_flag;      // He = 1, N2 = 2 and CO2 = 3
+  unsigned int gas_buffer_flag;      // He = 1, N2 = 2, CO2 = 3 and Ar = 4
   unsigned int polarizability_flag;  // yes = 1 and not = 0
   unsigned int equipotential_flag;   // yes = 1 and not = 0
   unsigned int short_range_cutoff;   // yes = 1 and not = 0 for cut lennard-jones interacion
