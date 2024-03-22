@@ -1141,17 +1141,21 @@ while (trajTries < maxTries && maxTries < 10) {
     t = 1;
     tmp = 0.0;
   }
-
   // first-half verlet integration     
+  // CO2 as linear molecule O1-O2 and carbon as dummy particle at center
+  for (int i = 0; i < 3; i++) {
+    fi[i] = f_gas[0][i] + 0.5*f_gas[1][i]; // oxygen 1 + carbon contribution
+    fj[i] = f_gas[2][i] + 0.5*f_gas[1][i]; // oxygen 2 + carbon contribution
+  }
   // CO2 trilinear molecule O-C-O
   // G. Ciccotti et al. Molecular dynamics of rigid systems 
   // in cartesian coordinates A general formulation
   // MOLECULAR PHYSICS, 1982, VOL. 47, No. 6, 1253-1264
-  m2M = m[1]/M;
+  /*m2M = m[1]/M; 
   for (int i = 0; i < 3; i++) {
     fi[i] = (1.0 - 0.5*m2M)*f_gas[0][i] + m[0]/M*f_gas[1][i] - 0.5*m2M*f_gas[2][i];
     fj[i] = (1.0 - 0.5*m2M)*f_gas[2][i] + m[0]/M*f_gas[1][i] - 0.5*m2M*f_gas[0][i];
-  }  
+  }*/ 
   // oxygen 1
   ri[0] = x[0];
   ri[1] = y[0];
@@ -1262,11 +1266,16 @@ while (trajTries < maxTries && maxTries < 10) {
   } 
 
   // second-half verlet integration     
-  m2M = m[1]/M;
+  // CO2 as linear molecule O1-O2 and carbon as dummy particle at center
+  for (int i = 0; i < 3; i++) {
+    fi[i] = f_gas[0][i] + 0.5*f_gas[1][i]; // oxygen 1 + carbon contribution
+    fj[i] = f_gas[2][i] + 0.5*f_gas[1][i]; // oxygen 2 + carbon contribution
+  }
+  /*m2M = m[1]/M;
   for (int i = 0; i < 3; i++) {
     fi[i] = (1.0 - 0.5*m2M)*f_gas[0][i] + m[0]/M*f_gas[1][i] - 0.5*m2M*f_gas[2][i];
     fj[i] = (1.0 - 0.5*m2M)*f_gas[2][i] + m[0]/M*f_gas[1][i] - 0.5*m2M*f_gas[0][i];
-  }
+  }*/
   // oxygen 1
   ri[0] = x[0];
   ri[1] = y[0];

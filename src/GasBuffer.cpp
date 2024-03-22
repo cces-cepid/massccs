@@ -154,7 +154,7 @@ if (gas_type == "He") {
   sig[1] = 2.757; 
   sig[2] = 3.033; 
   atomName[0] = "O1";
-  atomName[1] = "C";
+  atomName[1] = "C_";
   atomName[2] = "O2";
   mass = m[0] + m[1] + m[2];
   d = abs(z[0]-z[2]);
