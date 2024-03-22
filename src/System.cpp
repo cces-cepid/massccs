@@ -126,7 +126,7 @@ if (equipotential_flag == 1) {
 } else geometric_ellipsoid();
   
 double end_ellipsoid = omp_get_wtime();
-cout << "ellipsoid calculation time: " << (end_ellipsoid - start_ellipsoid) << "s" << endl;
+cout << "ellipsoid calculation time: " << (end_ellipsoid - start_ellipsoid) << " s" << endl;
 
 bmax = max(max(a,b),c); // maximal impact parameter
  
@@ -267,8 +267,6 @@ if (gas_buffer_flag == 1 || gas_buffer_flag == 4) {
     gasProbe = new GasBuffer(gas_buffer_flag);  
 
     setup(gasProbe, hit, rnd_vec1[j],rnd_vec2[j],rnd_vec3[j],rnd_vec4[j],rnd_vec5[j],rnd_vec6[j],rnd_vec7[j],rnd_vec8[j],rnd_vec9[j]);
-    
-    run_CO2(gasProbe, success, chi, dt, force);
     
     if (hit) {
       run_CO2(gasProbe, success, chi, dt, force);
