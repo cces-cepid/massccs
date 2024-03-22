@@ -105,11 +105,25 @@ if (gas_type == "He") {
   mass = m[0] + m[1];
   d = abs(z[0]-z[1]);
 } else if (gas_type == "CO2") {
-  // force field paramter of Harris and Yung (1995)
-  // oxygen 1
+  // force field parameter of Harris and Yung (1995)
+  // site  epilson (K) epsilon (kcal/mol)  sigma (A)  q(e)
+  //  C     28.129         0.055            2.757    0.6512    
+  //  O     80.507         0.159            3.033   -0.3256
+  // bond distance C-O 1.149 A
+  // force field parameter TraPPE
+  // site  epsilon (K)  epsilon (kcal/mol)  sigma (A)  q(e) 
+  //  C     27.0         0.05465417553510929  2.80    0.70
+  //  O     79.0         0.1569881432323568 3.05   -0.35
+  // bond distance C-O 1.16 A
+  // force field parameter Zhang
+  // site  epsilon (K)  epsilon (kcal/mol)  sigma (A)  q(e)
+  //  C     28.845      0.05732054419667509 2.7918    0.5888
+  //  O     82.656      0.1642533160381479  3.0000   -0.2944
+  // bond distance C-O 1.163 A
+  //oxygen 1
   x[0] = 0.0;
   y[0] = 0.0;
-  z[0] = -1.49;
+  z[0] = -1.149;
   // carbon
   x[1] = 0.0;
   y[1] = 0.0;
@@ -117,7 +131,7 @@ if (gas_type == "He") {
   // oxygen 2
   x[2] = 0.0;
   y[2] = 0.0;
-  z[2] = 1.49;
+  z[2] = 1.149;
   vx[0] = 0.0;
   vy[0] = 0.0;
   vz[0] = 0.0;

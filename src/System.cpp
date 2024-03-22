@@ -1313,15 +1313,6 @@ while (trajTries < maxTries && maxTries < 10) {
   
   stepcount++;
 
-  /*cout << (moleculeTarget->natoms + natoms) << endl;
-  cout << "collision: " << stepcount << endl;
-  for (int iatom = 0; iatom < moleculeTarget->natoms; iatom++) {
-   cout << moleculeTarget->atomName[iatom]  << "  " << moleculeTarget->x[iatom] << "  " << moleculeTarget->y[iatom] << "  " << moleculeTarget->z[iatom] << endl;
-  }
-  for (int iatom = 0; iatom < natoms; iatom++) {
-    cout << gasProbe->atomName[iatom] << "  " << x[iatom] << "  " << y[iatom] << "  " << z[iatom] << endl;
-  }*/
-
   if (dtheta > theta_max) {
     trajTries++;
     dt = time_step/(trajTries + 1);

@@ -6,12 +6,12 @@
   "dt" : 10.0,
   "Temp" : 298.0,
   "skin" : 0.01,
-  "GasBuffer" : "Ar",
-  "Equipotential" : "no",
-  "Short-range cutoff" : "yes",
+  "GasBuffer" : "CO2",
+  "Equipotential" : "yes",
+  "Short-range cutoff" : "no",
   "LJ-cutoff" : 12.0,
-  "Long-range forces" : "yes",
-  "Long-range cutoff" : "yes",
+  "Long-range forces" : "no",
+  "Long-range cutoff" : "no",
   "Coul-cutoff" : 25.0,
-  "polarizability" : "yes"
+  "polarizability" : "no"
 }

@@ -296,7 +296,6 @@ for (unsigned int i = 0; i < natoms; i++) {
     } else {
       id[i] = i;
       atomName[i] = atomType;
-      //ret = defaultparameters(atomType, gas_buffer_flag);  
       ret = assignedParameter(atomName[i]);
       x[i] = xi;
       y[i] = yi;
@@ -531,9 +530,23 @@ void MoleculeTarget::printFF() {
 cout << "*********************************************************" << endl;
 cout << "Force Field parameters: " << endl;
 cout << "*********************************************************" << endl;
-cout << "Symbol  mass (amu)  epislon (kcal/mol)  sigma(Angstroms) " << endl;
-for (int i = 0; i < nparameters; i++) {
-  cout << user_atomName[i] << "   " << user_m[i] << "   " << user_eps[i] << "   " << user_sig[i] << endl;
+if (gas_buffer_flag == 3) {
+  // force field parameter of Harris and Yung (1995)
+  // site  epilson (K) epsilon (kcal/mol)  sigma (A)  q(e)
+  //  C     28.129         0.055            2.757    0.6512    
+  //  O     80.507         0.159            3.033   -0.3256
+  cout << "Symbol  mass (amu)  epsilon (kcal/mol)  sigma(Angstroms) " << endl;
+  for (int i = 0; i < nparameters; i++) {
+    cout << user_atomName[i] << "-C  " << user_m[i] << "   " << sqrt(user_eps[i]*0.055) << "   " << 0.5*(user_sig[i]+2.757) << endl;    
+  }
+  for (int i = 0; i < nparameters; i++) {
+    cout << user_atomName[i] << "-O  " << user_m[i] << "   " << sqrt(user_eps[i]*0.159) << "   " << 0.5*(user_sig[i]+3.033) << endl;    
+  }
+} else {
+  cout << "Symbol  mass (amu)  epsilon (kcal/mol)  sigma(Angstroms) " << endl;
+  for (int i = 0; i < nparameters; i++) {
+    cout << user_atomName[i] << "   " << user_m[i] << "   " << user_eps[i] << "   " << user_sig[i] << endl;
+  }
 }
 
 }
