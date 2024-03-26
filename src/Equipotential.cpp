@@ -88,7 +88,7 @@ pos[1] = 0.0;
 pos[2] = abs(maxZ) + 20.0; // initial position equal maxZ + 20 Angstrom
 //energy = potential(pos);
 
-if (gas_buffer_flag == 1 || gas_buffer_flag == 4) {
+if (gas_buffer_flag == 1 || gas_buffer_flag == 4 || gas_buffer_flag == 5) {
   energy = potential_He(pos);
 } else if (gas_buffer_flag == 2) {
   energy = potential_N2(pos);
@@ -104,7 +104,7 @@ while (!accept) {
   prevPos = pos;
   pos[2] -= 0.5*slope; // increment or decrement 0.5 Ansgtrom
   //energy = potential(pos);
-  if (gas_buffer_flag == 1 || gas_buffer_flag == 4) {
+  if (gas_buffer_flag == 1 || gas_buffer_flag == 4 || gas_buffer_flag == 5) {
     energy = potential_He(pos);
   } else if (gas_buffer_flag == 2) {
     energy = potential_N2(pos);
@@ -148,7 +148,7 @@ for (int i = 0; i < (maxZLevels + 1); i ++) {
 
     //get potential energy at pos
     //energy = potential(pos);
-    if (gas_buffer_flag == 1 || gas_buffer_flag == 4) {
+    if (gas_buffer_flag == 1 || gas_buffer_flag == 4 || gas_buffer_flag == 5) {
       energy = potential_He(pos);
     } else if (gas_buffer_flag == 2) {
       energy = potential_N2(pos);
@@ -165,7 +165,7 @@ for (int i = 0; i < (maxZLevels + 1); i ++) {
 
     while (!hit) {
       //energy = potential(pos);
-      if (gas_buffer_flag == 1 || gas_buffer_flag == 4) {
+      if (gas_buffer_flag == 1 || gas_buffer_flag == 4 || gas_buffer_flag == 5) {
         energy = potential_He(pos);
       } else if (gas_buffer_flag == 2) {
         energy = potential_N2(pos);

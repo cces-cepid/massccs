@@ -378,6 +378,7 @@ string oxygen = "O";
 string sulfur = "S";
 string phosphorus = "P";
 string fluorine = "F";
+string potasium  = "K";
 
 // for hellium
 if (gas_buffer_flag == 1) {
@@ -490,7 +491,50 @@ if (gas_buffer_flag == 1) {
   user_m[5] = 30.9738;
   user_eps[5] = 0.30499;
   user_sig[5] = 3.69456;
-}  
+} else if (gas_buffer_flag == 5) {
+  // imos co2 lennard-jones parameters
+  nparameters = 7;
+  user_atomName = new string[nparameters];
+  user_m = new double[nparameters];
+  user_eps = new double[nparameters];
+  user_sig = new double[nparameters];
+
+  user_atomName[0] = carbon;
+  user_m[0] = 12.011;
+  user_eps[0] = 0.09759;
+  user_sig[0] = 3.58140;
+
+  user_atomName[1] = nitrogen;
+  user_m[1] = 14.007;
+  user_eps[1] = 0.05579;
+  user_sig[1] = 3.25500;
+
+  user_atomName[2] = hydrogen;
+  user_m[2] = 1.008;
+  user_eps[2] = 0.01892;
+  user_sig[2] = 1.24090;
+
+  user_atomName[3] = oxygen;
+  user_m[3] = 15.999;
+  user_eps[3] = 0.08279;
+  user_sig[3] = 4.39200;
+
+  user_atomName[4] = sulfur;
+  user_m[4] = 32.06;
+  user_eps[4] = 0.05999;
+  user_sig[4] = 3.50000;
+
+  user_atomName[5] = phosphorus;
+  user_m[5] = 30.9738;
+  user_eps[5] = 0.05999;
+  user_sig[5] = 3.50000;
+
+  user_atomName[6] = potasium;
+  user_m[6] = 39.0983;
+  user_eps[6] = 0.05999;
+  user_sig[6] = 3.50000;
+} 
+ 
 }
 
 vector<double> MoleculeTarget::assignedParameter(string chemical) {

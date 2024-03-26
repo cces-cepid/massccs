@@ -80,5 +80,5 @@
 #define ALPHA_AR 1.6411
 #define ALPHA_N2 1.710
 #define ALPHA_CO2 2.911
-
+#define ALPHA_co2 2.911
 #endif // MASSCCS_V1_CONSTANTS_H

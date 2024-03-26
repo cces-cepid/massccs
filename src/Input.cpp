@@ -128,7 +128,9 @@ void Input::readInputFile(char const *input) noexcept(false) {
     } else if (gas_buffer_str == "CO2") {
       gas_buffer_flag = 3;  
     } else if (gas_buffer_str == "Ar") {
-      gas_buffer_flag = 4;    
+      gas_buffer_flag = 4;   
+    } else if (gas_buffer_str == "co2") {
+      gas_buffer_flag = 5; 
     } else {
       printf("only available the follow gas buffer types: He Ar N2 CO2\n");
       exit (EXIT_FAILURE);  
@@ -246,6 +248,7 @@ void Input::readInputFile(char const *input) noexcept(false) {
       else if (gas_buffer_flag == 2) alpha = ALPHA_N2;
       else if (gas_buffer_flag == 3) alpha = ALPHA_CO2;
       else if (gas_buffer_flag == 4) alpha = ALPHA_AR;
+      else if (gas_buffer_flag == 5) alpha = ALPHA_co2;
       else alpha = 0.0;
     }  
   }

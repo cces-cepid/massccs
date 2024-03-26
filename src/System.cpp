@@ -46,7 +46,7 @@ alpha = input->alpha;                             // polarizability
 user_ff_flag = input->user_ff_flag;               // user force field
 user_ff = input->user_ff;                         // name of force field 
 
-if (gas_buffer_flag == 1 || gas_buffer_flag == 4) {
+if (gas_buffer_flag == 1 || gas_buffer_flag == 4 || gas_buffer_flag == 5) {
   if (short_range_cutoff == 0 && long_range_flag == 0) { 
   // only lennard-jones interaction 
   force_type = 1;  
@@ -94,7 +94,7 @@ double end_molecule = omp_get_wtime();
 cout << "orientation time of molecule target: " << (end_molecule - start_molecule) << " s" << endl;
 
 // reduced mass
-if (gas_buffer_flag == 1 || gas_buffer_flag == 4) {
+if (gas_buffer_flag == 1 || gas_buffer_flag == 4 || gas_buffer_flag == 5) {
   mu = moleculeTarget->mass * gas->mass / (moleculeTarget->mass + gas->mass); 
   cout << "target mass: " << moleculeTarget->mass << " amu" << endl;
   cout << "gas mass: " << gas->mass << " amu" << endl;
@@ -201,7 +201,7 @@ omp_set_num_threads(nthreads);
 cout << "*********************************************************" << endl;
 cout << "Trajectory calculations " << endl;
 cout << "*********************************************************" << endl;
-if (gas_buffer_flag == 1 || gas_buffer_flag == 4) { 
+if (gas_buffer_flag == 1 || gas_buffer_flag == 4 || gas_buffer_flag == 5) { 
   // Hellium: He - atomic 
   #pragma omp parallel for schedule(dynamic)   
   for (int j = 0; j < Niter * Ntraj; j++) {
@@ -1143,19 +1143,19 @@ while (trajTries < maxTries && maxTries < 10) {
   }
   // first-half verlet integration     
   // CO2 as linear molecule O1-O2 and carbon as dummy particle at center
-  for (int i = 0; i < 3; i++) {
+  /*for (int i = 0; i < 3; i++) {
     fi[i] = f_gas[0][i] + 0.5*f_gas[1][i]; // oxygen 1 + carbon contribution
     fj[i] = f_gas[2][i] + 0.5*f_gas[1][i]; // oxygen 2 + carbon contribution
-  }
+  }*/
   // CO2 trilinear molecule O-C-O
   // G. Ciccotti et al. Molecular dynamics of rigid systems 
   // in cartesian coordinates A general formulation
   // MOLECULAR PHYSICS, 1982, VOL. 47, No. 6, 1253-1264
-  /*m2M = m[1]/M; 
+  m2M = m[1]/M; 
   for (int i = 0; i < 3; i++) {
     fi[i] = (1.0 - 0.5*m2M)*f_gas[0][i] + m[0]/M*f_gas[1][i] - 0.5*m2M*f_gas[2][i];
     fj[i] = (1.0 - 0.5*m2M)*f_gas[2][i] + m[0]/M*f_gas[1][i] - 0.5*m2M*f_gas[0][i];
-  }*/ 
+  } 
   // oxygen 1
   ri[0] = x[0];
   ri[1] = y[0];
@@ -1267,15 +1267,15 @@ while (trajTries < maxTries && maxTries < 10) {
 
   // second-half verlet integration     
   // CO2 as linear molecule O1-O2 and carbon as dummy particle at center
-  for (int i = 0; i < 3; i++) {
+  /*for (int i = 0; i < 3; i++) {
     fi[i] = f_gas[0][i] + 0.5*f_gas[1][i]; // oxygen 1 + carbon contribution
     fj[i] = f_gas[2][i] + 0.5*f_gas[1][i]; // oxygen 2 + carbon contribution
-  }
-  /*m2M = m[1]/M;
+  }*/
+  m2M = m[1]/M;
   for (int i = 0; i < 3; i++) {
     fi[i] = (1.0 - 0.5*m2M)*f_gas[0][i] + m[0]/M*f_gas[1][i] - 0.5*m2M*f_gas[2][i];
     fj[i] = (1.0 - 0.5*m2M)*f_gas[2][i] + m[0]/M*f_gas[1][i] - 0.5*m2M*f_gas[0][i];
-  }*/
+  }
   // oxygen 1
   ri[0] = x[0];
   ri[1] = y[0];
@@ -1324,6 +1324,7 @@ while (trajTries < maxTries && maxTries < 10) {
     trajTries++;
     dt = time_step/(trajTries + 1);
     stepcount = 0;
+    //cout << dtheta*180./M_PI<< endl;
     continue;
   } 
 
@@ -1338,7 +1339,7 @@ while (trajTries < maxTries && maxTries < 10) {
     }
     E = Up_gas + Ek;
     dE = abs((E-Ei)/Ei)*100.0;
-    if (dE > 5.0) {
+    if (dE > 20.0) {
       trajTries++;
       maxTries++;
       dt = time_step/(trajTries + 1);
@@ -1347,6 +1348,8 @@ while (trajTries < maxTries && maxTries < 10) {
     } else {
       vcm_f = vcm;
       chi = anglevec(vcm_i,vcm_f);
+      //cout << "dtheta: " <<  dtheta*180./M_PI << endl;
+      //cout << "chi: " << chi*180./M_PI << endl;
       success = true;
       return;
     }
@@ -1366,7 +1369,7 @@ while (trajTries < maxTries && maxTries < 10) {
       }
       E = Up_gas + Ek;
       dE = abs((E-Ei)/Ei)*100.0;      
-      if (dE > 5.0) {
+      if (dE > 20.0) {
         trajTries++;
         maxTries++;
         dt = time_step/(trajTries + 1);
@@ -1375,6 +1378,8 @@ while (trajTries < maxTries && maxTries < 10) {
       } else {
         vcm_f = vcm;
         chi = anglevec(vcm_i,vcm_f);
+        //cout << "dtheta: " <<  dtheta*180./M_PI << endl;
+        //cout << "chi: " << chi*180./M_PI << endl;
         success = true;
         return;
       }
@@ -1461,7 +1466,7 @@ gasProbe->vcm[0] = vcm[0];
 gasProbe->vcm[1] = vcm[1];
 gasProbe->vcm[2] = vcm[2];
 
-if (gas_buffer_flag == 1 || gas_buffer_flag == 4) {
+if (gas_buffer_flag == 1 || gas_buffer_flag == 4 || gas_buffer_flag == 5) {
   gasProbe->x[0] = rcm[0];
   gasProbe->y[0] = rcm[1];
   gasProbe->z[0] = rcm[2];
